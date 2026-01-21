@@ -1,6 +1,6 @@
 ---
-name: Kim Sojin
-image: '/images/sojin.jpg'
+name: an eunsol
+image: '/images/sojn.jpg'
 location: Korea
 website:
 facebook: https://www.facebook.com
@@ -12,7 +12,7 @@ youtube:
 tiktok:
 ---
 
-안녕하세요. 저는 한국문화기술연구소 김소진입니다. 융합디자인학 박사로서 문화기술 이슈 매거진의 편집장을 담당하고 있습니다.
+안녕하세요. 저는 한국문화기술연구소 안은솔입니다. 컴퓨터 공학을 전공하였습니다.
 
 
 
