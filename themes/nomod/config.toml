@@ -27,12 +27,12 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     weight = 1
 
   [[menu.main]]
-    name = "Latest"
+    name = "최신 포스트"
     url = "/posts/"
     weight = 2
 
   [[menu.main]]
-    name = "Authors"
+    name = "연구진"
     url = "/authors/"
     weight = 3
 
@@ -66,7 +66,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     weight = 4
 
   [[menu.main]]
-    name = "About"
+    name = "매거진 소개"
     url = "/about/"
     weight = 5
 
@@ -74,7 +74,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 [params.cta_button]
   enable = true
   cta_button_link = "/contact/"
-  cta_button_text = "Get in touch"
+  cta_button_text = "우리와 연결되기"
 
 
 [params]
@@ -136,18 +136,8 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
 
 #-------------------------------
-# Newsletter Settings
-[params.mailchimp]
-  enable = true
-  mailchimp_title = "문화기술이 새롭게 열어가는 세상. 월간 이슈 매거진을 이메일로 받아보세요!"
-  mailchimp_description = """
-  빠르게 소비되는 기술 뉴스가 아닌, 
-  문화로 전환되는 기술의 맥락과 사례를 차분히 기록하고 해석한 콘텐츠를 매주 한 편씩 전합니다. 
-  문화기술의 현재를 함께 읽고 축적하고 싶은 분들을 위한 구독입니다.
-  """
-  mailchimp_identifier = "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp" # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
-  mailchimp_input_text = "Your email address"
-  mailchimp_button_text = "Subscribe"
+# New요"
+  mailchimp_button_text = "구독"
 
 
 #-------------------------------
