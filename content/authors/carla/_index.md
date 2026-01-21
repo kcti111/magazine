@@ -1,7 +1,7 @@
 ---
-name: Carla Dokidis
+name: pyo junbum
 image: 'https://placehold.co/400x400'
-location: Sydney
+location: korea
 website:
 facebook: https://facebook.com
 twitter: https://twitter.com
