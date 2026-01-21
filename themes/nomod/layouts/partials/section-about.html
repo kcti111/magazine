@@ -1,0 +1,38 @@
+{{ if .Site.Params.about.enable }}
+<!-- begin about -->
+<section class="section about animate">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="about__inner">
+
+          {{ if .Site.Params.about.about_image }}
+            <div class="about__image">
+              <img class="lazy" data-src="{{ .Site.Params.about.about_image }}" alt="{{ .Site.Params.about.about_image_alt }}">
+            </div>
+          {{ end }}
+
+          <div class="about__content">
+            {{ if .Site.Params.about.about_title }}
+              <h2 class="about__title">{{ .Site.Params.about.about_title }}</h2>
+            {{ end }}
+            {{ if .Site.Params.about.about_subtitle }}
+              <p class="about__subtitle">{{ .Site.Params.about.about_subtitle }}</p>
+            {{ end }}
+            {{ if .Site.Params.about.about_description }}
+              <div class="about__description">
+                {{ .Site.Params.about.about_description | markdownify }}
+              </div>
+            {{ end }}
+            {{ if .Site.Params.about.about_button_text }}
+              <a href="{{ .Site.Params.about.about_button_link | relURL }}" class="about__button button button--big">{{ .Site.Params.about.about_button_text }}</a>
+            {{ end }}
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end about -->
+{{ end }}

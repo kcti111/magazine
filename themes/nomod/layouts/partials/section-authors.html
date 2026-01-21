@@ -1,0 +1,50 @@
+{{ if .Site.Params.authors.enable }}
+
+{{ $authors := ($.Site.GetPage "taxonomyTerm" "authors").Pages }}
+{{ $sortedAuthors := $authors.ByParam "name" }}
+
+<!-- begin section-authors -->
+<section class="section section-authors authors animate">
+  <div class="container">
+
+    <div class="section__inner">
+      <div class="section__info">
+        <div class="section__head">
+          <h2 class="section__title">
+            {{ if le (len $authors) 3 }}
+              {{ .Site.Params.authors.authors_title }}
+            {{ else }}
+              <a href="{{ "/authors" | relURL }}">{{ .Site.Params.authors.authors_title }}</a>
+            {{ end }}
+          </h2>
+          {{ if gt (len $authors) 3 }}
+            <a class="section__link" href="{{ "/authors" | relURL }}">See all</a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="row">
+        {{ range first 3 $sortedAuthors }}
+        <div class="col col-4 col-w-6 col-t-12">
+          <div class="authors__info">
+            <a class="authors__image" href="{{ .Permalink }}"><img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}"></a>
+            <div class="authors__meta">
+              <h2 class="authors__name"><a class="authors__link" href="{{ .Permalink }}">{{ .Params.name }}</a></h2>
+              {{ if ge (len .Pages) 1 }}
+                <span class="authors__posts__count">({{ len .Pages }})</span>
+              {{ end }}
+            </div>
+            {{ if .Content }}
+              <div class="authors__description">{{ .Content }}</div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<!-- end section-authors -->
+{{ end }}

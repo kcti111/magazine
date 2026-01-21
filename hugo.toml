@@ -1,0 +1,9 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'en-us'
+title = '문화기술 이슈 매거진'
+theme = "nomod"
+
+[taxonomies]
+  author = "authors"
+  tag = "tags"
+  category = "categories"

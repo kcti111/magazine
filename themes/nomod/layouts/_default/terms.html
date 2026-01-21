@@ -1,0 +1,65 @@
+{{ define "main" }}
+
+<!-- begin hero -->
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+          {{ if .Title }}
+            <h1 class="hero__title">{{ .Title }}</h1>
+          {{ end }}
+           {{ if .Params.description }}
+            <p class="hero__description">{{ .Params.description }}</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end hero -->
+
+<!-- begin tags -->
+<section class="tags">
+
+  <div class="tag__head">
+    <div class="container">
+      <div class="row">
+        {{ range .Data.Terms.ByCount }}
+          <div class="col col-4 col-d-6 col-t-12">
+            <a href="#{{ .Name | urlize }}" class="tag__link" data-tag="{{ .Name | lower }}">{{ .Name }} ({{ .Count }})</a>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  {{ range .Data.Terms.ByCount }}
+  <div class="tags__inner">
+    <div class="container">
+      <div class="section__info">
+        <div class="section__head">
+          <h2 class="section__title" id="{{ .Name | urlize }}">{{ .Name }}</h2>
+          <a class="section__link top__link" href="#top">Return to top</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container animate">
+      <div class="section__inner">
+        <div class="row">
+          {{ range .Pages }}
+          <div class="col col-4 col-d-6 col-t-12">
+             {{ partial "article.html" (dict "context" .) }}
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{ end }}
+
+</section>
+<!-- end tags -->
+
+{{ end }}

@@ -1,0 +1,27 @@
+{{ if (.Site.Params.blog.enable) }}
+<!-- begin section-blog -->
+<section class="section section-blog animate">
+  <div class="container">
+
+    <div class="section__inner">
+      <div class="section__info">
+        <div class="section__head">
+          <h2 class="section__title"><a href="/posts">{{ .Site.Params.blog.blog_title | safeHTML }}</a></h2>
+          <a class="section__link" href="/posts">See all</a>
+        </div>
+      </div>
+
+      <div class="row grid">
+        {{ $paginator := .Paginate (where .Site.RegularPages "Type" "posts" ) }}
+        {{ range $index, $element := $paginator.Pages }}
+          {{ partial "article.html" (dict "context" . "class" "col col-4 col-d-6 col-t-12 animate grid__post") }}
+        {{ end }}
+      </div>
+
+      {{ partial "pagination.html" . }}
+    </div>
+
+  </div>
+</section>
+<!-- end section-blog -->
+{{ end }}

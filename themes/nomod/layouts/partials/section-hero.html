@@ -1,0 +1,51 @@
+{{ if .Site.Params.hero.enable }}
+<!-- begin hero -->
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+
+          {{ if .Site.Params.hero_authors.enable }}
+          <div class="hero__authors">
+            <div class="hero__authors__inner">
+              {{ $authors := ($.Site.GetPage "taxonomyTerm" "authors").Pages }}
+              {{ range first 7 $authors }}
+                <div class="hero__author__box">
+                  {{ if .Params.name }}
+                  <div class="hero__author__meta">
+                    <span class="hero__author__name">{{ .Params.name }}</span>
+                    <span class="triangle"></span>
+                  </div>
+                  {{ end }}
+                  {{ if .Params.image }}
+                  <a href="{{ .Permalink }}" class="hero__author__image">
+                    <img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}">
+                  </a>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
+            {{ if .Site.Params.hero_authors.hero_authors_description }}
+              <p class="hero__authors__description">{{ .Site.Params.hero_authors.hero_authors_description }}</p>
+            {{ end }}
+          </div>
+          {{ end }}
+
+          {{ if .Site.Params.hero.hero__title }}
+            <h1 class="hero__title">{{ .Site.Params.hero.hero__title }}</h1>
+          {{ end }}
+          {{ if .Site.Params.hero.hero__description }}
+            <p class="hero__description">{{ .Site.Params.hero.hero__description }}</p>
+          {{ end }}
+          <div class="hero__search">
+            <span class="hero__search__text">Search for the blog</span>
+            <i class="hero__search__icon fa-solid fa-magnifying-glass"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end hero -->
+{{ end }}

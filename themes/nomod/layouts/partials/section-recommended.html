@@ -1,0 +1,101 @@
+{{ if .Site.Params.recommended.enable }}
+
+{{ $recommendedTag := .Site.Params.recommended.recommended_tag }}
+{{ $postsByTag := (site.Taxonomies.tags.Get $recommendedTag).Pages }}
+
+{{ if gt (len $postsByTag) 0 }}
+<!-- begin section-recommended -->
+<section class="section section-recommended animate">
+  <div class="container">
+    <div class="section__inner">
+      <div class="section__info">
+        <div class="section__head">
+          <h2 class="section__title">
+            {{ if le (len $postsByTag) 4 }}
+              {{ .Site.Params.recommended.recommended_title }}
+            {{ else }}
+              <a href="{{ "/tags/" | relLangURL }}{{ $recommendedTag | urlize }}">
+                {{ .Site.Params.recommended.recommended_title }}
+              </a>
+            {{ end }}
+          </h2>
+          {{ if gt (len $postsByTag) 4 }}
+            <a class="section__link" href="{{ "/tags/" | relLangURL }}{{ $recommendedTag | urlize }}">See all</a>
+          {{ end }}
+        </div>
+      </div>
+
+      <div class="row">
+        {{ range first 4 $postsByTag }}
+          <div class="col col-3 col-d-6 col-t-12">
+            <div class="article">
+              <div class="article__inner">
+                <div class="article__head">
+                  {{ if and .Params.image .Params.video_embed }}
+                  <div class="video-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+                      <polygon points="40,30 70,50 40,70"></polygon>
+                    </svg>
+                  </div>
+                  {{ end }}
+
+                  {{ if .Params.image }}
+                  <a href="{{ .RelPermalink }}" class="article__image" aria-hidden="true" tabindex="-1">
+                    <img class="lazy" data-src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+                  </a>
+                  {{ end }}
+                </div>
+
+                <div class="article__content">
+                  <h2 class="article__title">
+                    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                  </h2>
+                  <div class="article__info">
+                    {{ if .Params.authors }}
+                    <div class="article__info__top">
+                    {{ range .Params.authors }}
+                      {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                        <a href="{{ .Permalink }}" class="article__author__image">
+                          <img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}">
+                        </a>
+                      {{ end }}
+                    {{ end }}
+                    </div>
+                    {{ end }}
+
+                    <div class="article__info__bottom">
+                      <span>Written by</span>
+                      {{ if .Params.authors }}
+                      {{ if gt .Params.authors 2 }}
+                      <div class="article__info__inner">
+                        {{ range first 1 .Params.authors }}
+                          {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                            <a class="article__author__name article__author__hidden" href="{{ .Permalink }}">{{ .Params.name }}</a><span> and others</span>
+                          {{ end }}
+                        {{ end }}
+                      </div>
+                      {{ else }}
+                      <div class="article__info__inner">
+                        {{ range first 2 .Params.authors }}
+                          {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
+                            <a class="article__author__name" href="{{ .Permalink }}">{{ .Params.name }}</a>
+                          {{ end }}
+                        {{ end }}
+                      </div>
+                      {{ end }}
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end section-recommended -->
+{{ end }}
+
+{{ end }}

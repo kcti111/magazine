@@ -1,0 +1,46 @@
+{{ define "main" }}
+
+<!-- begin hero -->
+<section class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="hero__inner">
+          {{ if .Title }}
+            <h1 class="hero__title">{{ .Title }}</h1>
+          {{ end }}
+           {{ if .Params.description }}
+            <p class="hero__description">{{ .Params.description }}</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end hero -->
+
+<!-- begin featured-page -->
+<section class="section featured-page animate">
+  <div class="container">
+    <div class="section__inner">
+      <div class="row">
+        {{ $counter := 0 }}
+        {{ range (where (where .Site.RegularPages "Type" "in" site.Params.mainSections) ".Params.featured" "=" true) }}
+          {{ $counter = add $counter 1 }}
+          {{ if eq $counter 1 }}
+          <div class="col col-12">
+            {{ partial "article.html" (dict "context" . "class" "article--big") }}
+          </div>
+          {{ else if ge $counter 2 }}
+          <div class="col col-3 col-w-6 col-t-12">
+            {{ partial "article.html" (dict "context" .) }}
+          </div>
+          {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end featured-page -->
+
+{{ end }}
