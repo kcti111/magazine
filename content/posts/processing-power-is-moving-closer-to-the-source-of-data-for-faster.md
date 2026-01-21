@@ -1,8 +1,8 @@
 ---
-title: Processing Power Is Moving Closer to the Source of Data for Faster
-description: This shift allows for faster data processing, reduced latency, and improved efficiency, making it ideal for applications requiring real-time decision-making, such as autonomous vehicles, smart cities, and industrial automation.
+title: 디지털 아바타, 새로운 문화 인터페이스가 되다
+description: NVIDIA ACE를 통해 본 문화기술 융합
 date: 2024-08-24 15:01:35 +0300
-authors: [daniel]
+authors: [sojin]
 image: 'https://placehold.co/1200x800'
 tags: [Technology, Design]
 toc: true
