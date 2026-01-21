@@ -1,5 +1,5 @@
 ---
 layout: author.terms
-title: Authors
-description: Welcome to our Authors page, where you can get to know the talented individuals behind the words and ideas that shape our blog.
+title: 참여 연구진
+description: 최신 문화기술 트렌드를 소개하고 분석하는 재능이 넘치는 연구진들입니다. 
 ---
