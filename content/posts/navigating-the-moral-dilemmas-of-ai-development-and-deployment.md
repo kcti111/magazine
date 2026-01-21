@@ -1,8 +1,8 @@
 ---
-title: Navigating the Moral Dilemmas of AI Development and Deployment
-description: As AI becomes more advanced, ethical considerations are becoming increasingly important. The rapid advancement of Artificial Intelligence has brought with it a host of ethical challenges that society must address.
+title: 무대 위로 들어온 관객
+description: 새로운 문화경험을 열어가는 Immersive Entertainment
 date: 2024-09-01 15:01:35 +0300
-authors: [carla]
+authors: [sojin]
 image: 'https://placehold.co/1200x800'
 image_caption: Find your inspiration
 tags: [Technology]
