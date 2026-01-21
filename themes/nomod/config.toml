@@ -1,6 +1,6 @@
 #-------------------------------
 # General Site Settings
-baseURL = "http://example.org/"
+baseURL = "https://kcti111.github.io/magazine/"
 languageCode = "en-us"
 title = "Nomod"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
@@ -78,8 +78,8 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
 
 [params]
-  logo = "" # You can add own logo. For example "/images/logo.png".
-  logo_dark = ""
+  logo = "/images/logo.png" # You can add own logo. For example "/images/logo.png".
+  logo_dark = "/images/logo.png"
   description = "Nomod is a multipurpose Hugo blog theme"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
@@ -89,11 +89,11 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 [params.hero]
   enable = true
   hero__title = "Stories, Journeys, and Ideas for the Creatively Curious"
-  hero__description = "Join us on a journey where every post brings a fresh perspective. This blog is for those who are driven by curiosity and a desire to learn."
+  hero__description = "기술이 단순한 도구를 넘어 문화로 인식되고, 사람들의 일상과 감각 속에 스며드는 순간들을 기록하고 해석하는 문화기술 이슈 매거진"
 
 [params.hero_authors]
   enable = true
-  hero_authors_description = "Meet our talented team"
+  hero_authors_description = "문화기술 연구진진"
 
 
 #-------------------------------
@@ -115,15 +115,15 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # About Section Settings
 [params.about]
   enable = true
-  about_title = "Hello, I’m Giana"
-  about_subtitle = "I’m a thinker and storyteller with a passion for exploring the intersection of creativity and technology"
+  about_title = "Hello, I’m Sojin"
+  about_subtitle = "여러분과 함께 문화기술을 알아가는 매거진이 되겠습니다"
   about_description = """
   Giana Franci’s mission is rooted in the belief that creativity is a catalyst for connection and change. Through her blog, she seeks to bridge the gap between design, technology, and lifestyle, offering a space where ideas can flourish and innovation can thrive.
 
   It’s a journey through the thoughts and experiences that shape her world. Giana’s work is driven by a desire to challenge the ordinary and to push the boundaries of what’s possible. She sees every project as an opportunity to learn, grow, and inspire others to do the same. This blog is more than just a collection of posts.
   """
-  about_image = "https://placehold.co/1200x800"
-  about_image_alt = "Giana Franci"
+  about_image = "/images/sojin.jpg"
+  about_image_alt = "Kim, Sojin"
   about_button_text = "Meet our team"
   about_button_link = "/about/"
 
@@ -139,8 +139,12 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # Newsletter Settings
 [params.mailchimp]
   enable = true
-  mailchimp_title = "Stay Inspired Weekly. Your Friendly Dose of Tips & Insights!"
-  mailchimp_description = "Every Sunday, I deliver actionable tips for enhancing productivity, practical life advice, and top-notch insights gathered from various sources, right to your email inbox."
+  mailchimp_title = "문화기술이 새롭게 열어가는 세상. 월간 이슈 매거진을 이메일로 받아보세요!"
+  mailchimp_description = """
+  빠르게 소비되는 기술 뉴스가 아닌, 
+  문화로 전환되는 기술의 맥락과 사례를 차분히 기록하고 해석한 콘텐츠를 매주 한 편씩 전합니다. 
+  문화기술의 현재를 함께 읽고 축적하고 싶은 분들을 위한 구독입니다.
+  """
   mailchimp_identifier = "gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp" # Add your MailChimp form identifier. For example - gmail.us21.list-manage.com/subscribe/post?u=8aeb9c31a5c97a3a5f9ff2740&amp;id=0e31fd7793&amp
   mailchimp_input_text = "Your email address"
   mailchimp_button_text = "Subscribe"
@@ -149,7 +153,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Footer Settings
 [params.footer]
-  footer_description = "Join us on a journey where every post brings a fresh perspective. This blog is for those who are driven by curiosity and a desire to learn."
+  footer_description = "한국문화기술연구소에서는 기술이 단순한 도구를 넘어 문화로 인식되고, 사람들의 일상과 감각 속에 스며드는 순간들을 기록하고 해석하는 문화기술 이슈 매거진을 발행합니다."
 
 # Social Links
 [[params.social]]
