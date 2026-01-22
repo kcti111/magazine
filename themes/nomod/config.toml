@@ -93,7 +93,7 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
 [params.hero_authors]
   enable = true
-  hero_authors_description = "문화기술 연구진진"
+  hero_authors_description = "문화기술 연구진"
 
 
 #-------------------------------
