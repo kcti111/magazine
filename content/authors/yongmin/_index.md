@@ -3,8 +3,6 @@ name: Ju yongmin
 slug: "yongmin"
 image: 'images/yongmin.png'
 location: korea 
-image: '/images/yongmin.png'
-location: KCTI 연구원
 website:
 facebook: https://www.facebook.com
 twitter: https://twitter.com
@@ -16,4 +14,3 @@ tiktok:
 ---
 
 컴퓨터 공학 연구 담당자. 정책과제 진행하고 있습니다.
-

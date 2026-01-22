@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>문화기술 이슈 매거진</title>
+    <link>https://kcti111.github.io/magazine/authors/sojin/</link>
+    <description>Recent content on 문화기술 이슈 매거진</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 15 Aug 2025 15:01:35 +0300</lastBuildDate>
+    <atom:link href="https://kcti111.github.io/magazine/authors/sojin/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>하이브리드 공간으로의 전환</title>
+      <link>https://kcti111.github.io/magazine/posts/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EA%B3%B5%EA%B0%84%EC%9C%BC%EB%A1%9C%EC%9D%98-%EC%A0%84%ED%99%98/</link>
+      <pubDate>Fri, 15 Aug 2025 15:01:35 +0300</pubDate>
+      <guid>https://kcti111.github.io/magazine/posts/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EA%B3%B5%EA%B0%84%EC%9C%BC%EB%A1%9C%EC%9D%98-%EC%A0%84%ED%99%98/</guid>
+      <description>&lt;p&gt;As we enter an era of rapid technological advancement, the demand for more computational power has never been greater. From artificial intelligence to quantum computing, breakthroughs in technology are pushing the boundaries of what we once thought possible. Unlocking unprecedented computational power isn’t just about making machines faster; it’s about enabling innovations that can revolutionize industries, solve complex global challenges, and reshape the future of humanity.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the age of artificial intelligence, computational power is the fuel driving discoveries that will transform industries and societies.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>우리의 문화기술은 지금 어디에 있는가?</title>
+      <link>https://kcti111.github.io/magazine/posts/%EC%9A%B0%EB%A6%AC%EC%9D%98-%EB%AC%B8%ED%99%94%EA%B8%B0%EC%88%A0%EC%9D%80-%EC%A7%80%EA%B8%88-%EC%96%B4%EB%94%94%EC%97%90-%EC%9E%88%EB%8A%94%EA%B0%80/</link>
+      <pubDate>Mon, 09 Sep 2024 15:01:35 +0300</pubDate>
+      <guid>https://kcti111.github.io/magazine/posts/%EC%9A%B0%EB%A6%AC%EC%9D%98-%EB%AC%B8%ED%99%94%EA%B8%B0%EC%88%A0%EC%9D%80-%EC%A7%80%EA%B8%88-%EC%96%B4%EB%94%94%EC%97%90-%EC%9E%88%EB%8A%94%EA%B0%80/</guid>
+      <description>&lt;p&gt;How you start your morning often sets the tone for the rest of your day. While it’s easy to hit the snooze button and delay getting up, building a productive morning routine can transform not only your day but also your life. A structured, intentional morning allows you to prioritize your goals, improve focus, and maximize your energy levels. Whether you’re a morning person or not, creating a routine that harnesses the early hours can significantly increase your productivity.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>무대 위로 들어온 관객</title>
+      <link>https://kcti111.github.io/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</link>
+      <pubDate>Sun, 01 Sep 2024 15:01:35 +0300</pubDate>
+      <guid>https://kcti111.github.io/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</guid>
+      <description>&lt;p&gt;One of the most pressing ethical concerns in AI development is the potential for bias in algorithms. Since AI systems learn from data, they can inherit biases present in the datasets they are trained on. This can result in unfair outcomes, such as biased hiring algorithms, discriminatory loan approvals, or skewed facial recognition systems. The impact of biased AI can reinforce existing societal inequalities, disproportionately affecting marginalized groups.&lt;/p&gt;&#xA;&lt;p&gt;Addressing this issue requires a commitment to transparency and diversity in AI training data. Developers must strive to create models that are not only accurate but also fair, considering the broader social implications of their use. This might involve auditing algorithms for potential biases, incorporating diverse perspectives into AI research, and developing standards for ethical AI deployment.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>디지털 아바타, 새로운 문화 인터페이스가 되다</title>
+      <link>https://kcti111.github.io/magazine/posts/processing-power-is-moving-closer-to-the-source-of-data-for-faster/</link>
+      <pubDate>Sat, 24 Aug 2024 15:01:35 +0300</pubDate>
+      <guid>https://kcti111.github.io/magazine/posts/processing-power-is-moving-closer-to-the-source-of-data-for-faster/</guid>
+      <description>&lt;p&gt;Historically, data processing has relied on centralized cloud data centers that store, analyze, and process information from all over the globe. However, this approach introduces a delay—known as latency—when sending data back and forth over long distances. As applications become more time-sensitive, even milliseconds can make a significant difference, particularly in fields like healthcare and smart manufacturing.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Edge computing is the bridge between the digital and physical worlds, making everything smarter, faster, and more responsive.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
