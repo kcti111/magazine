@@ -1,7 +1,7 @@
 ---
 name: Ju yongmin
 slug: "yongmin"
-image: '/images/yongmin.png'
+image: 'images/yongmin.png'
 location: korea 
 website:
 facebook: https://www.facebook.com
