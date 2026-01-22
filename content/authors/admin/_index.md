@@ -1,6 +1,6 @@
 ---
 name: Giana Franci
-image: 'https://placehold.co/400x400'
+image: '/images/sojin.jpg'
 location: London
 website:
 facebook: https://www.facebook.com
