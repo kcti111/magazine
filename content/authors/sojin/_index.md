@@ -1,6 +1,6 @@
 ---
 name: Kim Sojin
-image: '/images/sojin.jpg'
+image: 'images/sojin.jpg'
 location: Korea
 website:
 facebook: https://www.facebook.com
