@@ -1,6 +1,6 @@
 ---
 name: Pyo junbum
-image: 'images/junbum.jpg'
+image: 'https://kcti111.github.io/magazine/images/junbum.jpg'
 location: KCTI 책임연구원
 website:
 facebook: https://www.facebook.com
