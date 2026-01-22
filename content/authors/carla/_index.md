@@ -1,6 +1,6 @@
 ---
 name: pyo junbum
-image: 'https://placehold.co/400x400'
+image: '/images/junbum.jpg'
 location: korea
 website:
 facebook: https://facebook.com
