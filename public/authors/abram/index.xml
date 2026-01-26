@@ -2,24 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Abram on 문화기술 이슈 매거진</title>
-    <link>https://kcti111.github.io/magazine/authors/abram/</link>
+    <link>http://localhost:1313/magazine/authors/abram/</link>
     <description>Recent content in Abram on 문화기술 이슈 매거진</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 27 Aug 2024 15:01:35 +0300</lastBuildDate>
-    <atom:link href="https://kcti111.github.io/magazine/authors/abram/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Use Color to Influence Emotions and Behaviors</title>
-      <link>https://kcti111.github.io/magazine/posts/how-to-use-color-to-influence-emotions-and-behaviors/</link>
-      <pubDate>Tue, 27 Aug 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/posts/how-to-use-color-to-influence-emotions-and-behaviors/</guid>
-      <description>&lt;p&gt;Color is a powerful tool in shaping our perceptions, emotions, and even behaviors. Whether in design, marketing, art, or everyday life, colors can evoke specific feelings and influence how we interact with the world around us. From the calming blues that can soothe anxiety to the energizing reds that can grab attention, understanding the psychology of color enables us to make deliberate choices that affect mood and decision-making. By harnessing the emotional impact of colors, we can create environments, brands, and experiences that connect more deeply with people.&lt;/p&gt;</description>
-    </item>
+    <lastBuildDate>Sat, 17 Aug 2024 15:01:35 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/magazine/authors/abram/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Decluttering Your Life for Greater Clarity</title>
-      <link>https://kcti111.github.io/magazine/posts/decluttering-your-life-for-greater-clarity/</link>
+      <link>http://localhost:1313/magazine/posts/decluttering-your-life-for-greater-clarity/</link>
       <pubDate>Sat, 17 Aug 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/posts/decluttering-your-life-for-greater-clarity/</guid>
+      <guid>http://localhost:1313/magazine/posts/decluttering-your-life-for-greater-clarity/</guid>
       <description>&lt;p&gt;In a world full of distractions, it’s easy to become overwhelmed by clutter—both physical and mental. The constant influx of information, obligations, and objects in our daily lives often clouds our ability to think clearly and act with intention. Decluttering is more than just tidying up; it&amp;rsquo;s about making space for clarity, focus, and personal growth.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;A clear space fosters a clear mind. The less chaos around you, the easier it is to hear your true desires.&lt;/p&gt;</description>
     </item>
   </channel>

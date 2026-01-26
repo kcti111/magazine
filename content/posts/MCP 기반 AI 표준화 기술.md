@@ -1,18 +1,24 @@
 ---
-title: How Spending Time Outdoors Can Boost Mental Health
-description: Research shows that exposure to nature can reduce stress, improve mood, and enhance mental clarity. The sights, sounds, and smells of the natural environment have a calming effect on the mind, promoting a sense of peace.
-date: 2024-08-25 15:01:35 +0300
-authors: [junbum]
+title: MCP 기반 AI 표준화 기술
+description: 문화기술의 활용을 위한 이해
+date: 2025-09-25 15:01:35 +0300
+authors: [junbum, yongmin]
 image: 'https://placehold.co/1200x800'
 tags: [Lifestyle]
 toc: true
 ---
 
-One of the most immediate benefits of spending time outdoors is its ability to reduce stress and anxiety. Nature has a calming effect on the mind, helping to lower cortisol levels (the body's stress hormone). A walk through a park or a hike in the woods can create a sense of tranquility, providing a break from the constant demands of modern life. The gentle rustling of leaves, the sound of flowing water, and the fresh air all work together to create an environment where the mind can unwind.
+## MCP(Model Context Protocol)란?
+
+인공지능 기술의 발전과 함께, AI 시스템이 외부 데이터와 효과적으로 연동되는 것이 점점 더 중요한 이슈가 되었다. 기존에는 AI 모델이 내부적으로 훈련된 데이터만을 기반으로 작동하는 경우가 많았지만, 실시간 정보 활용과 사용자 소통의
+동적 문맥(Context) 유지가 필수적인 환경에는 이러한 방식이 한계를 보였기 때문에 AI 시스템이 외부 데이터와 원활하게 통신하고 정보를 활용할 수 있는 새로운 프로토콜이 필요해졌다고 볼 수 있다.
 
 > Nature doesn’t hurry, yet everything is accomplished — so too can we find calm in its presence.
 
-In today's fast-paced, digitally-driven world, it’s easy to forget the profound connection humans have with nature. Yet, spending time outdoors is more than just a pleasant escape—it’s a powerful way to boost mental health. From reducing stress and anxiety to improving mood and fostering creativity, nature offers a wealth of benefits that can significantly enhance our well-being. Understanding how time outdoors influences our minds can encourage us to prioritize nature in our daily lives.
+MCP(Model Context Protocol)는 ‘대규모 언어 모델이 외부 데이터와 시스템을 더 효과적으로 활용할 수 있도록 설계된 일종의 연결 프로토콜’이다. MCP 방식을 최초로 도입한 거대 언어 모델 클로드(Claude)의 개발사인 미국 인공지능 스타트업
+앤트로픽(Anthropic)은 MCP를 USB-C 포트에 비유하는데 USB-C가 다양한 기기와 주변 장치를 표준화된 방식으로 연결하듯이, MCP는 AI 모델이 다양한 데이터 소스와 도구에 표준화된 방식으로 연결될 수 있게 해준다.
+이와 같이 MCP는 AI 모델이 특정 문맥(Context) 안에서 적절히 작동하도록 지시하거나, 상호작용하는 방식을 표준화한 프로토콜을 의미한다. 이는 특히 멀티모달 시스템, 멀티모델 프레임워크, 프롬프트 기반 대형 언어 모델(LLM:large language
+model)에서 중요해지고 있는 구조인 것이다.
 
 ## Enhancing creativity and focus
 

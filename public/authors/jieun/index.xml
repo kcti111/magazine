@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>문화기술 이슈 매거진</title>
-    <link>https://kcti111.github.io/magazine/authors/jieun/</link>
+    <link>http://localhost:1313/magazine/authors/jieun/</link>
     <description>Recent content on 문화기술 이슈 매거진</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="https://kcti111.github.io/magazine/authors/jieun/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 14 Nov 2025 18:05:55 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/magazine/authors/jieun/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI가 빚어내는 3차원 상상력</title>
+      <link>http://localhost:1313/magazine/posts/ai%EA%B0%80-%EB%B9%9A%EC%96%B4%EB%82%B4%EB%8A%94-3%EC%B0%A8%EC%9B%90-%EC%83%81%EC%83%81%EB%A0%A5/</link>
+      <pubDate>Fri, 14 Nov 2025 18:05:55 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/posts/ai%EA%B0%80-%EB%B9%9A%EC%96%B4%EB%82%B4%EB%8A%94-3%EC%B0%A8%EC%9B%90-%EC%83%81%EC%83%81%EB%A0%A5/</guid>
+      <description>&lt;p&gt;2020년 OpenAI의 ChatGPT 발표를 기점으로, 생성형 인공지능(AI) 기술은 전세계적인 주목을 받으며 발전을 거듭해 왔다. 이미지 생성에 특화된 DALL-E3[1], Midjourney[2]와 동영상 생성 모델인 Sora[3] 등 생성형 AI 기술의 출현은 전문적인&#xA;지식과 리소스 없이도 창의적인 콘텐츠 제작을 가능하게 했다. 이러한 기술의 활용 범위는 이미 사회 전반으로 확장되고 있다. 실제로 유튜브 등의 플랫폼에서는 생성형 AI 기반으로 생성된 가상 모델이 출연하는 광고와 미디어를 쉽게 접할 수 있다. LG 유플러스에서는 모든 컷을 AI로 생성한 광고를 제작하였으며[4], 롯데칠성음료에서도 제품을 홍보하기 위해 AI를 활용하여 광고를 제작했다[5]. 이는 AI가 실제 비즈니스 환경과 대중의 일상 속에 깊숙이 스며들고 있음을 명확히 보여준다.&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

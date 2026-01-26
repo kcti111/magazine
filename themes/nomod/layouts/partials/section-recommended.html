@@ -14,13 +14,13 @@
             {{ if le (len $postsByTag) 4 }}
               {{ .Site.Params.recommended.recommended_title }}
             {{ else }}
-              <a href="{{ "/tags/" | relLangURL }}{{ $recommendedTag | urlize }}">
+              <a href="{{ "/magazine/tags/" | relLangURL }}">
                 {{ .Site.Params.recommended.recommended_title }}
               </a>
             {{ end }}
           </h2>
           {{ if gt (len $postsByTag) 4 }}
-            <a class="section__link" href="{{ "/tags/" | relLangURL }}{{ $recommendedTag | urlize }}">See all</a>
+            <a class="section__link" href="{{ "/magazine/tags/" | relLangURL }}">See all</a>
           {{ end }}
         </div>
       </div>

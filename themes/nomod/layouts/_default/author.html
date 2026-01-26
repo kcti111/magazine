@@ -7,7 +7,7 @@
     <div class="author__content">
 
       <div class="author__image">
-        <img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}">
+        <img class="lazy" data-src="{{ .Params.image | relURL }}" alt="{{ .Params.name }}">
       </div>
 
       <h1 class="author__name">{{ .Params.name }}</h1>

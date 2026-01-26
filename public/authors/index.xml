@@ -2,74 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>참여 연구진 on 문화기술 이슈 매거진</title>
-    <link>https://kcti111.github.io/magazine/authors/</link>
+    <link>http://localhost:1313/magazine/authors/</link>
     <description>Recent content in 참여 연구진 on 문화기술 이슈 매거진</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Jan 2026 15:01:35 +0300</lastBuildDate>
-    <atom:link href="https://kcti111.github.io/magazine/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/magazine/authors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://kcti111.github.io/magazine/authors/yongmin/</link>
+      <link>http://localhost:1313/magazine/authors/yongmin/</link>
       <pubDate>Thu, 15 Jan 2026 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/yongmin/</guid>
+      <guid>http://localhost:1313/magazine/authors/yongmin/</guid>
       <description>&lt;p&gt;컴퓨터 공학 연구 담당자. 정책과제 진행하고 있습니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://kcti111.github.io/magazine/authors/sojin/</link>
-      <pubDate>Fri, 15 Aug 2025 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/sojin/</guid>
+      <link>http://localhost:1313/magazine/authors/sojin/</link>
+      <pubDate>Sat, 27 Dec 2025 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/authors/sojin/</guid>
       <description>&lt;p&gt;안녕하세요. 저는 한국문화기술연구소 김소진입니다. 융합디자인학 박사로서 문화기술 이슈 매거진의 편집장을 담당하고 있습니다.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Richard</title>
-      <link>https://kcti111.github.io/magazine/authors/richard/</link>
-      <pubDate>Sat, 07 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/richard/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Daniel</title>
-      <link>https://kcti111.github.io/magazine/authors/daniel/</link>
-      <pubDate>Wed, 04 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/daniel/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Admin</title>
-      <link>https://kcti111.github.io/magazine/authors/admin/</link>
-      <pubDate>Tue, 03 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/admin/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Abram</title>
-      <link>https://kcti111.github.io/magazine/authors/abram/</link>
-      <pubDate>Tue, 27 Aug 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/abram/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Carla</title>
-      <link>https://kcti111.github.io/magazine/authors/carla/</link>
-      <pubDate>Tue, 27 Aug 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/carla/</guid>
-      <description></description>
+      <title></title>
+      <link>http://localhost:1313/magazine/authors/eunsol/</link>
+      <pubDate>Fri, 14 Nov 2025 18:05:55 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/authors/eunsol/</guid>
+      <description>&lt;p&gt;나는 안은솔입니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
-      <link>https://kcti111.github.io/magazine/authors/junbum/</link>
-      <pubDate>Sun, 25 Aug 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/junbum/</guid>
+      <link>http://localhost:1313/magazine/authors/jieun/</link>
+      <pubDate>Fri, 14 Nov 2025 18:05:55 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/authors/jieun/</guid>
+      <description>&lt;p&gt;저는 이지은 박사입니다. 문화기술과의 협업을 기획하고 있습니다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/magazine/authors/junbum/</link>
+      <pubDate>Thu, 25 Sep 2025 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/authors/junbum/</guid>
       <description>&lt;p&gt;저는 한국문화기술연구소의 책임연구원으로써 정책과제 개발실장을 담당하고 있습니다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title></title>
-      <link>https://kcti111.github.io/magazine/authors/jieun/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://kcti111.github.io/magazine/authors/jieun/</guid>
-      <description>&lt;p&gt;저는 000 박사로서 문화기술과의 협업을 기획하고 있습니다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

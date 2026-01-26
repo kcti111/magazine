@@ -25,7 +25,8 @@
               </div>
             {{ end }}
             {{ if .Site.Params.about.about_button_text }}
-              <a href="{{ .Site.Params.about.about_button_link | relURL }}" class="about__button button button--big">{{ .Site.Params.about.about_button_text }}</a>
+              <a href="{{ .Site.Params.about.about_button_link }}" class="button" target="_blank" rel="noopener noreferrer">
+                {{ .Site.Params.about.about_button_text }}</a>
             {{ end }}
           </div>
 

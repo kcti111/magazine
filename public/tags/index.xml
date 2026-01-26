@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Explore Our Topics on 문화기술 이슈 매거진</title>
-    <link>https://kcti111.github.io/magazine/tags/</link>
+    <link>http://localhost:1313/magazine/tags/</link>
     <description>Recent content in Explore Our Topics on 문화기술 이슈 매거진</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Jan 2026 15:01:35 +0300</lastBuildDate>
-    <atom:link href="https://kcti111.github.io/magazine/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/magazine/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technology</title>
-      <link>https://kcti111.github.io/magazine/tags/technology/</link>
+      <link>http://localhost:1313/magazine/tags/technology/</link>
       <pubDate>Thu, 15 Jan 2026 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/tags/technology/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Lifestyle</title>
-      <link>https://kcti111.github.io/magazine/tags/lifestyle/</link>
-      <pubDate>Mon, 09 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/tags/lifestyle/</guid>
+      <guid>http://localhost:1313/magazine/tags/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>https://kcti111.github.io/magazine/tags/design/</link>
-      <pubDate>Sat, 07 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/tags/design/</guid>
+      <link>http://localhost:1313/magazine/tags/design/</link>
+      <pubDate>Sat, 27 Dec 2025 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/tags/design/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Lifestyle</title>
+      <link>http://localhost:1313/magazine/tags/lifestyle/</link>
+      <pubDate>Fri, 14 Nov 2025 18:05:55 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/tags/lifestyle/</guid>
       <description></description>
     </item>
   </channel>

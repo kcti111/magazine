@@ -1,6 +1,6 @@
 ---
 name: Lee Jieun
-image: '/images/jieun.jpg'
+image: 'images/jieun.jpg'
 location: KCTI 선임연구원
 website:
 facebook:
@@ -11,4 +11,4 @@ mastodon: https://mastodon.social
 youtube:
 tiktok:
 ---
-저는 000 박사로서 문화기술과의 협업을 기획하고 있습니다.
+저는 이지은 박사입니다. 문화기술과의 협업을 기획하고 있습니다.

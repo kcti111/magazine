@@ -2,25 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Admin on 문화기술 이슈 매거진</title>
-    <link>https://kcti111.github.io/magazine/authors/admin/</link>
+    <link>http://localhost:1313/magazine/authors/admin/</link>
     <description>Recent content in Admin on 문화기술 이슈 매거진</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Sep 2024 15:01:35 +0300</lastBuildDate>
-    <atom:link href="https://kcti111.github.io/magazine/authors/admin/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Exploring the Elements That Make a Design Endure Across Decades</title>
-      <link>https://kcti111.github.io/magazine/posts/exploring-the-elements-that-make-a-design-endure-across-decades/</link>
-      <pubDate>Tue, 03 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/posts/exploring-the-elements-that-make-a-design-endure-across-decades/</guid>
-      <description>&lt;p&gt;In the fast-paced world of design, trends come and go, often leaving a trail of dated aesthetics in their wake. Yet, some designs stand the test of time, maintaining their appeal and functionality across decades. What makes certain designs endure while others fade into obscurity? Timeless design is more than just a look—it&amp;rsquo;s a thoughtful blend of functionality, simplicity, and cultural resonance that transcends changing tastes. Understanding the elements that contribute to lasting design can help designers create work that remains relevant and captivating, year after year.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unlocking Unprecedented Computational Power</title>
-      <link>https://kcti111.github.io/magazine/posts/unlocking-unprecedented-computational-power/</link>
-      <pubDate>Thu, 15 Aug 2024 15:01:35 +0300</pubDate>
-      <guid>https://kcti111.github.io/magazine/posts/unlocking-unprecedented-computational-power/</guid>
-      <description>&lt;p&gt;As we enter an era of rapid technological advancement, the demand for more computational power has never been greater. From artificial intelligence to quantum computing, breakthroughs in technology are pushing the boundaries of what we once thought possible. Unlocking unprecedented computational power isn’t just about making machines faster; it’s about enabling innovations that can revolutionize industries, solve complex global challenges, and reshape the future of humanity.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the age of artificial intelligence, computational power is the fuel driving discoveries that will transform industries and societies.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="http://localhost:1313/magazine/authors/admin/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

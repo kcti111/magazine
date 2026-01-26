@@ -2,7 +2,7 @@
 # General Site Settings
 baseURL = "https://kcti111.github.io/magazine/"
 languageCode = "en-us"
-title = "Nomod"
+title = "KCTI MAGAZINE"
 googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 
 
@@ -22,9 +22,9 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # Main Menu
 [menu]
   [[menu.main]]
-    name = "Home"
-    url = "/"
-    weight = 1
+    # name = "Home"
+    # url = "/"
+    # weight = 1
 
   [[menu.main]]
     name = "최신 포스트"
@@ -32,36 +32,36 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
     weight = 2
 
   [[menu.main]]
-    name = "연구진"
+    name = "참여연구진"
     url = "/authors/"
     weight = 3
 
   [[menu.main]]
-    name = "Resources"
+    name = "문화기술 리소스"
     weight = 4
     hasChildren = true
 
   [[menu.main]]
-    parent = "Resources"
-    name = "Videos"
+    parent = "문화기술 리소스"
+    name = "홍보 영상"
     url = "/videos/"
     weight = 1
 
   [[menu.main]]
-    parent = "Resources"
-    name = "Featured"
+    parent = "문화기술 리소스"
+    name = "특집 칼럼"
     url = "/featured/"
     weight = 2
 
   [[menu.main]]
-    parent = "Resources"
-    name = "Elements"
-    url = "/elements/"
-    weight = 3
+    # parent = "Resources"
+    # name = "Elements"
+    # url = "/elements/"
+    # weight = 3
 
   [[menu.main]]
-    parent = "Resources"
-    name = "Topics"
+    parent = "문화기술 리소스"
+    name = "CT 키워드 "
     url = "/tags/"
     weight = 4
 
@@ -73,14 +73,14 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # Call to action button
 [params.cta_button]
   enable = true
-  cta_button_link = "/contact/"
+  cta_button_link = "/magazine/contact"
   cta_button_text = "우리와 연결되기"
 
 
 [params]
   logo = "/images/logo.png" # You can add own logo. For example "/images/logo.png".
   logo_dark = "/images/logo.png"
-  description = "Nomod is a multipurpose Hugo blog theme"
+  description = "KCTI is Good team!"
   color_scheme = "auto" # You can choose three modes auto, light, and dark. By default, the auto mode is set, which means the user can choose the light or dark mode themself.
 
 
@@ -88,8 +88,8 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # Hero Settings
 [params.hero]
   enable = true
-  hero__title = "Stories, Journeys, and Ideas for the Creatively Curious"
-  hero__description = "기술이 단순한 도구를 넘어 문화로 인식되고, 사람들의 일상과 감각 속에 스며드는 순간들을 기록하고 해석하는 문화기술 이슈 매거진"
+  hero__title = "Let's share future technologies, new cultures, and sensational moments."
+  hero__description = "미래과학 기술이 단순한 도구를 넘어 새로운 문화로 인식되고, 사람들의 일상과 감각 속에 스며드는 순간들을 기록합니다. 한국 문화기술 이슈 매거진"
 
 [params.hero_authors]
   enable = true
@@ -100,14 +100,14 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # Blog Section Settings
 [params.blog]
   enable = true
-  blog_title = "Latest"
+  blog_title = "최근 문화기술 이슈 브리프"
 
 
 #-------------------------------
 # Recommended Section Settings
 [params.recommended]
   enable = true
-  recommended_title = "Recommended"
+  recommended_title = "문화기술 주제별"
   recommended_tag = "Lifestyle"
 
 
@@ -115,24 +115,24 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
 # About Section Settings
 [params.about]
   enable = true
-  about_title = "Hello, I’m Sojin"
+  about_title = "한국문화기술연구소"
   about_subtitle = "여러분과 함께 문화기술을 알아가는 매거진이 되겠습니다"
   about_description = """
   Giana Franci’s mission is rooted in the belief that creativity is a catalyst for connection and change. Through her blog, she seeks to bridge the gap between design, technology, and lifestyle, offering a space where ideas can flourish and innovation can thrive.
 
   It’s a journey through the thoughts and experiences that shape her world. Giana’s work is driven by a desire to challenge the ordinary and to push the boundaries of what’s possible. She sees every project as an opportunity to learn, grow, and inspire others to do the same. This blog is more than just a collection of posts.
   """
-  about_image = "/images/sojin.jpg"
-  about_image_alt = "Kim, Sojin"
-  about_button_text = "Meet our team"
-  about_button_link = "/about/"
+  about_image = "images/Kcti.jpg"
+  about_image_alt = "Korea culture technology institute"
+  about_button_text = "한국문화기술연구소 사이트"
+  about_button_link = "https://kct.gist.ac.kr/kct/index.do"
 
 
 #-------------------------------
 # Authors Section Settings
 [params.authors]
   enable = true
-  authors_title = "Top authors"
+  authors_title = "Popular authors"
 
 
 #-------------------------------

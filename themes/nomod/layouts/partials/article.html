@@ -12,7 +12,7 @@
 
       {{ if .context.Params.Image }}
       <a class="article__image" href="{{ .context.RelPermalink }}" aria-hidden="true" tabindex="-1">
-        <img class="lazy" data-src="{{ .context.Params.Image | absURL }}" alt="{{ .context.Title }}">
+        <img class="lazy" data-src="{{ .context.Params.Image | relURL }}" alt="{{ .context.Title }}">
       </a>
       {{ end }}
     </div>
@@ -42,7 +42,7 @@
         {{ range .context.Params.authors }}
           {{ with $.context.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
             <a href="{{ .Permalink }}" class="article__author__image">
-              <img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}">
+              <img class="lazy" data-src="{{ .Params.image | relURL }}" alt="{{ .Params.name }}">
             </a>
           {{ end }}
         {{ end }}

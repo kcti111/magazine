@@ -14,11 +14,11 @@
             {{ if le (len $authors) 3 }}
               {{ .Site.Params.authors.authors_title }}
             {{ else }}
-              <a href="{{ "/authors" | relURL }}">{{ .Site.Params.authors.authors_title }}</a>
+              <a href="{{ "/magazine/authors" | relURL }}">{{ .Site.Params.authors.authors_title }}</a>
             {{ end }}
           </h2>
           {{ if gt (len $authors) 3 }}
-            <a class="section__link" href="{{ "/authors" | relURL }}">See all</a>
+            <a class="section__link" href="{{ "/magazine/authors" | relURL }}">See all</a>
           {{ end }}
         </div>
       </div>
@@ -27,7 +27,7 @@
         {{ range first 3 $sortedAuthors }}
         <div class="col col-4 col-w-6 col-t-12">
           <div class="authors__info">
-            <a class="authors__image" href="{{ .Permalink }}"><img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}"></a>
+            <a class="authors__image" href="{{ .Permalink }}"><img class="lazy" data-src="{{ .Params.image | relURL }}" alt="{{ .Params.name }}"></a>
             <div class="authors__meta">
               <h2 class="authors__name"><a class="authors__link" href="{{ .Permalink }}">{{ .Params.name }}</a></h2>
               {{ if ge (len .Pages) 1 }}
