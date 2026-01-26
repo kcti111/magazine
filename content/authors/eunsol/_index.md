@@ -12,4 +12,4 @@ mastodon: https://mastodon.social
 youtube:
 tiktok:
 ---
-나는 안은솔입니다.
+저는 한국문화기술 연구소의 안은솔입니다.
