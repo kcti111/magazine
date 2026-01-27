@@ -118,9 +118,13 @@ googleAnalytics = "" # Add your identifier. For example UA-99631805-1.
   about_title = "한국문화기술연구소"
   about_subtitle = "여러분과 함께 문화기술을 알아가는 매거진이 되겠습니다"
   about_description = """
-  Giana Franci’s mission is rooted in the belief that creativity is a catalyst for connection and change. Through her blog, she seeks to bridge the gap between design, technology, and lifestyle, offering a space where ideas can flourish and innovation can thrive.
+  문화기술 이슈 매거진은 기술을 단순한 도구가 아닌 문화적 경험과 사회적 맥락을 만들어내는 매개체로 바라보는 전문 온라인 매거진입니다.
 
-  It’s a journey through the thoughts and experiences that shape her world. Giana’s work is driven by a desire to challenge the ordinary and to push the boundaries of what’s possible. She sees every project as an opportunity to learn, grow, and inspire others to do the same. This blog is more than just a collection of posts.
+  인공지능, 디지털 미디어, XR, 데이터 기술 등 동시대 핵심 기술이 예술·디자인·서비스·일상 문화와 어떻게 연결되고 확장되는지를 탐구하며,
+  기술 중심 담론을 넘어 사람·경험·의미에 초점을 둡니다.
+  
+  연구자, 창작자, 실무자의 관점을 아우르는 칼럼과 사례 분석을 통해 문화기술의 현재를 기록하고, 미래의 가능성을 질문하는 문화기술 이슈 매거진은
+  기술 변화 속에서 새로운 상상력과 공공적 가치를 모색하는 열린 지식 플랫폼을 지향하고 있습니다.
   """
   about_image = "images/Kcti.jpg"
   about_image_alt = "Korea culture technology institute"
