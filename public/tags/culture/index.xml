@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Culture on 문화기술 이슈 매거진</title>
+    <link>http://localhost:1313/magazine/tags/culture/</link>
+    <description>Recent content in Culture on 문화기술 이슈 매거진</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 01 Sep 2024 15:01:35 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/magazine/tags/culture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>무대 위로 들어온 관객</title>
+      <link>http://localhost:1313/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</link>
+      <pubDate>Sun, 01 Sep 2024 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</guid>
+      <description>&lt;p&gt;One of the most pressing ethical concerns in AI development is the potential for bias in algorithms. Since AI systems learn from data, they can inherit biases present in the datasets they are trained on. This can result in unfair outcomes, such as biased hiring algorithms, discriminatory loan approvals, or skewed facial recognition systems. The impact of biased AI can reinforce existing societal inequalities, disproportionately affecting marginalized groups.&lt;/p&gt;&#xA;&lt;p&gt;Addressing this issue requires a commitment to transparency and diversity in AI training data. Developers must strive to create models that are not only accurate but also fair, considering the broader social implications of their use. This might involve auditing algorithms for potential biases, incorporating diverse perspectives into AI research, and developing standards for ethical AI deployment.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

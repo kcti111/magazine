@@ -35,7 +35,7 @@
           {{ range .Params.authors }}
             {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
               <a href="{{ .Permalink }}" class="post__author__image">
-                <img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}">
+                <img class="lazy" data-src="{{ .Params.image | relURL }}" alt="{{ .Params.name }}">
               </a>
             {{ end }}
           {{ end }}
@@ -113,7 +113,7 @@
       {{ range .Params.authors }}
         {{ with $.Site.GetPage "taxonomyTerm" (printf "authors/%s" (urlize .)) }}
           <a class="card-author__image" href="{{ .Permalink }}">
-            <img class="lazy" data-src="{{ .Params.image }}" alt="{{ .Params.name }}">
+            <img class="lazy" data-src="{{ .Params.image | relURL }}" alt="{{ .Params.name }}">
           </a>
         {{ end }}
       {{ end }}

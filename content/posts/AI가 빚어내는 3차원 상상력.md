@@ -3,7 +3,7 @@ title: AI가 빚어내는 3차원 상상력
 description: 3D 오브젝트 생성 기술와 문화기술 비지니스
 date: 2025-11-14 18:05:55 +0300
 authors: [eunsol,jieun]
-image: 'posts/6-1.jpg'
+image: 'posts/9-m.jpg'
 tags: [Lifestyle]
 featured: true
 toc: true

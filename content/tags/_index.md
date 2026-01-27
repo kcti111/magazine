@@ -1,5 +1,5 @@
 ---
 layout: terms
-title: Explore Our Topics
-description: Explore our Topics page to easily navigate the wide range of content available on our blog. This is your gateway to discovering the diverse conversations and ideas that our blog covers.
+title: Explore CT Topics
+description: 문화기술의 대표 키워드별로 칼럼을 보실 수 있습니다.
 ---

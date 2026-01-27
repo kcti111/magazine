@@ -1,4 +1,4 @@
 ---
 title: Latest Posts
-description: Here, you’ll discover the latest posts that explore new insights, creative projects, and unique perspectives on the world. Dive in, explore, and uncover something new with every read.
+description: 최신 문화기술 칼럼 및 포스트를 통한 생각의 확장을 추구합니다.
 ---

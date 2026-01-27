@@ -1,53 +1,250 @@
 ---
 title: MCP 기반 AI 표준화 기술
 description: 문화기술의 활용을 위한 이해
-date: 2025-09-25 15:01:35 +0300
+date: 2025-05-30 15:01:35 +0300
 authors: [junbum, yongmin]
-image: 'https://placehold.co/1200x800'
-tags: [Lifestyle]
+image: 'posts/2-m.jpg'
+tags: [Technology]
 toc: true
 ---
+***
+# MCP의 이해
 
 ## MCP(Model Context Protocol)란?
 
 인공지능 기술의 발전과 함께, AI 시스템이 외부 데이터와 효과적으로 연동되는 것이 점점 더 중요한 이슈가 되었다. 기존에는 AI 모델이 내부적으로 훈련된 데이터만을 기반으로 작동하는 경우가 많았지만, 실시간 정보 활용과 사용자 소통의
 동적 문맥(Context) 유지가 필수적인 환경에는 이러한 방식이 한계를 보였기 때문에 AI 시스템이 외부 데이터와 원활하게 통신하고 정보를 활용할 수 있는 새로운 프로토콜이 필요해졌다고 볼 수 있다.
 
-> Nature doesn’t hurry, yet everything is accomplished — so too can we find calm in its presence.
-
 MCP(Model Context Protocol)는 ‘대규모 언어 모델이 외부 데이터와 시스템을 더 효과적으로 활용할 수 있도록 설계된 일종의 연결 프로토콜’이다. MCP 방식을 최초로 도입한 거대 언어 모델 클로드(Claude)의 개발사인 미국 인공지능 스타트업
 앤트로픽(Anthropic)은 MCP를 USB-C 포트에 비유하는데 USB-C가 다양한 기기와 주변 장치를 표준화된 방식으로 연결하듯이, MCP는 AI 모델이 다양한 데이터 소스와 도구에 표준화된 방식으로 연결될 수 있게 해준다.
 이와 같이 MCP는 AI 모델이 특정 문맥(Context) 안에서 적절히 작동하도록 지시하거나, 상호작용하는 방식을 표준화한 프로토콜을 의미한다. 이는 특히 멀티모달 시스템, 멀티모델 프레임워크, 프롬프트 기반 대형 언어 모델(LLM:large language
 model)에서 중요해지고 있는 구조인 것이다.
 
-## Enhancing creativity and focus
+![mcp?](/magazine/posts/2-1.jpg)
+*What is Model Context Protocol (MCP)?*
 
-Studies have shown that even brief exposure to natural environments can decrease feelings of anxiety. In contrast to the overstimulation of urban life, nature provides a more relaxed setting, allowing the mind to reset and refocus. Whether it’s a stroll during lunch or a weekend camping trip, time outdoors can serve as a natural remedy for stress.
+### MCP의 주요 특징
+1. ##### 개방형 표준(Open Standard)
+* 오픈소스로 공개되어 있어 누구나 자유롭게 사용하고 개선할 수 있다. 앤트로픽이 개발했지만 Claude와 같은 그들의 모델에만 국한되지 않고 어떤 AI 모델에서도 사용할 수 있다.
+2. ##### 양방향 연결(Two-way Connection)
+* AI 모델과 데이터 소스 간의 양방향 통신을 지원한다. 기존 API 호출 방식에서는 AI가 데이터를 요청하면 서버가 한 번 응답하고 끝나는 방식이었지만,MCP에서는 AI 모델과 데이터 소스가 지속적으로 연결된 상태에서 서로 정보를 주고받을 수 있다.
+3. ##### 범용성과 표준화(Universality and Standardization)
+* 다양한 데이터 소스와 도구를 하나의 표준 프로토콜로 연결할 수 있게 해준다.
+개발자는 각 데이터 소스마다 별도의 커넥터를 유지할 필요 없이 단일 프로토콜을 통해 연결할 수 있다.
+4. ##### 보안 및 신뢰성(Security and Reliability)
+* AI 모델과 데이터 소스 간의 안전하고 신뢰할 수 있는 연결을 제공한다. 이를 통해 개인 정보 보호와 데이터 무결성을 유지할 수 있다.
 
-![Woman](https://placehold.co/1200x800#wide)
-*A beautiful day to start all over again*
+### MCP의 핵심 목표
 
-Sunlight is a natural mood booster, playing a key role in the production of serotonin—a neurotransmitter that helps regulate mood and feelings of well-being. Spending time outside, especially on sunny days, can increase serotonin levels, leading to improved mood and a greater sense of happiness. This is one reason why people often feel more cheerful and positive after spending time outdoors.
+MCP(Model Context Protocol)는 AI 모델이 단순히 텍스트를 생성하는 수준을 넘어, 외부 데이터와 도구에 실시간으로 접근하고 협업할 수 있도록 지원하는 개방형 프로토콜이다. 이는 LLM이 정적인 정보에만 의존하는 기존 한계를 극복하고, 상황에 맞는 문맥을 실시간으로 구성할 수 있게 해준다. 예를 들어, AI가 코드 저장소, 클라우드 문서, 데이터베이스 등에서 직접 정보를 가져와 응답에 반영할 수 있기 때문에, 정확성과 활용성이 대폭 향상된다. MCP는 단순한 기능 보완이 아닌, AI를 지능형 상호작용 에이전트로 진화시키는 기술적 전환점이라 할 수 있다. 이로써 AI는 다양한 업무 자동화, 분석, 콘텐츠 생성 등 실질적 응용 영역에서 보다 강력한 성능을 발휘할 수 있으며, 실제 산업 현장과의 연결성 또한 크게 강화된다. 궁극적으로 MCP의 목표는 AI의 실효성과 실행력을 극대화하는 데 있다.
 
-## Improving mood with sunshine and fresh air
+![MCP 프로세스](/magazine/posts/2-2.jpg#wide)
+*ChatGPT 활용 이미지*
 
-Beyond sunlight, simply breathing in fresh air can rejuvenate the mind and body. The change in environment, from indoor spaces to the open sky, can help shift perspective and bring about a sense of freedom. This change can be especially helpful for those experiencing seasonal affective disorder (SAD) during darker, colder months. Even in the winter, bundling up for a walk outside can have a powerful impact on mood and energy levels.
+## MCP 이슈 인사이트
 
-Nature isn’t just good for relaxation; it’s also a source of inspiration. Spending time outdoors has been shown to boost creativity and focus, providing a mental clarity that’s hard to achieve in indoor settings. This phenomenon, often referred to as "attention restoration theory," suggests that natural environments help the brain recover from mental fatigue, allowing for more effective concentration and problem-solving.
+### AI 시장 패러다임의 총체적 대전환
 
-Many creative professionals and thinkers turn to nature when they need to clear their minds or find new ideas. A walk through a forest or along a beach can help unlock creative thoughts, making nature an invaluable tool for anyone seeking a fresh perspective. It’s a reminder that sometimes the best ideas come when we step away from our screens and immerse ourselves in the natural world.
+지난 한국문화기술연구소에서 기고한 “딥시크(DeepSeek) AI 관련 동향 보고” 이슈 브리프를 통해 딥시크의 등장이 AI 시장의 패러다임을 근본적으로 변화시키며, 기술 경쟁과 산업 구조 재편을 가속화하고 있다는 사회적 현상을 다루었다. 딥시크는 OpenAI 사의 인공지능 모델인 GPT의 대항마로 중국에서 개발되었으며, 훈련비용만 수천억 원이 소요되는 자원 집약적인 GPT 모델 방식을 탈피하고, 효율적인 자원 분산 구조 채택을 통해 해당 비용의 100분의 1 수준인 약 80억만으로 GPT와 대등한 성능을 발휘할 수 있는 AI 모델 개발에 성공했다. 그리고 개발 과정에 모든 코드를 오픈소스로 공개했다는 것 때문에 시장 패러다임에 변화를 주며 인공지능의 민주화 시대를 열었다는 평가를 받았다.
 
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="https://placehold.co/1200x800" loading="lazy">
-  </div>
-  <em>Keep moving towards your dreams</em>
+![mcp 형식지원](/magazine/posts/2-3.jpg)
+*MCP 형식을 지원한다는 내용의 샘 알트만 X(구 '트위터')*
+
+2025년 3월 27일, 오픈AI의 CEO인 샘 알트만은 오픈AI가 자사 제품 전반에 MCP 지원을 추가한다고 밝혔다. 개인적으로 앤트로픽이 MCP를 발표할 때만 해도 많은 이들이 ‘경쟁자인 오픈AI가 안 따라줄 텐데?’라고 생각했는데, 모두의 예상을 뒤엎은 상황이 생긴 것이다. 이로써 AI 업계의 양대 산맥인 두 회사가 모두 MCP 세계관에 들어왔고, ‘이제는 MCP가 AI 산업 표준’이라는 의견들이 나오는 이유가 되었다.
+
+이러한 변화는 인공지능 모델을 학습에 전제이자 필수적으로 요구되는 GPU 확보라는 기초적인 문제조차 해결하지 못해 곤경에 처해있던 우리나라와 같은 인공지능 산업 후발주자들도 저비용으로 세계 레벨에 근접한 대형 언어 모델 개발을 통해 시장에 참가할 수 있다는 희망을 가질 수 있게 한 것이다. 하지만 해당 관련된 보고 이후 2개월 남짓 한 시간 만에 등장한 MCP(Model Context Protocol) 개념은 딥시크가 AI 시장에 준 충격을 감소시켰다. 이처럼 우리는 새로운 시대에서 빠르게 변화하는 기술적 흐름에 잘 적응해야만 되는 것이다.
+
+![mcp 형식지원](/magazine/posts/2-4.jpg)
+*MCP 구성, QueryPie*
+
+***
+
+#### [표] 딥시크와 MCP의 주요 차이점 비교
+
+ <div class="table-container">
+   <table>
+    <tr><th>항목</th><th>딥시크(DeepSeek)</th><th>MCP(Model Context Protocol)</th></tr>
+    <tr><td>핵심 성과</td><td>GPT 대비 저비용 고성능LLM + 오픈소스</td><td>GPT와 같은 LLM을 맥락 기반 시스템으로 확장하는 패러다임 전환</td></tr>
+    <tr><td>구조적 초점</td><td>모델 아키텍처 및 훈련 방식</td><td>모델과 외부 시스템 간 프로토콜 정의</td></tr>
+    <tr><td>시장 임팩트</td><td>후발주자의 LLM 시장 진입 가능성 제시</td><td>기존 LLM 자체를 구조적으로 대체할 수 있는 가능성 시사</td</tr>
+   </table>
+ </div>
+
+*<견해에 관한 유의사항>딥시크와 MCP를 절대적으로 비교할 수 없으며, 서로 상호관계가 형성될 수 있음*
+
+***
+
+OpenAI는 자사 에이전트 SDK에 MCP를 공식 지원하였
+으며, Microsoft는 Azure OpenAI 서비스에 MCP 통합 가이드와 사례를 공개했다.
+Azure 환경에서 Claude 같은 MCP 호환 AI가 Bing 검색이나 SharePoint 문서까지
+실시간으로 활용하는 예제가 소개되었고, AWS 역시 관련 튜토리얼을 준비 중인 것
+으로 알려졌다.
+
+![mcp 구성](/magazine/posts/2-5.jpg)
+*MCP 구성, QueryPie*
+
+### MCP 이후의 AI 시장 구조:‘모델’에서‘메타시스템’으로 에이전트 보스의 등장
+
+에이전트 보스(Agent Boss)는 마이크로소트프(MS)가 최근 발표한 개념으로 인간이 하나 이상의 AI 에이전트를 관리하고 협업하는 업무방식이 앞으로 보편화되는 시대에 인간의 역할을 의미한다.
+
+![mcp 구성](/magazine/posts/2-6-1.jpg)
+*ChatGPT 활용 이미지, 영화포스터*
+
+MCP는 단순히 하나의 인공지능 모델이 아닌, AI 시스템 간 상호작용을 위한 표준화된 문맥 프레임워크로 기능한다. 이는 기존의 대형 언어 모델(LLM)이 독립적 텍스트 생성 도구였던 것에서 벗어나, “멀티 에이전트 운영체제(Operating Protocol for Agents)”로 진화하는 출발점이라 볼 수 있다. 기존 GPT와 같은 인공지능 단일 모델이 강력한 두뇌(CPU) 역할을 해왔다면, MCP는 다양한 기능단위를 “분산적이고 능동적으로 통제하는 운영체제(OS)”로 이해할 수 있다.
+
+이 운영체제를 자유롭게 사용할 수 있는 인간은 마치 영화 리미트리스(Limitless)의 NZT-48을 복용하여 뇌의 기능을 100% 가동할 수 있게 된 브래들리 쿠퍼처럼 보고 들은 것을 모두 기억하며, 하루에 한 개의 외국어를 습득할 필요도 없이 외국어에 능통하게 되고, 복잡한 수학공식도 단숨에 풀어버리는 등 전 분야 걸쳐 모든 일들을 기존의 사람들보다 우수하게 처리할 수 있는 슈퍼파워를 발휘하는 초능력자가 될 수 있는 것이다.
+
+### 한국 인공지능 전략의 방향 전환
+
+MCP가 도입된 이후, AI 경쟁은 모델 성능의 문제가 아니라, 맥락 설계 능력과 도구 연계 능력의 문제로 전환되고 있다. 이에 따라 한국도 이제 단순히 모델을 훈련하여 개발하는 것에 집중하기보다, 프로토콜 기반 AI 생태계를 설계·운영하는 역량 확보에 전략적 초점을 맞춰야 한다.
+
+인공지능의 도입으로 인하여 직장인들의 생계를 위협하고 있다는 것은 이제 우려를 넘어선 모두가 알고 있는 예고된 미래이다. 산업연구원에서 최근 발표한 보고서에서도 AI로 인해 국내 327만 개 일자리가 위협받을 수 있다고 경고했으며, 특히 단순 노무직과 콜센터 직원 등이 1순위로 꼽혔지만, MCP의 시대가 오면서 복잡하고 전문성이 필요한 직군이 위협받는 것은 물론이며, MCP를 도입하지 않은 인공지능 서비스 또한 완전히 사장되는 시대가 될 것으로 전망된다.
+
+![mcp 구성](/magazine/posts/2-7.jpg)
+*ChatGPT 활용 이미지*
+
+이러한 현상은 “딥시크가 AI 모델의 민주화를 열었다면, MCP는 AI 사회의 헌법을 쓰기 시작했다.”라는 짧은 문장으로 비유할 수 있다. OpenAI의 GPT와 구글의 Gemini는 과거 석기시대에 돌을 바닥에 던져 원하는 형태의 돌이 나올 때까지 반복하는 것과 유사한 방식으로 동작하며, 딥시크는 원하는 형태를 만들기 위해 돌을 갈아 만드는 방식으로 뗀석기 시대보다 좀 더 빠르고 자원이 덜 드는 방식의 간석기 돌 만들기 방식과 다를 바가 없다. 반면에 MCP는 화석연료의 발명에 비유할 수 있다. 사용자의 무한한 창의성에 따라 MCP는 화석연료에 기반한 증기기관을 개발하고 비행기를 개발하여 산업과 시대의 전환을 만들 수도 있으며, 총과 대포를 만들어 세상에 위협을 초래할 수도 있다. 그 무엇이 되든 MCP는 무한한 가능성을 가지고 있으며 이에 준비되지 않는 모든 존재들은 구석기 시대에 머물거나 사라지게 될 것이다.
+
+***
+# 2. MCP 관련 브리핑
+
+## MCP 기술 브리프
+
+전 세계 생성형 AI 앱의 선두를 압도적으로 점령한 챗GPT의 개발사인 OPEN AI CEO인 Sam Altman 또한 시대에 순응하며 도입하기로 결정한 MCP 개념은 인공지능 애플리케이션이 LLM에 컨텍스트를 제공하는 방식을 표준화하는 개방형 프로토콜이다. USB-C가 다양한 주변 기기 및 액세서리에 기기를 연결하는 표준화된 방식을 제공하는 것처럼, MCP는 다음과 같은 아키텍처를 통해 AI 모델을 다양한 데이터 소스 및 도구에 연결하는 표준화된 방식을 제공한다.
+
+![mcp 구성](/magazine/posts/2-8.jpg)
+*Claude, Cursor, Smithery, PulseMCP*
+
+## MCP 구성요소
+###### 1. MCP 클라이언트 기반 호스트(Host with MCP Client)
+* MCP 서버와 1:1 연결을 유지하는 클라이언트를 통해 데이터에 액세스하는 Claude Desktop, IDE 또는 AI 도구와 같은 프로그램
+###### 2. MCP 프로토콜(MCP Protocol)
+* 호스트가 MCP 서버와 통신할 수 있도록 하는 표준화된 프로토콜
+###### 3. MCP 서버(MCP Server)
+* 기능을 확장할 수 있는 플러그인 또는 익스텐션과 유사한 개념, 확장 기능을 담당하는 모듈로 특정 기능을 수행하는 경량화된 프로그램
+###### 4. 로컬 데이터 소스 및 원격 서비스(Local Data Source and Remote Service)
+* MCP 서버가 안전하게 액세스할 수 있는 컴퓨터의 파일, 데이터베이스 및 서비스와 인터넷(예: API를 통해)을 통해 사용 가능한 외부 시스템
+
+![mcp 구성](/magazine/posts/2-9.jpg)
+*MCP 구조도, 클로드(Claude) 공식 홈페이지*
+
+## MCP의 클라이언트와 서버 및 LLM을 연결하기 위한 핵심 아키텍처
+모델 컨텍스트 프로토콜(MCP)은 LLM 애플리케이션과 통합 간의 원활한 통신을 지원하는 유연하고 확장 가능한 아래와 같은 아키텍처를 기반하며 다음과 같은 기능을 수행한다.
+
+1. 호스트(MCP Host) :연결을 시작하는 LLM 애플리케이션 (예: Claude Desktop 또는 Cursor와 같은 AI IDE).
+
+2. 클라이언트(MCP Client): 호스트 애플리케이션 내부에서 서버와 1:1 연결을 유지
+
+3. 서버(MCP Server): 클라이언트에게 컨텍스트, 도구 및 프롬프트를 제공하며 Smithery, PulseMCP와 같은 플랫폼에서 다양한 서버를 제공하고 있다.
+
+## MCP 국내외 동향
+1. DeepSeek에 대한 관심도 변화
+![mcp 구성](/magazine/posts/2-10.jpg)
+*구글 트렌드 변화추이*
+
+2. MCP에 대한 관심도 변화
+![mcp 구성](/magazine/posts/2-11.jpg)
+*구글 트렌드 변화추이*
+
+구글 트렌드에서 DeepSeek와 MCP의 키워드에 대한 관심도 변화를 비교하였을 때 DeepSeek에 대한 관심도는 지난 2월 등장함과 동시에 최고치에 도달한 뒤 급격하게 하강하는 것을 볼 수 있다. MCP도 등장 약 2개월 만에 빠르게 정점에 도달하였으나, DeepSeek에 대한 관심이 일시적으로 상승하였던 것에 비해 비교적 완만하게 관심도를 불러일으켰으며, 지금 현재까지도 높은 관심도를 유지하고 있는 것을 확인할 수 있다. 물론 아직까지 DeepSeek가 전체적으로 높은 관심도인 것은 부인할 수 없지만 위의 구글 트렌드 그래프 비교를 통해 향후 지속 가능한 기술 키워드는 MCP가 될 것이라는 것을 예측해 볼 수 있다.
+
+깃허브(github)의 데이터베이스에 저장된 별(프로젝트)의 기록을 차트로 만들어 주는 분석 도구로 깃허브의 프로젝트의 업로드 수가 급격히 오른 시기에 따라 해당 시점에 유명했던 기술을 시각적으로 파악할 수 있으며, 별의 변화량에 따라 기술 발전 혹은 기술 수요가 정체된 것을 알 수 있도록 시각화된 정보를 제공한다. 아래 그림을 살펴보면 MCP의 등장으로 관련된 프로젝트의 수가 2025년 들어와서 급속하게 늘어나고 있음을 확인할 수 있다. 이는 구글 트렌드와 비슷한 흐름을 가지고 있다. AI 사용자들의 관심도와 개발자들의 프로젝트가 시장에 상용되는 동향이 같음을 알 수 있다.
+
+![mcp 구성](/magazine/posts/2-12.jpg)
+*GitHub star history "MCP" 변화추이*
+
+## MCP Server의 폭발적인 증가와 게이트웨이의 등장
+
+앞에서 소개하였던 것처럼 호스트의 기능을 확장 시켜주는 서버의 종류는 MCP 자체에 대한 관심도가 높아짐에 따라, 현재 문자 그대로 다이너마이트가 폭발하듯이 그 수가 증가하고 있다. 마치 인터넷 태동기에 셀 수 없이 많은 홈페이지들이 만들어지고 스마트폰의 등장과 동시에 어플리케이션이 쏟아졌듯이, MCP의 등장과 동시에 엄청난 수의 서버가 등장하고 있는 것이다.이에 따라 자연스럽게 이 서버들을 소개하고 확산할 인터넷의 포털과 같은 공간이 생겨나게 되었고 사용자들은 이를 게이트웨이라 칭한다. 대표적인 게이트웨이는
+Smithery(https://smithery.ai/)와 PulseMCP(https://www.pulsemcp.com/)가 존재하고 있으며,현재 각각 업로드되어있는 서버의 개수는 각각 6,717개 4,476(2025년 5월 27일
+기준)에 이른다. 지금도 새로고침 하는 순간에 검증된 서버들이 수없이 업로드되고 있는 것이 특징적이다.
+
+![mcp 구성](/magazine/posts/2-13.jpg)
+*Smithery*
+
+국내 대표적인 IT 서비스 기업인 카카오와 네이버도 이에 발맞추어 관련된 MCP 서버를 제공하고 있으나, 그 수가 많지 않을뿐더러 이들은 인공지능 에이전트가 해당 서비스를 모두 활용할 수 있을 만한 수준의 서버가 아닌 단편적인 기능을 제한적으로 제공하는 형식적인 수준에 머무르고 있고 그 외의 업체들은 아직 태동조차 하고 있지 못한 상태이다. 아직까지 국내 기업들은 정책적으로 자체적인 인공지능 모델을 개발하고 이를 통해 자사 중심의 서비스를 최우선 하는 것을 최우선 하고 있는데, 앞으로 MCP 프로토콜을 준수한 서버를 제공하지 못한다면 서비스 종료를 넘어 기업 소멸의 길로 갈 것이 예상되기에 심각하게 우려가 되는 상황이다.
+
+예를 들어, 메타 플랫폼즈에서 운영하는 세계 최대 규모의 모바일 메신저인 왓츠앱(WhatsApp)은 클로드 같은 호스트 앱에게 MCP 서버를 제공하는 데 사용자는 이를 통해 왓츠앱을 실행하지 않고도 대화형 인공지능 서비스를 사용해서 다른 사용자에게 메시지를 보낼 수 있다. 더 나아가서 현재의 수준만으로도 다음과 같은 작업이 가능하다. 사용자가 대규모 행사를 기획할 때 내가 가지고 있는 1,000명의 상대방에게 연락하여 행사의 기획 의도와 각각에 질문들에 대해 답변하고 참가 의사를 확정하여 문서로 정리해 예약까지 신청해 달라는 요청쯤은 아주 가볍게 실행할 수 있는 것이다. 여기에 음성 생성 기능을 제공하는 서버를 사용하면 실제로 대화를 통해 답변할 수도 있게 된다. 이러한 선진화된 기능을 제공할 수 있는 메신저 앱과 그렇지 않은 앱이 있다면 후자들은 과거 한 시대를 풍미했던 MSN 메신저의 뒤를 따라 몰락의 길을 걸을 수 있다.
+
+
+***
+# MCP 관련 시사점
+## 정책·산업 관련 시사점
+
+### MCP가 불러올 새로운 형태의 보안 위협
+
+국내에서는 아직까지 MCP에 대한 논의조차 활발하게 이루어지지 않았지만, 보안 위험에 대한 정책적 대비는 필요한 시점이다. 아마존 웹서비스(AWS)와 A2RS 연구소 연구진은 최근 “MCP를 위한 엔터프라이즈급 보안:프레임워크 및 대응 전략” 논문을 통해 MCP 환경에서 새롭게 등장할 수 있는 위험을 정의하였으며, 대표적인 5개의 위협은 다음 표와 같다.
+
+#### [표] MCP 보안 위협 시나리오
+
+<div class="table-container">
+  <table>
+   <tr><th>항목</th><th>공격방식</th><th>대응방안</th></tr>
+   <tr><td>도구오염(Tool Poisoning)</td><td>무해해 보이는 도구에 은밀한 악성
+기능을 삽입하여 모델이 속도록 유도</td><td>정적/동적 분석 도구로 실행
+코드 검증</td></tr>
+   <tr><td>러그풀 업데이트(Rug-Pull Updates)</td><td>초기에는 정상이나, 시간이 지나며 악성 기능이 추가되는 형태</td><td>도구 업데이트 시 서명 검증 및 감사 로그 기록</td></tr>
+   <tr><td>RADE(Retrieval -Agent Deception)</td><td>외부 문서에 MCP 명령을 은닉하여 검색 에이전트를 통해 모델을 속임</td><td>검색결과 내 코드 영역 필터링 및 격리 처리</td</tr>
+  <tr><td>서버 스푸핑(Server Spoofing)</td><td>가짜 서버가 진짜처럼 위장하여
+모델이 악성 도구를 불러오게 만듦</td><td>도구 서명 + TLS 인증서 기반의 출처 검증 필수</td</tr>
+  <tr><td>교차 서버 그림자 공격(Cross-Server Shadowing)</td><td>여러 서버가 MCP 도구를 제공할 때, 악성 서버가 타 서버의 도구를 덮어씌움</td><td>세션 레벨 도구 이름 충돌방지 정책 + 교차 검증 로그 생성</td</tr>
+  </table>
 </div>
 
-Engaging in outdoor activities, such as hiking, biking, or rock climbing, can do more than build physical strength — it can also enhance mental resilience. Overcoming the challenges posed by nature, whether it’s navigating a difficult trail or braving the elements, can foster a sense of accomplishment and self-efficacy. These experiences help build confidence and can be especially empowering for those struggling with self-doubt or feelings of inadequacy.
+MCP는 탄생 목적 자체가 사용자와 인공지능 모델이 간편하게 사용할 수 있도록 설계되었기 때문에 도구의 이름과 설명, 입력/출력 스키마만으로 모델이 판단하여 위장된 도구가 보안망을 쉽게 통과할 수 있다. 모델이 의도한 기능 범위 내에서 작동하고 있다고 생각하며 위험한 명령을 실행할 수 있는 것이다. 이는 MCP의 “보안 및 신뢰성”이라는 특징이 가져올 수 있는 문제이다. 러그풀 업데이트 위협도 마찬가지로 빠른 업데이트를 위해 자동 업데이트 메커니즘이나 주기적인 검토가 부족하기 때문에 일어나는 현상이고, RADE 위협 또한 검증되지 않은 공개 문서 안에 MCP 명령 패턴을 은폐시켜 두고, 검색 에이전트를 통해 모델이 해당 문서를 불러오게 유도하여 데이터 조작이나 의도하지 않은 도구 호출을 유도할 수 있게 되는 것이다.
 
-## Building resilience through outdoor challenges
+MCP는 손쉽게 다양한 서버에서 도구를 불러올 수 있도록 설계돼 있으므로, 인증 절차가 미흡하면 이를 악용한 서버 스푸핑을 통해 공격자는 정상적인 서버를 모방한 가짜 서버를 만들고, 동일한 도구 목록과 설명을 포함한 메니페스트를 제공하면 모델은 이를 진짜로 착각하여 가짜 서버에서 도구를 실행하고, 그 과정에서 정보 탈취나 명령어 변조가 일어날 수 있고 한 번에 다중의 작업 수행을 위한 멀티 에이전트 역할수행을 위해 하나의 모델 세션 도구를 사용하게 되는 경우에 악의적인 서버가 다른 서버의 도구 사용 방식을 방해하거나 왜곡된 메타데이터를 삽입해 모델의 판단을 흐리게 만들어 동일한 도구 이름을 재정의하거나 상충하는 지침을 제공해 모델이 잘못된 도구를 선택하도록 유도하는 등의 교차 서버 그림자 공격을 할 수 있는 것이다.
 
-This mindful connection to the natural world can be profoundly grounding, helping to reduce feelings of rumination and worry. Many people find that activities like birdwatching, gardening, or walking barefoot on the grass provide a simple yet effective way to center themselves. Nature encourages us to let go of distractions and focus on what’s right in front of us, which can have a lasting impact on our mental well-being.
+![mcp 구성](/magazine/posts/2-14.jpg)
+*ChatGPT 활용 이미지*
 
-The benefits of spending time outdoors for mental health are both well-documented and deeply felt. From reducing stress and anxiety to boosting creativity, mood, and resilience, nature offers a natural and accessible way to improve well-being. The key is to make outdoor time a regular part of daily life—whether it’s a walk in the park, a weekend hike, or simply sitting on a bench under a tree.
+위와 같은 위험을 방지하여 전체 MCP 생태계의 모듈 성과 신뢰성이 붕괴하지 않도록 국내외적으로 정책적 신뢰성을 부여하는 산업적 지원이 필요하다. 그럼에도 불구하고 상기와 같은 보안 이슈에도 MCP는 전 세계적으로 거스를 수 없는 표준화에 대한 흐름으로 보인다. 이에 따라 국내 관련 산업계도 흐름을 받아들이고 정책적인 표준으로 대비해야 할 것이다.
+
+![mcp 구성](/magazine/posts/2-15.jpg)
+
+## 문화기술과의 협업 및 접점
+우리 한국문화기술연구소에서는 MCP의 개념이 최초로 등장하였을 때 문화체육관광 연구개발(R&D) 수요조사에 MCP와 관련된 기술을 제안한 적이 있다.
+
+### 다중 AI 에이전트 협업 기반 문화콘텐츠 멀티 플랫폼 개발
+
+![mcp 구성](/magazine/posts/2-16.jpg)
+*KCTI 자체작성*
+
+해당 기술 수요에서는 MCP와 Agent-to-Agent(A2A) 구조에 기반한 다중 AI 에이전트 협업 시스템 개발을 제안하였다. 이를 통해 사용자는 고퀄리티의 게임, 웹툰, 전시, 소설 등 다양한 문화콘텐츠를 단시간만에 개발할 수 있게 된다. 제안한 시스템의 각 AI 에이전트는 기획, 작가, 디자이너, 개발자, 평가자 등의 역할을 분담하여 상호 협업하고, 멀티 모달 생성 엔진과 연동하여 텍스트, 이미지, 음악 등 전 범위의 콘텐츠를 통합적으로 제작하는 것을 목표로 하였다. 각각의 AI 에이전트는 상호 프로토콜과 피드백 루프를 통해 창작 품질을 향상 시키며, 지식 그래프와 히스토리에 기반한 내용과 맥락을 유지 하여 최종적으로 사용자가 일관성 있는 콘텐츠는 물론 인터랙션이 가능한 교육 프로그램과 메타버스 등 다양한 문화 기술 콘텐츠를 생성하여 무한한 콘텐츠를 생성할 수 있게 되는 것이다. 대표사례로 MCP를 이용하여 포토샵 등 프로그램과의 연결로 자동 편집되는 기능이 있다.
+
+![mcp 구성](/magazine/posts/2-17.jpg)
+*클로드에 블렌더(3D프로그램)를 연결해 쓰는 화면*
+
+### MCP 기반 한국문화기술 콘텐츠 장르별 아이디어
+
+* AI 기반 개인화 소설/웹툰: 독자의 선택과 반응에 따라 실시간으로 스토리가 변하는 독자 참여형 인터랙티브 소설 연재
+* 문화유산 체험 콘텐츠: 문화재를 AR/VR로 재현하되, MCP로 사용자의 관심사에 맞춰 해설과 체험 경로 개인화 기술. 조선시대 인물과 실시간 대화할 수 있는 역사 체험 서비스
+* 언어 장벽 없는 문화 교류: MCP로 실시간 번역과 문화적 맥락 설명을 제공하는 한국 문화 체험 플랫폼 개발
+* AI 한류 큐레이션 플랫폼: 사용자의 문화적 배경, 언어, 취향을 MCP로 분석해 맞춤형 K-pop, K-drama, K-food 콘텐츠 추천
+* 지역 문화 아카이빙 플랫폼: 각 지역의 방언, 전통 음식, 민속놀이 등을 MCP로 수집·분석해 디지털 아카이브 시스템 구축
+* AI 버츄얼 아이돌/인플루언서: 팬들과의 상호작용을 MCP로 학습해 점점 더 자연스럽고 개인화된 소통을 하는 가상 아이돌 제작
+* 소셜 문화 체험 게임: MCP로 참가자들의 협력도, 선호도를 분석해 최적의 게임 경험 제공 서비스
+
+### MCP 기반 한국문화기술 미래에 관한 제언
+
+지금까지 작성한 견해를 정리하면 본 기술의 활용도가 높아질 경우, 기대되는 파급효과는 단순히 기술적 확장에 그치지 않는다는 것이다. 한국문화기술연구소가 제안한 바와 같이, MCP와 같은 개방형 표준을 기반으로 기술적으로 표준화된 인공지능 기능이 문화산업 전반에 도입될 경우, 생성형 AI가 생산해 내는 콘텐츠의 양과 질 모두에서 전례 없는 성장이 가능하다. 특히, 이러한 기술 기반은 단순 반복형 콘텐츠를 넘어 고차원적 감성 표현과 창의적 서사 구조를 갖춘 고품격 콘텐츠 제작으로 이어질 수 있으며, 이는 기존의 콘텐츠 산업과 차별화되는 핵심 요소가 될 수 있다.
+
+이와 같은 콘텐츠는 K-드라마, K-음악, K-애니메이션 등 세계적으로 인정받는 K-Culture의 정체성과 결합함으로써, 기술 중심의 AI 콘텐츠와 문화 중심의 스토리텔링이 융합된 새로운 장르를 창출할 수 있을 것이다. 나아가, 이러한 흐름은 단순히 콘텐츠 생성에 그치지 않고, 전 세계 소비자를 대상으로 하는 플랫폼 생태계의 구축으로 이어질 가능성도 높다고 판단된다.
+
+따라서, 궁극적으로는 대한민국 문화체육관광부가 주도하는, K-Culture 기반의 AI 콘텐츠를 전문적으로 큐레이션하고 글로벌 스트리밍 하는 ‘AI 기반 문화 OTT 서비스’가 출범할 수 있으며, 이는 국가 주도의 새로운 문화산업 모델로 자리 잡을 수 있다. 이는 단지 기술 혁신의 결과가 아닌, 대한민국이 문화와 기술의 융합을 통해 글로벌 문화 주도국으로서의 위상을 재정의하는 중요한 분기점이 될 수 있음을 시사한다.
+
+{{< callout "note" >}}
+##### 참고자료
+* MCP 공식 사이트, https://modelcontextprotocol.io/introduction
+* Model Context Protocol (MCP): Landscape, Security Threats, and Future Research Directions https://arxiv.org/abs/2503.23278
+* Get Started with Pieces MCP (MCP공식설명문서), https://docs.pieces.app/products/mcp/get-started
+* Anthropic 공식 발표 뉴스, https://www.anthropic.com/news/model-context-protocol
+* Anthropic, "Model Context Protocol Specification (2025-03-26): Architecture.", Anthropic Documentation, 2025.
+* P. Schmid, "Model Context Protocol (MCP) an overview.", philschmid.de Blog, Apr. 3, 2025.
+* A. Hathibelagal, "Understanding Model Context Protocol (MCP): A protocol that’s trying to standardize
+how LLMs access external data and tools.", Predict (Medium), Mar. 9, 2025.
+* Visual Studio Code, “Use MCP servers in VS CODE”
+* 채널톡, “MCP는 AI업계의 표준이 될까요?”. 2025
+* 파이토치, MCP 개념 및 학습 자료
+* 요즘IT, “요즘 핫한 ‘MCP’ 정체가 뭘까?”
+{{< /callout >}}

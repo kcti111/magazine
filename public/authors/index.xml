@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>참여 연구진 on 문화기술 이슈 매거진</title>
+    <title>CT Magazine Authors on 문화기술 이슈 매거진</title>
     <link>http://localhost:1313/magazine/authors/</link>
-    <description>Recent content in 참여 연구진 on 문화기술 이슈 매거진</description>
+    <description>Recent content in CT Magazine Authors on 문화기술 이슈 매거진</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Jan 2026 15:01:35 +0300</lastBuildDate>
@@ -13,21 +13,21 @@
       <link>http://localhost:1313/magazine/authors/yongmin/</link>
       <pubDate>Thu, 15 Jan 2026 15:01:35 +0300</pubDate>
       <guid>http://localhost:1313/magazine/authors/yongmin/</guid>
-      <description>&lt;p&gt;컴퓨터 공학 연구 담당자. 정책과제 진행하고 있습니다.&lt;/p&gt;</description>
+      <description>&lt;p&gt;문화기술 이슈 매거진 실무자 주용민입니다.&lt;/p&gt;&#xA;&lt;p&gt;현재 한국문화기술연구소에서 정책과제 기획 및 문화기술을 연구하고 있습니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/magazine/authors/sojin/</link>
       <pubDate>Sat, 27 Dec 2025 15:01:35 +0300</pubDate>
       <guid>http://localhost:1313/magazine/authors/sojin/</guid>
-      <description>&lt;p&gt;안녕하세요. 저는 한국문화기술연구소 김소진입니다. 융합디자인학 박사로서 문화기술 이슈 매거진의 편집장을 담당하고 있습니다.&lt;/p&gt;</description>
+      <description>&lt;p&gt;안녕하세요.&lt;/p&gt;&#xA;&lt;p&gt;한국문화기술연구소 김소진 선임연구원입니다.&lt;/p&gt;&#xA;&lt;p&gt;융합디자인학 박사이며, 문화기술 이슈 매거진의 활동을 총괄하고 있습니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
       <link>http://localhost:1313/magazine/authors/eunsol/</link>
       <pubDate>Fri, 14 Nov 2025 18:05:55 +0300</pubDate>
       <guid>http://localhost:1313/magazine/authors/eunsol/</guid>
-      <description>&lt;p&gt;나는 안은솔입니다.&lt;/p&gt;</description>
+      <description>&lt;p&gt;저는 한국문화기술 연구소의 안은솔입니다.&lt;/p&gt;</description>
     </item>
     <item>
       <title></title>
@@ -39,9 +39,9 @@
     <item>
       <title></title>
       <link>http://localhost:1313/magazine/authors/junbum/</link>
-      <pubDate>Thu, 25 Sep 2025 15:01:35 +0300</pubDate>
+      <pubDate>Fri, 30 May 2025 15:01:35 +0300</pubDate>
       <guid>http://localhost:1313/magazine/authors/junbum/</guid>
-      <description>&lt;p&gt;저는 한국문화기술연구소의 책임연구원으로써 정책과제 개발실장을 담당하고 있습니다.&lt;/p&gt;</description>
+      <description>&lt;p&gt;한국문화기술연구소 책임연구원 표준범입니다.&lt;/p&gt;&#xA;&lt;p&gt;현재 연구개발 실장을 담당하고 있습니다.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

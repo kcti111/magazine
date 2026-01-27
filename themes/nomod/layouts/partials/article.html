@@ -12,7 +12,7 @@
 
       {{ if .context.Params.Image }}
       <a class="article__image" href="{{ .context.RelPermalink }}" aria-hidden="true" tabindex="-1">
-        <img class="lazy" data-src="{{ .context.Params.Image | relURL }}" alt="{{ .context.Title }}">
+        <img class="lazy" data-src="{{ .context.Params.Image | absURL }}" alt="{{ .context.Title }}">
       </a>
       {{ end }}
     </div>
