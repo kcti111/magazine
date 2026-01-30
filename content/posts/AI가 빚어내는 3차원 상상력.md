@@ -1,40 +1,316 @@
 ---
 title: AI가 빚어내는 3차원 상상력
 description: 3D 오브젝트 생성 기술와 문화기술 비지니스
-date: 2025-11-14 18:05:55 +0300
+date: 2025-10-24 17:00:55 +0300
 authors: [eunsol,jieun]
 image: 'posts/9-m.jpg'
-tags: [Lifestyle]
+tags: [Technology, Ai]
 featured: true
 toc: true
 ---
 
+## 서론
+
 2020년 OpenAI의 ChatGPT 발표를 기점으로, 생성형 인공지능(AI) 기술은 전세계적인 주목을 받으며 발전을 거듭해 왔다. 이미지 생성에 특화된 DALL-E3[1], Midjourney[2]와 동영상 생성 모델인 Sora[3] 등 생성형 AI 기술의 출현은 전문적인
 지식과 리소스 없이도 창의적인 콘텐츠 제작을 가능하게 했다. 이러한 기술의 활용 범위는 이미 사회 전반으로 확장되고 있다. 실제로 유튜브 등의 플랫폼에서는 생성형 AI 기반으로 생성된 가상 모델이 출연하는 광고와 미디어를 쉽게 접할 수 있다. LG 유플러스에서는 모든 컷을 AI로 생성한 광고를 제작하였으며[4], 롯데칠성음료에서도 제품을 홍보하기 위해 AI를 활용하여 광고를 제작했다[5]. 이는 AI가 실제 비즈니스 환경과 대중의 일상 속에 깊숙이 스며들고 있음을 명확히 보여준다.
 
-##  Understanding what mindfulness is
+![Ai](/magazine/posts/9-1.jpg)
+*AI를 활용한 광고 사례들. (a) LG 유플러스사의 광고, (b) 롯데칠성사의 광고*
 
 생성형 AI 모델들은 단일 모달리티를 넘어 텍스트, 이미지, 비디오를 통합적으로 처리하고 생성하는 멀티모달(Multimodal) AI로 진화하고 있는 추세다. 이런 발전의 연장선상에서 최근 주목받고 있는 분야는 3D 오브젝트 생성이다. 엔비디아는 텍스트 프롬프트를 활용해 3D 오브젝트를 생성하는 도구인 GET3D(A Generative Model of High Quality 3D)와 Latte3D(Large-scale Amortized Text-To-Enhanced3D
 Synthesis)를 발표했다[6,7]. 3D 오브젝트는 전통적으로 산업 설계, 디지털 트윈과 같은 제조 영역뿐만 아니라 게임, 영화 등 고부가가치 콘텐츠 산업에서 필수적인 요소로 활용되어 왔다. 그러나 기존의 3D 오브젝트 모델링은 전문 인력의 숙련된 기술과 상당한 제작 시간이 요구되어 비용과 접근성 측면에서 제약이 컸다. 생성형 AI 기반 3D 오브젝트 생성 기술은 이러한 제약을 근본적으로 해소할 수 있는 대안으로 주목받고 있다. 기술을 활용하면 텍스트나 이미지 입력만으로도 3차원 오브젝트를 자동으로 생성할 수 있어, 제작 효율성을 높이고 접근성을 크게 향상시킬 것으로 기대된다.
 
-![Team](https://placehold.co/1200x800)
-*The whole team is assembled*
+![Ai](/magazine/posts/9-2.jpg)
+*NVIDIA사의 3D 오브젝트 생성 모델들*
 
-Living mindfully has a profound impact on both mental and physical well-being. Studies have shown that mindfulness reduces stress, anxiety, and depression while improving concentration, emotional regulation, and overall happiness. When you approach life mindfully, you also enhance your relationships, as you become more attentive and empathetic toward others. Mindful living encourages gratitude, helping you appreciate life’s small joys and fostering a sense of inner peace.
+3D 오브젝트 생성 기술은 제조, 건축, 도시 계획, 의료, 콘텐츠, 광고 등 다양한 산업 분야에 걸쳐 활용 가능성이 크다. 무엇보다도 빠른 생성과 적용을 통해 개인화된 경험을 제공함으로써 광고 및 미디어 전반에 걸쳐 새로운 비즈니스 모델과 가치를 창출할 것으로 예상된다. 특히 3D 오브젝트 생성 기술은 광고 제작의 효율성을 극대화하는 동시에 일관된 브랜드 아이덴티티를 유지할 수 있다는 점에서 광고 분야의 효과적인 도구가 될 수 있다. 본고에서는 3D 오브젝트 생성 기술의 광범위한 활용 가능성 중에서도 광고 분야에서의 가치와 전망에 대해 살펴보고, 3D 오브젝트 생성 기술의 현황을 간략히 언급하고자 한다.
 
-## Integrating mindfulness into daily routines
+## 활용성과 파급효과
 
-As data generation accelerates at the edge—closer to where it's collected—edge computing is gaining traction as a way to process information faster. By moving data processing closer to its source, edge computing reduces latency and bandwidth issues, making it ideal for applications that require real-time decision-making, such as autonomous vehicles and IoT devices. The integration of edge computing with AI and machine learning is paving the way for more responsive, intelligent systems that can make instantaneous decisions.
+광고 분야에서 3D 오브젝트 생성 기술은 콘텐츠 제작의 혁신을 주도할 것으로 기대된
+다. 전통적인 광고 제작 방식은 실제 제품 촬영, 복잡한 세트 구성, 혹은 물리적 제약으
+로 인해 높은 비용과 긴 제작 시간을 요구되는 경우가 많았다. 그러나 생성형 AI를 통
+해 기존 광고 제작의 한계를 극복하고, 구현하기 어려운 콘셉트까지 시각화할 수 있게
+되었다. 나아가 애니메이션, 게임 등 다양한 형식에 최적화된 콘텐츠를 신속하게 제작
+할 수 있는 유연성을 제공함으로써, 마케팅 효율성을 높일 수 있다.
+3D 오브젝트 생성 기술을 활용한 광고는 단순히 제작 효율성을 높이는 것을 넘어, 소
+비자 경험을 혁신하는 새로운 마케팅 방법을 제시한다. 3D 오브젝트는 웹사이트, 소셜
+미디어, 증강현실(AR) 및 가상현실(VR) 등 다양한 디지털 채널에서 상호작용 가능한
+형태로 활용될 수 있다. 예를 들어, 소비자는 제품을 360도 뷰로 탐색하거나 가상으로
+자신의 공간에 제품을 배치해 볼 수 있다. 이러한 인터랙티브 경험은 제품에 대한 이해
+도와 몰입도를 높여 구매 결정에 직접적인 영향을 미친다. 궁극적으로 3D 오브젝트 생
+성 기술을 통한 광고는 단순한 정보 전달을 넘어, 소비자와 브랜드 간의 감각적이고 몰
+입도 높은 소통을 구축하는 도구가 될 수 있다. 본고에서는 3D 오브젝트 생성 기술이
+활용될 수 있는 광고 사례를 살펴보고자 한다.
 
-![Man](https://placehold.co/1200x800)
-*Enjoy every moment*
+### 게임 및 애니메이션
 
-In a world dominated by screens, it's easy to lose touch with the present moment. Digital distractions like social media, emails, and constant notifications pull us away from experiencing life as it happens. A mindful lifestyle involves consciously creating boundaries with technology. Consider implementing a digital detox by setting aside time each day to disconnect from your devices, allowing you to reconnect with yourself, nature, and the people around you. This practice can significantly reduce mental clutter and enhance focus.
+게임과 애니메이션은 전통적으로 3D 오브젝트의 주요 활용처다. 이러한 배경 속에서
+3D 오브젝트 생성 기술은 광고의 지평을 넓히는 핵심적인 도구로 활용될 수 있다.
+실제 제품을 애니메이션이나 게임 속 세계관에 자연스럽게 통합하는 것은 매우 복잡
+하고 시간이 많이 소요되는 작업이다. 그러나 3D 오브젝트 생성 기술은 실제 제품을
+디지털 모델로 재현하여, 애니메이션의 스토리나 게임의 환경에 자연스럽게 녹여낼
+수 있다. 이는 시청자나 사용자에게 친숙하면서도 몰입감 있는 경험을 제공하며, 특정
+IP를 활용한 마케팅 효과를 극대화한다.
+특히 게임 산업은 다양한 브랜드와의 협업이 활발하게 이루어지는 산업군으로, 3D
+오브젝트 생성 기술이 인게임(in-game) 광고와 아이템 프로모션에 혁신을 가져올 수
+있다. 게임 내 실제 제품의 3D 오브젝트를 배치하거나, 게임의 환경에 자연스럽게 녹
+아들 수 있도록 구성하여 플레이어가 자연스럽게 해당 제품을 접하거나, 특정 브랜드
+의 아이템을 게임 보상으로 제공하는 방식이 대표적이다. 이는 단순한 배너 광고를
+넘어 게임 플레이와 연동된 상호작용적 광고 경험을 제공함으로써, 브랜드 인지도를
+높이고 제품에 대한 긍정적인 이미지를 형성하는 데 효과적이다.
 
-> Mindfulness isn’t about eliminating thoughts; it’s about observing them without judgment and letting them pass.
+![Ai](/magazine/posts/9-3.jpg)
+*게임과 브랜드간 콜라보레이션 사례들 [8,9,10]*
 
-While mindfulness can be practiced in daily activities, meditation is a powerful tool for deepening your mindfulness practice. Even just 5-10 minutes of meditation a day can help quiet the mind and create a space for reflection. Meditation involves focusing on your breath, bodily sensations, or a mantra, allowing you to become more attuned to your thoughts and emotions. Over time, this practice strengthens your ability to remain present and centered, even during stressful moments.
+애니메이션 분야에서도 3D 오브젝트 생성 기술은 더욱 정교하고 사실적인 광고를
+가능하게 한다. 애니메이션 속 캐릭터가 특정 브랜드의 제품을 사용하거나 제품이 스
+토리에 자연스럽게 통합되면, PPL(Product Placement)의 효과가 극대화된다. 이는 팬
+덤을 기반으로 한 애니메이션의 높은 영향력을 광고 수익으로 연결하는 강력한 수단
+이 되며, 궁극적으로 애니메이션과 브랜드 간의 시너지를 창출한다.
 
-## Mindfulness and digital detox
+### 버추얼 아티스트 및 마켓
 
-Embracing a mindful lifestyle is not about perfection or reaching a destination; it’s about making a conscious effort to live with intention, awareness, and compassion. Mindfulness helps you slow down and appreciate life’s moments, no matter how small. By integrating mindfulness into your daily routines, you open the door to greater peace, mental clarity, and a deeper connection to yourself and the world around you. The path to mindfulness is a lifelong journey.
+K-콘텐츠 산업에서 AI 기술의 접목은 매우 개방적으로 이루어지고 있으며, 이미 상
+당한 인기를 얻고 있다. VLAST의 버추얼 아티스트 ‘플레이브(PLAVE)’는 국내를 넘어
+전 세계적인 팬덤을 형성하며 그 영향력을 입증하고 있다. 실제로 2025년 서울가요대
+상 수상과 오리콘 차트 석권 등은 이들의 높은 대중성을 보여주는 사례다.
+이런 버추얼 아티스트의 인기는 플레이브에 국한되지 않는다. 2025년 10월 개최된
+MBC 버추얼 라이브 페스티벌에는 플레이브 외에도 이세계아이돌, 아뽀키 등 다양한
+버추얼 아티스트의 출연이 예정되어 있다. 이들은 AI 기술이 전통적인 엔터테인먼트
+산업을 어떻게 혁신할 수 있는지 보여주는 대표적인 사례이다. 특히 이들의 콘텐츠 형
+식과 3D 오브젝트 생성 기술이 만나면 더 큰 시너지 효과를 낼 것으로 예상된다. 이
+들의 활동은 가상 공간을 기반으로 이루어지면서 동시에 현실 세계에 큰 영향력을 가
+지기 때문이다. 구체적으로, 플레이브가 참여한 화장품 광고는 가상 환경에 실제 제품
+의 1:1 모델을 구현하고 이를 사용하는 모습을 팬들에게 노출한, 새로운 형태의 광고
+였다[11,12].
+
+![Ai](/magazine/posts/9-4.jpg)
+*플레이브의 화장품 광고 영상*
+
+버추얼 마켓은 새로운 경제 생태계로 작동한다. 가장 큰 버추얼 마켓인 Vket(Virtual
+Market)은 가상현실 공간에서 열리는 거대한 마켓플레이스다[13]. 이곳에서는 기업뿐
+만 아니라 개인 창작자들도 자신이 만든 3D 아이템, 의상, 액세서리 등을 실제 돈을
+받고 판매한다. 마치 현실의 백화점이나 매장에서 일어나는 모든 경험이 3D 가상공간
+에서 이루어진다. VR이라는 독특한 환경을 기반으로 제한 없는 풍부한 표현을 통해
+자사의 서비스를 홍보할 수 있으며, 타사 IP(Intellectual Property)와의 협업을 실행할
+수 있는 새로운 시장이기도 하다.
+
+![Ai](/magazine/posts/9-5.jpg)
+*(a) vKet의 버추얼 리얼리티 마켓, (b) vKet과 현실을 융합시킨 XR 체험형 이벤트 ‘VketReal’, (c) vKet의 주식회사 TV 아사히 광고물, (d) vKet의 SMBC 닛코 증권 주식회사 광고물. [14,15,16]*
+
+### VR 광고
+
+VR 광고는 기존의 광고와는 다른 방식으로 전개된다. 전통적인 광고는 텔레비전 화
+면이나 신문 지면처럼 ‘평면’ 위에서 제품이나 서비스가 소개된다. VR 광고는 소비자
+를 ‘보는’ 존재에서 광고 속 세상에 ‘들어가 경험하는’ 존재로 만든다.
+
+![Ai](/magazine/posts/9-6.jpg)
+*게임 플랫폼 Steam에 게시된 IKEA VR Experience [17]*
+
+스웨덴 가구 브랜드 IKEA는 VR 기술을 활용해 고객이 가구와 마감재를 선택하여 자
+신만의 가상 주방을 만들어 볼 수 있도록 하는 VR 콘텐츠를 제공한다. 이러한 접근법
+의 혁신성은 단순히 주방 사진을 보여주는 데 그치지 않고, 실제로 그 공간을 체험하
+며 기존의 카탈로그나 매장 전시와는 완전히 다른 쇼핑 경험을 제공하는 데 있다.
+
+***
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/magazine/posts/9-7-1.jpg" loading="lazy">
+    <img src="/magazine/posts/9-7-2.jpg" loading="lazy">
+  </div>
+  <em>코카콜라사의 VR 마케팅 사례 [18]</em>
+</div>
+
+코카콜라는 브랜드의 상징적 이미지인 크리스마스와 산타클로스를 VR로 구현했다.
+사용자는 산타클로스와 함께 썰매를 타고 하늘을 날며 전 세계 곳곳에 선물을 배달하
+는 마법 같은 경험을 할 수 있다. 이 사례가 보여주는 중요한 점은 VR 광고가 단순히
+제품 설명을 위한 기능에 그치지 않고, 브랜드가 가진 ‘감정적 가치’를 체험할 수 있게
+한다는 것이다.
+
+***
+<div class="gallery-box">
+  <div class="gallery">
+    <img src="/magazine/posts/9-8-1.jpg" loading="lazy">
+    <img src="/magazine/posts/9-8-2.jpg" loading="lazy">
+  </div>
+  <em>게임 플랫폼 Steam에 게시된 MSI Electric City [19]</em>
+</div>
+
+컴퓨터 하드웨어 브랜드 MSI는 게이머를 위한 미래 도시 ‘Electric City’라는 VR 경
+험을 선보였다. 사용자는 MSI의 장비 곳곳을 탐험할 수 있다. 이 사례는 특히 타깃
+고객층의 취향과 문화를 깊이 이해하고 반영한 예시다. 게이머들이 좋아하는 미래적이
+고 역동적인 분위기를 VR로 구현함으로써, 단순한 제품 소개를 넘어 브랜드와 고객
+간의 정서적 연결을 만들어냈다고 볼 수 있다.
+이런 사례들이 보여주는 것은 VR 광고가 단순히 ‘새로운 기술’ 자체에 주목한 것이
+아니라, 고객과의 관계를 근본적으로 재정의하는 수단으로 활용되고 있다는 점이다. 과
+거에는 브랜드가 메시지를 일방적으로 전달했다면, 이제는 고객이 브랜드의 세계관에
+직접 참여하고 상호작용하는 양방향 커뮤니케이션이 가능해진 것이다. 이런 변화는 광
+고 산업에 중요한 시사점을 제공한다. 단순히 ‘알리는’ 광고가 아닌, ‘경험하는’ 광고로
+의 패러다임 전환이 시작되었음을 알 수 있다.
+
+## 3D 오브젝트 생성 기술 동향
+
+과거의 3D 모델링은 마치 조각가가 돌덩어리에서 조각상을 깎아내듯, 전문가들이 수
+많은 점과 선, 면을 하나하나 컴퓨터에 입력해가며 만들었다. 그러나 AI 기술의 발전
+으로 텍스트, 2D 이미지, 또는 간단한 스케치로부터 3D 모델을 자동으로 생성할 수
+있게 되었다. 더불어 사용자 친화적인 인터페이스와 자동화된 워크플로를 제공하는 다
+양한 AI 도구들이 출시되면서, 전문가뿐만 아니라 일반 사용자들도 3D 오브젝트 생성
+에 쉽게 접근할 수 있는 환경이 조성되고 있다. 본고에서는 현재 시장에 등장한 3D
+오브젝트 생성을 위한 AI 도구들을 간략히 소개하고자 한다.
+
+![Ai](/magazine/posts/9-9.jpg)
+*NVIDIA GET3D 소개 영상 일부*
+
+### 산업 확장성과 수익 모델
+
+NVIDIA는 고품질의 텍스처 메시 기반 3D 오브젝트 자동 생성 모델인 GET3D를 공
+개했다. GET3D는 2D 이미지 데이터만으로 학습하여 사실적인 형상과 질감을 동시에
+생성할 수 있는 프레임워크다. 이를 통해 사용자는 고품질의 3D 오브젝트를 보다 효
+율적으로 확보할 수 있으며, 그래픽 디자인이나 가상 환경 제작에 소요되는 비용과 시
+간을 크게 절감할 수 있다. 기술적으로 GET3D는 형상(Geometry) 생성기와 질감
+(Texture) 생성기의 결합 구조를 기반으로 한다.
+형상을 만드는 과정에서는 마치 점토를 깎아내듯 복잡한 구조를 가진 입체 골격을 직
+접 형성하고, 질감을 입히는 과정에서는 표면을 덮는 고해상도의 피부 같은 무늬를 만
+들어낸다. 학습 과정에서는 생성된 3D 물체를 사진처럼 평면으로 투영한 뒤, 그 결과
+를 바탕으로 형상의 세부 굴곡과 사실적인 질감을 더 정교하게 다듬는 방식을 사용한
+다. 이러한 기술 덕분에 단순한 이미지 입력만으로도 자유로운 형태의 3D 모델을 만
+들 수 있으며, 별도의 수정 작업 없이도 바로 Blender나 Maya와 같은 그래픽 도구에
+서 활용할 수 있다.
+
+![Ai](/magazine/posts/9-10.jpg)
+*NVIDIA Latte3D 소개 영상 일부*
+
+2024년에는 텍스트 입력만으로 실시간에 가까운 고품질 3D 오브젝트를 생성하는
+Latte3D를 발표했다. 기존의 3D 생성 기술은 점토를 깎아내듯 먼저 뼈대를 만들고 그
+위에 피부 같은 질감을 덧입히는 과정을 거친다. 이러한 방식은 정교하지만 시간이 오
+래 걸리는 단점이 있다. NVIDIA의 Latte3D는 즉석카메라처럼 빠르게 결과를 생성하
+는 방식으로 작동한다. 흐릿한 형태를 먼저 잡아낸 뒤 짧은 시간 안에 여러 시점에서
+본 모습을 동시에 고려해 선명한 입체로 완성하기 때문에, 형태와 질감을 따로 나누지
+않고 한 번에 자연스럽게 만들어낼 수 있다.
+
+![Ai](/magazine/posts/9-11.jpg)
+*Latte3D의 Architecture Overview*
+
+![Ai](/magazine/posts/9-12.jpg)
+*Hunyuan3D[20]의 Pipeline*
+
+텐센트에서 제공하는 Hunyuan3D는 고해상도 3D 오브젝트를 생성하는 대규모 3D
+합성 시스템이다. 가장 최근에 발표된 Hunyuan3D 2.5 시스템은 단순히 입체 모양을
+만드는 데 그치지 않고, 실제 장인이 손으로 조각한 것처럼 정밀한 디테일을 구현할
+수 있다. 이 모델은 크게 두 단계로 작동한다. 먼저 형상 생성 단계에서는 대규모 인
+공지능 모델을 사용하여 매끄럽기도 하고 날카롭기도 한 형태의 3D 구조를 만들어낸
+다. 이를 통해 로봇의 손가락 개수나 자동차 바퀴 무늬처럼 세밀한 부분까지 정확하게
+표현할 수 있으며, 기존 생성 모델보다 훨씬 자연스럽고 완성도 높은 결과물을 만들어
+낸다. 질감 생성 단계에서는 표면의 재질과 빛의 반사를 사실적으로 재현하는 물리적
+원리를 반영하여 질감을 생성한다.
+금속, 나무, 유리와 같은 재질의 느낌을 현실감 있게 표현할 수 있으며, 여러 시점에
+서 바라보았을 때도 질감이 일관되게 유지되도록 설계되었다. 이러한 기술 덕분에 게
+임, 영화, VR 등 다양한 분야에서 활용하기 적합하며, 이미지 한 장이나 텍스트 설명
+만으로도 사실적인 3D 모델을 얻을 수 있다. 더불어 오픈 소스로 공개되어 있어 누구
+나 접근할 수 있으며, Hunyuan3D-Studio 플랫폼을 통해 제공되는 인터페이스를 사용
+하여 이미지 또는 텍스트로 3D 오브젝트를 생성해 볼 수 있다.
+
+![Ai](/magazine/posts/9-13.jpg)
+*VARCO 3D[21] VETA 일부*
+
+NC 소프트의 자회사인 NC AI가 개발한 VARCO 3D는 게임 개발 과정에서 핵심
+적인 3D 그래픽 리소스 제작의 효율성을 극대화하기 위한 생성형 AI 솔루션이다.
+이 서비스는 텍스트 프롬프트 입력만으로 고품질의 3D 모델을 신속하게 생성할 수 있도록 설계되었다. 특히, 현재 공개된 웹 기반 서비스인 VARCO 3D VETA에서는
+사용자가 텍스트를 입력하여 이미지를 생성하고, 그 이미지를 기반으로 형상과 질
+감을 가진 3D 오브젝트를 자동으로 생성하는 멀티모달 기반 워크플로를 제공한다.
+VARCO 3D는 단순한 모델 생성 기능에 그치지 않고, 3D 에셋을 실무 파이프라인
+에 통합할 수 있도록 다양한 기능을 제공한다. 사용자는 생성된 오브젝트의 형상과
+질감을 텍스트 기반의 편집 기능으로 개별적으로 미세 조정할 수 있어 직관적인
+제어가 가능하다.
+또한, 게임 캐릭터 제작에 필수적인 리깅(Rigging) 및 애니메이션 연동 기능과, 3D
+모델의 구조를 최적화하는 리메시(Remesh) 기능을 추가로 지원한다. 최종적으로 생성
+된 모델은 다양한 형식으로 다운로드가 가능하여, 별도의 복잡한 최적화 과정 없이 게
+임 레디(Game-Ready) 수준의 3D 오브젝트로 기존의 게임 엔진이나 DCC(Digital
+Content Creation) 툴에 바로 통합·활용할 수 있도록 설계되었다.
+
+## 이슈 및 문화기술과의 협업
+
+2025년 대한민국 글로벌 지수 보고서에 따르면, 문화 산업은 대한민국의 새로운 경쟁
+력 원천으로 부상하고 있다. 특히 K-팝, 영화, TV 프로그램 등 국내 콘텐츠의 세계적
+성공은 한국의 문화적 영향력을 크게 확장시키고 있으며, 이를 활용한 광고 및 마케팅
+활동은 국가 경제 전반에 새로운 가치를 창출하고 있다[22]. 문화 산업의 발전에 따라
+3D 오브젝트 생성 기술은 상당한 시너지 효과를 창출할 수 있는 잠재력을 지니고 있
+다. 무엇보다도 다양한 콘텐츠와 지식재산(IP)를 활용한 광고 및 마케팅 분야에서 높은
+부가가치가 기대된다. 다만, 이러한 성장과 함께 다양한 차원의 과제가 뒤따른다.
+
+### 인프라 및 소규모 기업 지원
+
+3D 오브젝트 생성을 위해서는 컴퓨팅 자원과 인력 등 비용 소모가 매우 크다. 그러
+나 중소기업이나 소규모 스타트업, 인디 게임사는 이러한 인프라를 자체적으로 구축하
+기 어렵다. 이러한 문제를 3D 오브젝트 생성 기술이 완화할 수 있을 것으로 기대된다.
+따라서 자금력이 부족한 소규모 기업들이 기술 격차 없이 경쟁력을 확보하고 마케팅을
+수행할 수 있도록 3D 오브젝트 생성 기술을 쉽게 사용할 수 있는 플랫폼과 GPU 클
+라우드 서비스 등 컴퓨팅 자원 및 교육 프로그램을 지원해야 한다.
+이러한 플랫폼과 인프라 지원은 기술에 대한 접근성을 높이고 소자본으로도 고품질의
+콘텐츠를 제작할 수 있는 기회를 제공함으로써 문화 산업 생태계의 활성화를 이끌어낼
+수 있을 것이다.
+
+### 저작권 및 데이터 윤리 이슈
+
+인공지능 기술의 발전에 따라 학습 데이터의 출처 관리와 생성물의 저작권 귀속 문제
+가 중요한 이슈로 부상하고 있다. 저작권이 있는 데이터를 무단으로 사용해 모델을 학
+습시킬 경우, 법적 분쟁의 소지가 발생할 수 있다. 또한, 인공지능이 생성한 3D 오브
+젝트의 저작권을 누구에게 부여할 것인지에 대한 명확한 기준이 마련되어 있지 않은
+실정이다. 이는 창작자의 권리를 보호하고 건전한 산업 생태계를 조성하기 위해 해결
+해야 할 필수적인 과제다. 따라서 학습 데이터의 윤리적 사용 기준을 확립하고, 생성
+물의 저작권 귀속에 대한 사회적 합의와 법적 가이드라인이 마련되어야 한다.
+
+### 데이터 확보 및 품질 이슈
+
+고품질의 3D 모델 및 이미지 데이터 확보는 한국 문화 콘텐츠 제작 기술 발전에 필
+수적이다. 기존에 제공되는 3D 오브젝트 생성 모델들은 한국적 특색을 정교하게 반영
+하는 데 필요한 학습 데이터가 충분히 확보되지 않았다. 한복, 전통 건축물, 고유의 문
+화재와 같은 한국적 요소를 담은 3D 데이터가 확보되어야 하며, 이를 위해 공공기관
+과 민간 기업이 협력하고, 나아가 3D 오브젝트 데이터를 표준화된 형태로 공유하는
+노력이 필요하다.
+이러한 과제들은 궁극적으로 3D 오브젝트 생성 기술이 문화 기술과 만나 새로운 시
+너지를 창출하기 위한 필수 선결 조건이다. 3D 오브젝트 생성 기술의 발전은 문화, 산
+업 현장에서 어떻게 활용하느냐에 따라 진정한 가치가 드러난다. 특히 게임, 애니메이
+션 같은 콘텐츠 제작뿐 아니라, 광고와 마케팅 과정에서 시간과 비용을 획기적으로 절
+감하고 브랜드 경험을 혁신적으로 확장하는 데 큰 이점을 제공한다. 기존 지적 재산
+(IP)을 새로운 형태로 재해석하거나, 문화유산을 기반으로 차별화된 스토리텔링을 전개
+하는 등 마케팅 차원에서 새로운 비즈니스 기회를 창출할 수 있다는 점이 중요하다.
+따라서, 앞으로는 기술 자체의 진보만이 아니라, 이를 산업적·마케팅적 자산으로 전환
+하기 위한 국가 차원의 전략, 연구기관의 기술 심화, 민간 기업의 창의적 응용이 균형
+있게 맞물려야 한다. 각 주체의 관심과 노력이 모일 때, 3D 생성 기술은 단순한 제작
+도구를 넘어 문화 산업과 마케팅을 혁신하는 핵심 동력으로 자리매김할 것이다.
+
+{{< callout "note" >}}
+##### 참고자료
+- [1] OpenAI, "DALL·E 3," [Online]. Available: https://openai.com/index/dall-e-3.
+- [2] Midjourney, "Midjourney," [Online]. Available: https://www.midjourney.com/.
+- [3] OpenAI, "Sora," [Online]. Available: https://openai.com/sora/.
+- [4] LG U⁺, "100% AI로 탄생한 광고! 유플러스가 AX컴퍼니로 앞서 갑니다," YouTube, video, [Online]. Available: https://youtu.be/TwY-2-ioT9s.
+- [5] Lotte Chilsung, "[KRUSH] 크러시 캔 made by AI," YouTube, video, [Online]. Available: https://www.youtube.com/watch?v=FijBBg6PJrg.
+- [6] J. Gao, T. Shen, Z. Wang, W. Chen, K. Yin, D. Li, O. Litany, Z. Gojcic, and S. Fidler, "GET3D: A Generative Model of High Quality 3D Textured Shapes Learned from Images," Advances in Neural Information Processing Systems, 2022.
+- [7] K. Xie, J. Lorraine, T. Cao, J. Gao, J. Lucas, A. Torralba, S. Fidler, and X. Zeng, "LATTE3D: Large-scale Amortized Text-To-Enhanced3D Synthesis," in Proc. 18th European Conf. Comput. Vision (ECCV), 2024.
+- [8] Netmarble, "넷마블 모두의마블, 해태아이스 쌍쌍바와 콜라보 업데이트 실시," [Online]. Available: https://ch.netmarble.com
+/Newsroom/PressRelease/Detail?post_seq=5710&bbs_code=1014&post_tag=모두의마블.
+- [9] Blizzard Entertainment, "오버워치 2 x NERF," Blizzard Entertainment 웹사이트, 2025년 8월 4일, [Online]. Available: https://overwatch.blizzard.com/ko-kr/news/24216162/.
+- [10] Call of Duty Official, "Call of Duty x Squid Game 2: Young-hee Bundle | Call of Duty: Warzone & Black Ops 6,"YouTube, video, [Online]. Available: https://youtu.be/8-35EeGyNls.
+- [11] MEDIHEAL, "MEDIHEAL X PLAVE | 너의 모든 걸 연구해 (메디힐 연구소 …)," YouTube, video, [Online]. Available: https://youtu.be/HVjbgreVIyI.
+- [12] PLAVE, "￿플레이브 꽃이 피었나 봄￿ 봄맞이 노래방 &얼.꾸. 라이브 | #PLAVE Live Full Ver.," YouTube Live, live stream, [Online]. Available: https://www.youtube.com/live/Y-c-kG3Fhe0.
+- [13] HIKKY Co., Ltd., "Virtual Market (Vket): one of the world’s largest virtual events," [Online]. Available: https://vket.com/en/.
+- [14] Vketチャンネル Official, “Virtual Market 2025 Summer - 長尺紹介版,” YouTube, video, [Online]. Available: https://youtu.be/C3EejCQl15s/.
+- [15] ] Vketチャンネル Official, “VketReal 2025 Summer ダイジェストムービー,” YouTube, video, [Online]. Available: https://youtu.be/7K1NhoOgIqQ/.
+- [16] kokosil아키하바라, "메타버스상에서 개최되는 세계 최대의 VR 이벤트 「버추얼 마켓 2021」회장＆출전 기업 제1탄을 발표!!," kokosil아키하바라, Nov. 25, 2021. [Online]. Available: https://home.akihabara.kokosil.net/ko/archives/44257.
+- [17] IKEA Communications AB, "IKEA VR Experience," Steam Store, Apr. 5, 2016. [Online]. Available: https://store.steampowered.com/app/447270/IKEA_VR_Experience/.
+- [18] lemon-orange.com, "Coca Cola Virtual Reality Christmas Ride," YouTube, video, [Online]. Available: https://youtu.be/fFL2Dk2HYro.
+- [19] HyperBot Studio, "MSI Electric City: Core Assault," Steam Store, Sep. 8, 2017. [Online]. Available: https://store.steampowered.com/app/691930/MSI_Electric_City_Core_Assault/.
+- [20] Z. Zhao, Z. Lai, Q. Lin, Y. Zhao, H. Liu, S. Yang, Y. Feng, M. Yang, S. Zhang, X. Yang, H. Shi, S. Liu, J. Wu,Y. Lian, F. Yang, R. Tang, Z. He, X. Wang, J. Liu, X. Zuo, Z. Chen, B. Lei, H. Weng, J. Xu, … [and others], “Hunyuan3D 2.0: Scaling Diffusion Models for High Resolution Textured 3D Assets Generation,” *arXiv preprint arXiv:2501.12202*, submitted Jan. 21, 2025; revised Feb. 26, 2025. [Online]. Available: https://arxiv.org/abs/2501.12202.
+- [21] NCAI, “VARCO 3D," [Online]. Available: https://3d.varco.ai/
+- [21] 대한민국 국회도서관 의회정보실, “글로벌 지수를 통해 본 대한민국 2025년,” *Data+*, no. 2025-16호 (통권 제16호), 기획재정위원회, Aug. 18, 2025. [Online]. Available: https://nsp.nanet.go.kr/plan/subject/detail.do?nationalPlanControlNo=PLAN0000055075.
+{{< /callout >}}
+
+
+> "KCTI ISSUE BRIEF"는 <br>
+한국문화기술의 대표기관인 KCTI가 <br>최근의 문화기술 정보 관련 현안 이슈를 발굴·분석하여 시사점 및 해결 방안, 활용 방법을 제시하고자 발간합니다.<br>
+
+
+ around you. The path to mindfulness is a lifelong journey.

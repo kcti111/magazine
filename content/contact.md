@@ -1,7 +1,7 @@
 ---
 layout: contact
 title: Contact Us
-description: Nomod comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free.
-image: 'https://placehold.co/1200x800'
-image_caption: 'Photo by [Berol](https://placehold.co/1200x800) / [Lummi](https://placehold.co/1200x800)'
+description: 한국문화기술연구소는 모든 일반인, 기업, 기관과 협업을 준비하고 있습니다.
+image: '/magazine/images/kcti-b.jpg'
+image_caption: ''
 ---

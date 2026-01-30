@@ -6,70 +6,63 @@
     <description>Recent content on 문화기술 이슈 매거진</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 15 Jan 2026 15:01:35 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 24 Oct 2025 17:00:55 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/magazine/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>테스트_문화기술과 인공지능의 만남</title>
-      <link>http://localhost:1313/magazine/posts/%EB%AC%B8%ED%99%94%EA%B8%B0%EC%88%A0%EA%B3%BC-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EB%A7%8C%EB%82%A8/</link>
-      <pubDate>Thu, 15 Jan 2026 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/magazine/posts/%EB%AC%B8%ED%99%94%EA%B8%B0%EC%88%A0%EA%B3%BC-%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5%EC%9D%98-%EB%A7%8C%EB%82%A8/</guid>
-      <description>&lt;p&gt;As we enter an era of rapid technological advancement, the demand for more computational power has never been greater. From artificial intelligence to quantum computing, breakthroughs in technology are pushing the boundaries of what we once thought possible. Unlocking unprecedented computational power isn’t just about making machines faster; it’s about enabling innovations that can revolutionize industries, solve complex global challenges, and reshape the future of humanity.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the age of artificial intelligence, computational power is the fuel driving discoveries that will transform industries and societies.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>창작 도구를 넘어 파트너로</title>
-      <link>http://localhost:1313/magazine/posts/%EC%B0%BD%EC%9E%91-%EB%8F%84%EA%B5%AC%EB%A5%BC-%EB%84%98%EC%96%B4-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%A1%9C/</link>
-      <pubDate>Sat, 27 Dec 2025 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/magazine/posts/%EC%B0%BD%EC%9E%91-%EB%8F%84%EA%B5%AC%EB%A5%BC-%EB%84%98%EC%96%B4-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%A1%9C/</guid>
-      <description>&lt;p&gt;최근 생성형 인공지능(Generative AI)은 이미지 창작의 패러다임을 변화시키고 있다. 그 중심에는 Midjourney, DALL·E, Stable Diffusion 등 고성능 이미지 생성 모델이 있으며, 이들은 디자이너, 콘텐츠 제작자, 마케터 등 다양한 실무 영역에&#xA;서 실질적인 창작 도구로 활용되고 있다. 특히 미드저니(이하 Midjourney)는 텍스트 프롬프트만으로도 높은 시각적 완성도의 이미지를 생성할 수 있다는 점에서 창의 산업계의 주목을 받아왔다.&#xA;하지만, 텍스트 기반 생성 방식에는 구조적인 한계가 존재한다. 사용자는 매번 유사한 결과를 얻기 위해 유사한 프롬프트를 반복 입력해야 하며, 그 과정에서 생성 이미지 간의 시각적 일관성이 떨어지는 경우가 빈번히 발생한다. 동일한 인물, 장면, 스타일을 재현하려 해도 결과물마다 미세한 차이가 발생하는 문제가 있었고, 이는 특히 캐릭터 IP,브랜드 디자인, 시리즈형 콘텐츠 제작에서 중요한 제약 요인으로 작용하였다.&lt;/p&gt;</description>
-    </item>
     <item>
       <title>AI가 빚어내는 3차원 상상력</title>
       <link>http://localhost:1313/magazine/posts/ai%EA%B0%80-%EB%B9%9A%EC%96%B4%EB%82%B4%EB%8A%94-3%EC%B0%A8%EC%9B%90-%EC%83%81%EC%83%81%EB%A0%A5/</link>
-      <pubDate>Fri, 14 Nov 2025 18:05:55 +0300</pubDate>
+      <pubDate>Fri, 24 Oct 2025 17:00:55 +0300</pubDate>
       <guid>http://localhost:1313/magazine/posts/ai%EA%B0%80-%EB%B9%9A%EC%96%B4%EB%82%B4%EB%8A%94-3%EC%B0%A8%EC%9B%90-%EC%83%81%EC%83%81%EB%A0%A5/</guid>
-      <description>&lt;p&gt;2020년 OpenAI의 ChatGPT 발표를 기점으로, 생성형 인공지능(AI) 기술은 전세계적인 주목을 받으며 발전을 거듭해 왔다. 이미지 생성에 특화된 DALL-E3[1], Midjourney[2]와 동영상 생성 모델인 Sora[3] 등 생성형 AI 기술의 출현은 전문적인&#xA;지식과 리소스 없이도 창의적인 콘텐츠 제작을 가능하게 했다. 이러한 기술의 활용 범위는 이미 사회 전반으로 확장되고 있다. 실제로 유튜브 등의 플랫폼에서는 생성형 AI 기반으로 생성된 가상 모델이 출연하는 광고와 미디어를 쉽게 접할 수 있다. LG 유플러스에서는 모든 컷을 AI로 생성한 광고를 제작하였으며[4], 롯데칠성음료에서도 제품을 홍보하기 위해 AI를 활용하여 광고를 제작했다[5]. 이는 AI가 실제 비즈니스 환경과 대중의 일상 속에 깊숙이 스며들고 있음을 명확히 보여준다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>디지털 아바타 새로운 문화 인터페이스가 되다</title>
-      <link>http://localhost:1313/magazine/posts/%EB%94%94%EC%A7%80%ED%84%B8-%EC%95%84%EB%B0%94%ED%83%80-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%AC%B8%ED%99%94-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80-%EB%90%98%EB%8B%A4/</link>
-      <pubDate>Sat, 18 Oct 2025 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/magazine/posts/%EB%94%94%EC%A7%80%ED%84%B8-%EC%95%84%EB%B0%94%ED%83%80-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%AC%B8%ED%99%94-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80-%EB%90%98%EB%8B%A4/</guid>
-      <description>&lt;p&gt;21세기 초반부터 인공지능은 인간과 기계 간 상호작용을 더욱 자연스럽게 만들기 위한 방향으로 진화해왔다. 초기의 AI 기술은 주로 명령 기반의 입력-출력 구조에 머물렀지만, 2010년대 중반 이후 딥러닝의 발전과 함께 이미지, 음성, 텍스트를 복합적으로 이해하고 생성할 수 있는 인공지능이 등장하면서 대화형 AI의 새로운 가능성이 열리기 시작했다. 이른바 Conversational AI라 불리는 이 분야는 단순한 질문 응답을&#xA;넘어, 문맥을 이해하고 감정을 반영하며, 인간과 유사한 대화 경험을 제공하는 방향으로 진화하고 있다.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Wherever you go, you take yourself with you. And sometimes you need to get away from yourself to see yourself.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>스케치북이 된 도시</title>
-      <link>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81%EC%9D%B4-%EB%90%9C-%EB%8F%84%EC%8B%9C/</link>
-      <pubDate>Thu, 04 Sep 2025 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81%EC%9D%B4-%EB%90%9C-%EB%8F%84%EC%8B%9C/</guid>
-      <description>&lt;p&gt;Screen City Biennial(이하 SCB)은 노르웨이 스타방게르(Stavanger)에서 시작된 북유럽 최초의 “확장된 이동 이미지(Expanded Moving Image)”를 시작으로 현재까지 이어지는 비엔날레다. 기존 미술관을 벗어나 도시의 거리, 건물, 광장, 항구 등이 모두 스크린이 되는 공공 미디어 플랫폼을 구축했다. 프로젝션 매핑, LED 파사드, 사운드 설치, AR/VR, 애니메이션 등 다양한 기술이 활용되며, 예술 작품은 도시의 건축적&#xA;환경 및 시민의 이동 동선과 결합한다. 이는 단순히 “디지털 전시”가 아니라 도시 자체를 실시간 미디어 캔버스로 변모시키는 새로운 문화기술적 시도라 할 수 있다.&#xA;SCB은 단순한 예술제라기보다, 도시를 스크린 삼아 새로운 형태의 문화기술을 실험하는 장이다. 기획 의도부터 짚어보면, 오늘날 도시는 기술적 효율성만으로 평가받기 쉽다. 스마트시티 담론이 강조하는 교통, 에너지, 보안, 환경의 ‘효율적 관리’는 물론 중요한 요소지만, 도시를 살아가는 시민들에게는 문화적 서사와 정서적 경험 역시 핵심적인 가치다. SCB은 바로 이 지점에서 출발한다. 기술이 만든 스마트시티를 단순한 데이터의 집적체로 보지 않고, 그 데이터를 매개로 도시의 기억과 감각, 사회적 서사를 새롭게 그려내려는 시도였다. 기획자들은 “확장된 이동 이미지(Expanded Moving Image)”라는 개념을 내세우며, 도시가 곧 전시장이고, 시민이 곧 관객이자 배우라는 메시지를 던졌다는데 의미가 있다고 필자는 생각한다.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;서론&#34;&gt;서론&lt;/h2&gt;&#xA;&lt;p&gt;2020년 OpenAI의 ChatGPT 발표를 기점으로, 생성형 인공지능(AI) 기술은 전세계적인 주목을 받으며 발전을 거듭해 왔다. 이미지 생성에 특화된 DALL-E3[1], Midjourney[2]와 동영상 생성 모델인 Sora[3] 등 생성형 AI 기술의 출현은 전문적인&#xA;지식과 리소스 없이도 창의적인 콘텐츠 제작을 가능하게 했다. 이러한 기술의 활용 범위는 이미 사회 전반으로 확장되고 있다. 실제로 유튜브 등의 플랫폼에서는 생성형 AI 기반으로 생성된 가상 모델이 출연하는 광고와 미디어를 쉽게 접할 수 있다. LG 유플러스에서는 모든 컷을 AI로 생성한 광고를 제작하였으며[4], 롯데칠성음료에서도 제품을 홍보하기 위해 AI를 활용하여 광고를 제작했다[5]. 이는 AI가 실제 비즈니스 환경과 대중의 일상 속에 깊숙이 스며들고 있음을 명확히 보여준다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>하이브리드 공간으로의 전환</title>
       <link>http://localhost:1313/magazine/posts/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EA%B3%B5%EA%B0%84%EC%9C%BC%EB%A1%9C%EC%9D%98-%EC%A0%84%ED%99%98/</link>
-      <pubDate>Fri, 15 Aug 2025 15:01:35 +0300</pubDate>
+      <pubDate>Thu, 25 Sep 2025 15:00:35 +0300</pubDate>
       <guid>http://localhost:1313/magazine/posts/%ED%95%98%EC%9D%B4%EB%B8%8C%EB%A6%AC%EB%93%9C-%EA%B3%B5%EA%B0%84%EC%9C%BC%EB%A1%9C%EC%9D%98-%EC%A0%84%ED%99%98/</guid>
-      <description>&lt;p&gt;As we enter an era of rapid technological advancement, the demand for more computational power has never been greater. From artificial intelligence to quantum computing, breakthroughs in technology are pushing the boundaries of what we once thought possible. Unlocking unprecedented computational power isn’t just about making machines faster; it’s about enabling innovations that can revolutionize industries, solve complex global challenges, and reshape the future of humanity.&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;In the age of artificial intelligence, computational power is the fuel driving discoveries that will transform industries and societies.&lt;/p&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;chapter1-xr-기반-소셜-하이브리드-공간의-이해&#34;&gt;Chapter.1) XR 기반 소셜 하이브리드 공간의 이해&lt;/h1&gt;&#xA;&lt;h2 id=&#34;인간-아바타-상호작용의-새로운-지평&#34;&gt;인간-아바타 상호작용의 새로운 지평&lt;/h2&gt;&#xA;&lt;p&gt;XR(eXtended Reality) 기술은 이제 단순히 몰입적인 시각적 경험을 제공하는 차원을&#xA;넘어, 인간과 아바타 간의 상호작용을 통해 새로운 사회적 관계망을 형성하는 도구로&#xA;진화하고 있다. 기존의 메타버스 플랫폼이 개인적 몰입이나 게임적 참여에 초점을 두&#xA;었다면, Ars Electronica Futurelab이 제시한 SHARESPACE는 인간과 아바타의 공존&#xA;을 기반으로 한 소셜 하이브리드 공간(Social Hybrid Space)의 가능성을 탐색한다.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/magazine/posts/8-1.jpg&#34; alt=&#34;XR&#34;&gt;&#xA;&lt;em&gt;2025 Ars Electronica Futurelab “SHARESPACE”, 출처: 유튜브 공식 채널&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>스케치북이 된 도시</title>
+      <link>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81%EC%9D%B4-%EB%90%9C-%EB%8F%84%EC%8B%9C/</link>
+      <pubDate>Thu, 28 Aug 2025 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81%EC%9D%B4-%EB%90%9C-%EB%8F%84%EC%8B%9C/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;chapter1-screen-city-biennial-scb-소개&#34;&gt;Chapter.1) Screen City Biennial (SCB) 소개&lt;/h1&gt;&#xA;&lt;h2 id=&#34;scb-이해&#34;&gt;SCB 이해&lt;/h2&gt;&#xA;&lt;p&gt;Screen City Biennial(이하 SCB)은 노르웨이 스타방게르(Stavanger)에서 시작된 북유&#xA;럽 최초의 “확장된 이동 이미지(Expanded Moving Image)”를 시작으로 현재까지 이&#xA;어지는 비엔날레다. 기존 미술관을 벗어나 도시의 거리, 건물, 광장, 항구 등이 모두&#xA;스크린이 되는 공공 미디어 플랫폼을 구축했다. 프로젝션 매핑, LED 파사드, 사운드&#xA;설치, AR/VR, 애니메이션 등 다양한 기술이 활용되며, 예술 작품은 도시의 건축적&#xA;환경 및 시민의 이동 동선과 결합한다. 이는 단순히 “디지털 전시”가 아니라 도시 자&#xA;체를 실시간 미디어 캔버스로 변모시키는 새로운 문화기술적 시도라 할 수 있다.&#xA;SCB은 단순한 예술제라기보다, 도시를 스크린 삼아 새로운 형태의 문화기술을 실험하&#xA;는 장이다. 기획 의도부터 짚어보면, 오늘날 도시는 기술적 효율성만으로 평가받기 쉽&#xA;다. 스마트시티 담론이 강조하는 교통, 에너지, 보안, 환경의 ‘효율적 관리’는 물론 중요&#xA;한 요소지만, 도시를 살아가는 시민들에게는 문화적 서사와 정서적 경험 역시 핵심적인&#xA;가치다. SCB은 바로 이 지점에서 출발한다. 기술이 만든 스마트시티를 단순한 데이터&#xA;의 집적체로 보지 않고, 그 데이터를 매개로 도시의 기억과 감각, 사회적 서사를 새롭&#xA;게 그려내려는 시도였다. 기획자들은 “확장된 이동 이미지(Expanded Moving Image)”&#xA;라는 개념을 내세우며, 도시가 곧 전시장이고, 시민이 곧 관객이자 배우라는 메시지를&#xA;던졌다는데 의미가 있다고 필자는 생각한다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>무대 위로 들어온 관객</title>
+      <link>http://localhost:1313/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</link>
+      <pubDate>Thu, 14 Aug 2025 17:00:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;chapter1-immersive-entertainment-몰입형-엔터테이먼트&#34;&gt;Chapter.1) Immersive Entertainment (몰입형 엔터테이먼트)&lt;/h1&gt;&#xA;&lt;h2 id=&#34;코즘cosm의-shared-reality--무대-위로-들어온-관객-경험&#34;&gt;코즘(Cosm)의 Shared Reality – 무대 위로 들어온 관객 경험&lt;/h2&gt;&#xA;&lt;p&gt;로스앤젤레스 인글리우드의 코즘(이하 Cosm) 극장은 기존 극장이나 스포츠 경기장의&#xA;관람 경험을 재정의하는 공간으로 설계되었다. 이곳의 핵심은 Shared Reality라는 개념&#xA;이다. 관객이 헤드셋이나 별도의 착용형 장비 없이, 다수와 함께 동일한 몰입형 경험을&#xA;공유하는 구조이다. 그 중심에는 직경 약 26미터(87피트)에 달하는 12K 해상도의 곡면&#xA;LED 돔 스크린과 정밀 설계된 공간 음향 시스템이 있다. 이러한 환경은 관객의 시야와&#xA;청각을 모두 감싸며, 콘텐츠 속으로 물리적·정서적으로 끌어들이는 역할을 수행한다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>스위치2, 게임체인저의 전략</title>
+      <link>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%9C%84%EC%B9%982-%EA%B2%8C%EC%9E%84%EC%B2%B4%EC%9D%B8%EC%A0%80%EC%9D%98-%EC%A0%84%EB%9E%B5/</link>
+      <pubDate>Fri, 18 Jul 2025 15:01:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%9C%84%EC%B9%982-%EA%B2%8C%EC%9E%84%EC%B2%B4%EC%9D%B8%EC%A0%80%EC%9D%98-%EC%A0%84%EB%9E%B5/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;chapter1-기술-측면에서-본-닌텐도-스위치2&#34;&gt;Chapter.1) 기술 측면에서 본 닌텐도 스위치2&lt;/h1&gt;&#xA;&lt;h2 id=&#34;사용자와-상호작용-센서-활용의-극한-닌텐도-스위치2&#34;&gt;사용자와 상호작용! 센서 활용의 극한, 닌텐도 스위치2&lt;/h2&gt;&#xA;&lt;p&gt;지난 5월 출시된 닌텐도의 차세대 게임기&#xA;‘닌텐도 스위치2’는 국내외에서 폭발적인 반응을 얻으며 엄청난 흥행을 이어가고 있&#xA;다. 이번 이슈브리프 5호의 기고자로써 기존 인공지능 주제와는 다르게 특정 회사의&#xA;제품을 전면에 내세운다는 것이 아주 일반적이지 않은 상황인 것은 알고 있지만, 본&#xA;리포트에서는 역사적으로 전무후무한 콘텐츠 분야의 최강자이며 선두 주자인 닌텐도&#xA;사의 스위치2의 발매전략과 콘텐츠 주도권의 승기를 잡기 위한 닌텐도만의 특장점 분&#xA;석을 통해 향후 한국문화기술의 시대적 흐름과 고무적인 융합 방향을 모색하였다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>디지털 아바타 새로운 문화 인터페이스가 되다</title>
+      <link>http://localhost:1313/magazine/posts/%EB%94%94%EC%A7%80%ED%84%B8-%EC%95%84%EB%B0%94%ED%83%80-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%AC%B8%ED%99%94-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80-%EB%90%98%EB%8B%A4/</link>
+      <pubDate>Mon, 30 Jun 2025 17:00:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/posts/%EB%94%94%EC%A7%80%ED%84%B8-%EC%95%84%EB%B0%94%ED%83%80-%EC%83%88%EB%A1%9C%EC%9A%B4-%EB%AC%B8%ED%99%94-%EC%9D%B8%ED%84%B0%ED%8E%98%EC%9D%B4%EC%8A%A4%EA%B0%80-%EB%90%98%EB%8B%A4/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;chapter1-nvidia-ace의-이해&#34;&gt;Chapter.1) NVIDIA ACE의 이해&lt;/h1&gt;&#xA;&lt;h2 id=&#34;nvidia-aceavatar-cloud-engine-등장-배경&#34;&gt;NVIDIA ACE(Avatar Cloud Engine) 등장 배경&lt;/h2&gt;&#xA;&lt;p&gt;21세기 초반부터 인공지능은 인간과 기계 간 상호작용을 더욱 자연스럽게 만들기 위한 방향으로 진화해왔다. 초기의 AI 기술은 주로 명령 기반의 입력-출력 구조에 머물렀지만, 2010년대 중반 이후 딥러닝의 발전과 함께 이미지, 음성, 텍스트를 복합적으로 이해하고 생성할 수 있는 인공지능이 등장하면서 대화형 AI의 새로운 가능성이 열리기 시작했다. 이른바 Conversational AI라 불리는 이 분야는 단순한 질문 응답을&#xA;넘어, 문맥을 이해하고 감정을 반영하며, 인간과 유사한 대화 경험을 제공하는 방향으로 진화하고 있다.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>창작 도구를 넘어 파트너로</title>
+      <link>http://localhost:1313/magazine/posts/%EC%B0%BD%EC%9E%91-%EB%8F%84%EA%B5%AC%EB%A5%BC-%EB%84%98%EC%96%B4-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%A1%9C/</link>
+      <pubDate>Fri, 13 Jun 2025 17:00:35 +0300</pubDate>
+      <guid>http://localhost:1313/magazine/posts/%EC%B0%BD%EC%9E%91-%EB%8F%84%EA%B5%AC%EB%A5%BC-%EB%84%98%EC%96%B4-%ED%8C%8C%ED%8A%B8%EB%84%88%EB%A1%9C/</guid>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;chap1-omnireference의-이해&#34;&gt;Chap.1) OmniReference의 이해&lt;/h1&gt;&#xA;&lt;h2 id=&#34;옴니레퍼런스omnireference란-무엇인가&#34;&gt;옴니레퍼런스(OmniReference)란 무엇인가&lt;/h2&gt;&#xA;&lt;p&gt;최근 생성형 인공지능(Generative AI)은 이미지 창작의 패러다임을 변화시키고 있다. 그 중심에는 Midjourney, DALL·E, Stable Diffusion 등 고성능 이미지 생성 모델이 있으며, 이들은 디자이너, 콘텐츠 제작자, 마케터 등 다양한 실무 영역에서 실질적인 창작 도구로 활용되고 있다. 특히 미드저니(이하 Midjourney)는 텍스트 프롬프트만으로도 높은 시각적 완성도의 이미지를 생성할 수 있다는 점에서 창의 산업계의 주목을 받아왔다.&lt;/p&gt;&#xA;&lt;p&gt;하지만, 텍스트 기반 생성 방식에는 구조적인 한계가 존재한다. 사용자는 매번 유사한 결과를 얻기 위해 유사한 프롬프트를 반복 입력해야 하며, 그 과정에서 생성 이미지 간의 시각적 일관성이 떨어지는 경우가 빈번히 발생한다. 동일한 인물, 장면, 스타일을 재현하려 해도 결과물마다 미세한 차이가 발생하는 문제가 있었고, 이는 특히 캐릭터 IP,브랜드 디자인, 시리즈형 콘텐츠 제작에서 중요한 제약 요인으로 작용하였다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>MCP 기반 AI 표준화 기술</title>
       <link>http://localhost:1313/magazine/posts/mcp-%EA%B8%B0%EB%B0%98-ai-%ED%91%9C%EC%A4%80%ED%99%94-%EA%B8%B0%EC%88%A0/</link>
       <pubDate>Fri, 30 May 2025 15:01:35 +0300</pubDate>
       <guid>http://localhost:1313/magazine/posts/mcp-%EA%B8%B0%EB%B0%98-ai-%ED%91%9C%EC%A4%80%ED%99%94-%EA%B8%B0%EC%88%A0/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;mcp의-이해&#34;&gt;MCP의 이해&lt;/h1&gt;&#xA;&lt;h2 id=&#34;mcpmodel-context-protocol란&#34;&gt;MCP(Model Context Protocol)란?&lt;/h2&gt;&#xA;&lt;p&gt;인공지능 기술의 발전과 함께, AI 시스템이 외부 데이터와 효과적으로 연동되는 것이 점점 더 중요한 이슈가 되었다. 기존에는 AI 모델이 내부적으로 훈련된 데이터만을 기반으로 작동하는 경우가 많았지만, 실시간 정보 활용과 사용자 소통의&#xA;동적 문맥(Context) 유지가 필수적인 환경에는 이러한 방식이 한계를 보였기 때문에 AI 시스템이 외부 데이터와 원활하게 통신하고 정보를 활용할 수 있는 새로운 프로토콜이 필요해졌다고 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;MCP(Model Context Protocol)는 ‘대규모 언어 모델이 외부 데이터와 시스템을 더 효과적으로 활용할 수 있도록 설계된 일종의 연결 프로토콜’이다. MCP 방식을 최초로 도입한 거대 언어 모델 클로드(Claude)의 개발사인 미국 인공지능 스타트업&#xA;앤트로픽(Anthropic)은 MCP를 USB-C 포트에 비유하는데 USB-C가 다양한 기기와 주변 장치를 표준화된 방식으로 연결하듯이, MCP는 AI 모델이 다양한 데이터 소스와 도구에 표준화된 방식으로 연결될 수 있게 해준다.&#xA;이와 같이 MCP는 AI 모델이 특정 문맥(Context) 안에서 적절히 작동하도록 지시하거나, 상호작용하는 방식을 표준화한 프로토콜을 의미한다. 이는 특히 멀티모달 시스템, 멀티모델 프레임워크, 프롬프트 기반 대형 언어 모델(LLM:large language&#xA;model)에서 중요해지고 있는 구조인 것이다.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>스위치2, 게임체인저의 전략</title>
-      <link>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%9C%84%EC%B9%982-%EA%B2%8C%EC%9E%84%EC%B2%B4%EC%9D%B8%EC%A0%80%EC%9D%98-%EC%A0%84%EB%9E%B5/</link>
-      <pubDate>Thu, 05 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/magazine/posts/%EC%8A%A4%EC%9C%84%EC%B9%982-%EA%B2%8C%EC%9E%84%EC%B2%B4%EC%9D%B8%EC%A0%80%EC%9D%98-%EC%A0%84%EB%9E%B5/</guid>
-      <description>&lt;p&gt;When most people hear the word &amp;ldquo;blockchain,&amp;rdquo; they often associate it with cryptocurrencies like Bitcoin or Ethereum. While blockchain technology is the backbone of digital currencies, its potential reaches far beyond financial transactions. As a decentralized, transparent, and secure ledger, blockchain is transforming industries across the globe, offering solutions that improve efficiency, security, and accountability. From supply chains to healthcare and beyond, blockchain&amp;rsquo;s role in reshaping the modern world is just beginning.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>무대 위로 들어온 관객</title>
-      <link>http://localhost:1313/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</link>
-      <pubDate>Sun, 01 Sep 2024 15:01:35 +0300</pubDate>
-      <guid>http://localhost:1313/magazine/posts/%EB%AC%B4%EB%8C%80-%EC%9C%84%EB%A1%9C-%EB%93%A4%EC%96%B4%EC%98%A8-%EA%B4%80%EA%B0%9D/</guid>
-      <description>&lt;p&gt;One of the most pressing ethical concerns in AI development is the potential for bias in algorithms. Since AI systems learn from data, they can inherit biases present in the datasets they are trained on. This can result in unfair outcomes, such as biased hiring algorithms, discriminatory loan approvals, or skewed facial recognition systems. The impact of biased AI can reinforce existing societal inequalities, disproportionately affecting marginalized groups.&lt;/p&gt;&#xA;&lt;p&gt;Addressing this issue requires a commitment to transparency and diversity in AI training data. Developers must strive to create models that are not only accurate but also fair, considering the broader social implications of their use. This might involve auditing algorithms for potential biases, incorporating diverse perspectives into AI research, and developing standards for ethical AI deployment.&lt;/p&gt;</description>
+      <description>&lt;hr&gt;&#xA;&lt;h1 id=&#34;chapter1-mcp의-이해&#34;&gt;Chapter.1) MCP의 이해&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;mcpmodel-context-protocol란&#34;&gt;MCP(Model Context Protocol)란?&lt;/h2&gt;&#xA;&lt;p&gt;인공지능 기술의 발전과 함께, AI 시스템이 외부 데이터와 효과적으로 연동되는 것이 점점 더 중요한 이슈가 되었다. 기존에는 AI 모델이 내부적으로 훈련된 데이터만을 기반으로 작동하는 경우가 많았지만, 실시간 정보 활용과 사용자 소통의&#xA;동적 문맥(Context) 유지가 필수적인 환경에는 이러한 방식이 한계를 보였기 때문에 AI 시스템이 외부 데이터와 원활하게 통신하고 정보를 활용할 수 있는 새로운 프로토콜이 필요해졌다고 볼 수 있다.&lt;/p&gt;&#xA;&lt;p&gt;MCP(Model Context Protocol)는 ‘대규모 언어 모델이 외부 데이터와 시스템을 더 효과적으로 활용할 수 있도록 설계된 일종의 연결 프로토콜’이다. MCP 방식을 최초로 도입한 거대 언어 모델 클로드(Claude)의 개발사인 미국 인공지능 스타트업&#xA;앤트로픽(Anthropic)은 MCP를 USB-C 포트에 비유하는데 USB-C가 다양한 기기와 주변 장치를 표준화된 방식으로 연결하듯이, MCP는 AI 모델이 다양한 데이터 소스와 도구에 표준화된 방식으로 연결될 수 있게 해준다.&#xA;이와 같이 MCP는 AI 모델이 특정 문맥(Context) 안에서 적절히 작동하도록 지시하거나, 상호작용하는 방식을 표준화한 프로토콜을 의미한다. 이는 특히 멀티모달 시스템, 멀티모델 프레임워크, 프롬프트 기반 대형 언어 모델(LLM:large language&#xA;model)에서 중요해지고 있는 구조인 것이다.&lt;/p&gt;</description>
     </item>
     <item>
       <title>About KCTI</title>

@@ -217,12 +217,14 @@
           
             <a href="http://localhost:1313/magazine/tags/design/" class="post__tag">Design</a>
           
+            <a href="http://localhost:1313/magazine/tags/art/" class="post__tag">Art</a>
+          
         </div>
         <div class="post__date">•
-          <time datetime="2025-12-27T15:01:35&#43;03:00">Dec 27, 2025</time>
+          <time datetime="2025-06-13T17:00:35&#43;03:00">Jun 13, 2025</time>
         </div>
         <div class="post__minutes">•
-          <span>4 min read</span>
+          <span>12 min read</span>
         </div>
       </div>
 
@@ -310,31 +312,276 @@
   <article class="post">
     <div class="post__content">
       
-      <p>최근 생성형 인공지능(Generative AI)은 이미지 창작의 패러다임을 변화시키고 있다. 그 중심에는 Midjourney, DALL·E, Stable Diffusion 등 고성능 이미지 생성 모델이 있으며, 이들은 디자이너, 콘텐츠 제작자, 마케터 등 다양한 실무 영역에
-서 실질적인 창작 도구로 활용되고 있다. 특히 미드저니(이하 Midjourney)는 텍스트 프롬프트만으로도 높은 시각적 완성도의 이미지를 생성할 수 있다는 점에서 창의 산업계의 주목을 받아왔다.
-하지만, 텍스트 기반 생성 방식에는 구조적인 한계가 존재한다. 사용자는 매번 유사한 결과를 얻기 위해 유사한 프롬프트를 반복 입력해야 하며, 그 과정에서 생성 이미지 간의 시각적 일관성이 떨어지는 경우가 빈번히 발생한다. 동일한 인물, 장면, 스타일을 재현하려 해도 결과물마다 미세한 차이가 발생하는 문제가 있었고, 이는 특히 캐릭터 IP,브랜드 디자인, 시리즈형 콘텐츠 제작에서 중요한 제약 요인으로 작용하였다.</p>
-<blockquote>
-<p>In the right hands, colors can shape moods, transform spaces, and influence decisions without a single word.</p>
-</blockquote>
-<p>텍스트 방식으로 이루어지는 한계를 해소하기 위해 Midjourney는 2024년 하반기부터 옴니레퍼런스(이하 OmniReference) 기능을 Midjourney V7부터 도입하였다. 이는 복수의 참조 이미지를 동시에 입력받고 그것들의 시각적 특성을 종합 분석한 뒤 새로운 이미지를 생성하는 기능으로, 기존 단일 이미지 기반 생성 모델을 기술적으로 확장하는 역할을 수행한다. 단순한 도구 이상의 역할을 수행할 수 있는 창작 파트너로서의
-AI를 지향하며, 사용자 요구의 복잡성과 다양성에 능동적으로 대응하기 위한 진화된 기술적 접근으로 평가받는다.</p>
-<p>These emotional associations make color a powerful tool for influencing perception. For example, brands use red to convey urgency or passion, while blue is used to foster trust and reliability. Designers, marketers, and artists can tap into this knowledge to shape user experiences, create specific atmospheres, and guide consumer behavior.</p>
-<p><img src="https://placehold.co/1200x800#wide" alt="Team">
-<em>A beautiful day to start all over again</em></p>
-<p>Red is a dynamic and stimulating color, often associated with passion, excitement, and even danger. It can evoke a sense of urgency, making it a common choice for call-to-action buttons on websites or sales promotions. Red has also been shown to increase heart rate and adrenaline levels, which can create a sense of excitement or intensity.</p>
-<p>In interior design, using red as an accent can energize a space, making it feel vibrant and lively. However, too much red can become overwhelming, leading to feelings of stress or aggression. To strike a balance, red is often best used in moderation, as a way to draw attention to key elements or create a focal point in a room.</p>
-<p>Blue is one of the most popular colors in design and branding, known for its calming and trustworthy qualities. It is often used by banks, healthcare companies, and technology brands to convey stability, reliability, and professionalism. Studies have shown that blue can lower blood pressure and slow down the heart rate, making it a great choice for spaces designed for relaxation, such as bedrooms or meditation areas.</p>
-<p>In digital design, blue can create a sense of spaciousness and calm, making it ideal for backgrounds or interface elements that need to recede into the background. However, different shades of blue can evoke different feelings. Light blue tends to be more soothing and serene, while dark blue can communicate a sense of authority and strength.</p>
+      <div class="post__toc">
+        <h2 class="post__toc__title">Table of Contents</h2>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#옴니레퍼런스omnireference란-무엇인가">옴니레퍼런스(OmniReference)란 무엇인가</a>
+      <ul>
+        <li><a href="#옴니레퍼런스의-기술적-차별성과-기능적-강점">옴니레퍼런스의 기술적 차별성과 기능적 강점</a></li>
+        <li><a href="#옴니레퍼런스의-요약">옴니레퍼런스의 요약</a></li>
+      </ul>
+    </li>
+    <li><a href="#omnireference-관련-이슈-인사이트">OmniReference 관련 이슈 인사이트</a>
+      <ul>
+        <li><a href="#시각적-일관성-부족과-반복-작업의-한계">시각적 일관성 부족과 반복 작업의 한계</a></li>
+        <li><a href="#창작자의-의도를-반영하는-방식의-한계">창작자의 의도를 반영하는 방식의 한계</a></li>
+        <li><a href="#고도화된-협업-모델에-대한-수요-증가">고도화된 협업 모델에 대한 수요 증가</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#omnireference-기술-브리프">OmniReference 기술 브리프</a>
+      <ul>
+        <li><a href="#옴니레퍼런스-기술의-핵심-구성요소-per-chatgpt-4o">옴니레퍼런스 기술의 핵심 구성요소 [per ChatGPT 4o]</a></li>
+        <li><a href="#작동-구조-omnireference의-내부-프로세스-설명-per-chatgpt-4o">작동 구조: OmniReference의 내부 프로세스 설명 [per ChatGPT 4o]</a></li>
+      </ul>
+    </li>
+    <li><a href="#omnireference-국내외-동향">OmniReference 국내외 동향</a>
+      <ul>
+        <li></li>
+        <li><a href="#omnireference-기술-확산-양상-및-쟁점">OmniReference 기술 확산 양상 및 쟁점</a></li>
+        <li><a href="#omnireference의-동향에-따른-제언">OmniReference의 동향에 따른 제언</a></li>
+      </ul>
+    </li>
+  </ul>
+
+  <ul>
+    <li><a href="#정책산업-관련-시사점">정책·산업 관련 시사점</a>
+      <ul>
+        <li><a href="#생성형-ai-기술-발전과-확산으로-인한-효과">생성형 AI 기술 발전과 확산으로 인한 효과</a></li>
+        <li><a href="#제도적-공백과-윤리적-쟁점">제도적 공백과 윤리적 쟁점</a></li>
+        <li><a href="#전략적-대응-방향">전략적 대응 방향</a></li>
+      </ul>
+    </li>
+    <li><a href="#문화기술과의-협업-및-접점">문화기술과의 협업 및 접점</a>
+      <ul>
+        <li><a href="#창의산업-혁신을-위한-문화기술-연계-전략">창의산업 혁신을 위한 문화기술 연계 전략</a></li>
+        <li><a href="#협업-모델-구축과-정책-제안">협업 모델 구축과 정책 제안</a></li>
+        <li><a href="#omnireference-기술과-한국문화기술-접목-가능성">OmniReference 기술과 한국문화기술 접목 가능성</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+      </div>
+      
+      <hr>
+<h1 id="chap1-omnireference의-이해">Chap.1) OmniReference의 이해</h1>
+<h2 id="옴니레퍼런스omnireference란-무엇인가">옴니레퍼런스(OmniReference)란 무엇인가</h2>
+<p>최근 생성형 인공지능(Generative AI)은 이미지 창작의 패러다임을 변화시키고 있다. 그 중심에는 Midjourney, DALL·E, Stable Diffusion 등 고성능 이미지 생성 모델이 있으며, 이들은 디자이너, 콘텐츠 제작자, 마케터 등 다양한 실무 영역에서 실질적인 창작 도구로 활용되고 있다. 특히 미드저니(이하 Midjourney)는 텍스트 프롬프트만으로도 높은 시각적 완성도의 이미지를 생성할 수 있다는 점에서 창의 산업계의 주목을 받아왔다.</p>
+<p>하지만, 텍스트 기반 생성 방식에는 구조적인 한계가 존재한다. 사용자는 매번 유사한 결과를 얻기 위해 유사한 프롬프트를 반복 입력해야 하며, 그 과정에서 생성 이미지 간의 시각적 일관성이 떨어지는 경우가 빈번히 발생한다. 동일한 인물, 장면, 스타일을 재현하려 해도 결과물마다 미세한 차이가 발생하는 문제가 있었고, 이는 특히 캐릭터 IP,브랜드 디자인, 시리즈형 콘텐츠 제작에서 중요한 제약 요인으로 작용하였다.</p>
+<p><img src="/magazine/posts/3-1.jpg" alt="Omni">
+<em>생성형 AI 도구의 문제 발현. 일관된 결과물을 원할 때 어려움이 생김.</em></p>
+<p>텍스트 방식으로 이루어지는 한계를 해소하기 위해 Midjourney는 2024년 하반기부터 옴니레퍼런스(이하 OmniReference) 기능을 Midjourney V7부터 도입하였다. 이는 복수의 참조 이미지를 동시에 입력받고 그것들의 시각적 특성을 종합 분석한 뒤 새로운 이미지를 생성하는 기능으로, 기존 단일 이미지 기반 생성 모델을 기술적으로 확장하는 역할을 수행한다. 단순한 도구 이상의 역할을 수행할 수 있는 창작 파트너로서의 AI를 지향하며, 사용자 요구의 복잡성과 다양성에 능동적으로 대응하기 위한 진화된 기술적 접근으로 평가받는다.</p>
+<p>OmniReference는 Midjourney 플랫폼에서 제공하는 다중 이미지 참조 기반의 이미지 생성 기능이다. 사용자가 입력한 복수의 이미지로부터 시각적 요소(형태, 색상, 질감, 구도 등)를 통합적으로 추출하고, 이를 텍스트 프롬프트와 결합하여 일관성있는 새로운 이미지를 생성하는 기술이라고 말할 수 있다. 기존 생성형 AI 시스템은텍스트 입력 또는 단일 이미지 참조에 의존하는 방식이 일반적이었으나, OmniReference는 복수 이미지 간의 상호 관계를 분석하고 공통된 시각 특성을 모델 내부에 잠재 정보로 반영함으로써 더욱 정밀하고 직관적인 이미지 생성을 가능케 한다.
+특히, 입력된 이미지 간에 구체적인 ‘우선순위 지정’을 요구하지 않고도 자동으로 시각적 맥락을 해석하고 종합하는 기능은 OmniReference만의 차별화된 기술적 강점이다.
+이러한 기능은 단순히 이미지 속성을 반영하는 것을 넘어, 사용자의 창작 의도를 시각적으로 ‘공유’하고, 그 맥락을 이해한 결과물을 제공함으로써, AI와 인간 간의 협력적 창작 체계로 기능할 수 있다는 점에서 기존 기술과의 본질적인 차이를 가진다. 텍스트 명령어 작성이 익숙하지 않은 사용자라도 원하는 이미지를 직접 예시로 제시함으로써, 보다 직관적이고 정확한 창작이 가능해진다는 점에서 접근성 및 활용 가능성 또한 크게 향상되었다.
+이처럼 OmniReference는 생성형 AI가 단순한 자동화 도구를 넘어, 창작자의 시각적 언어를 이해하고 해석하는 ‘비주얼 파트너’로 기능할 수 있는 전환점을 보여주는 기술이다. 이는 콘텐츠 제작, 디자인, 문화기술, 아카이빙 등 다양한 분야에서의 확장적 활용 가능성을 내포하며, 향후 생성AI 기반 창작 생태계의 질적 전환을 이끌 핵심 기술로 주목된다.</p>
+<p><img src="/magazine/posts/3-2.jpg" alt="Omni">
+<em>미드저니 공식 홈페이지</em></p>
+<h3 id="옴니레퍼런스의-기술적-차별성과-기능적-강점">옴니레퍼런스의 기술적 차별성과 기능적 강점</h3>
+<ol>
+<li>다중 이미지 통합 분석 기능</li>
+</ol>
+<ul>
+<li>OmniReference의 가장 본질적인 특징은 복수의 이미지로부터 시각적 정보(형태,색상, 질감, 비례 등)를 통합적으로 분석하고 새로운 이미지 생성에 반영한다는 점이다. 사용자는 두 장 이상의 참조 이미지를 업로드할 수 있으며, Midjourney는 해당 이미지들 간의 공통된 시각 특성을 추출하고, 이를 기반으로 프롬프트 요청에 부합하는 결과물을 생성한다.
+이 과정에서 AI는 단순히 이미지의 픽셀 유사성을 따르는 것이 아니라, 의도, 스타일, 구도 간의 ‘시각적 문맥’을 인식하고, 그 맥락 속에서 균형 잡힌 출력을 도출하는 것을 목표로 한다. 예컨대 동일 인물의 정면, 측면, 특정 감정 표현 등이 담긴 이미지가 입력되었을 경우, Midjourney는 이를 종합하여 일관성 있는 캐릭터 기반 이미지를 생성할 수 있다. 이 기능은 특히 시리즈형 콘텐츠 제작이나 캐릭터 중심 디자인에서 실무적으로 큰 효용성을 제공한다.</li>
+</ul>
+<ol start="2">
+<li>시각적 일관성 유지 및 재현 능력</li>
+</ol>
+<ul>
+<li>OmniReference는 이미지 간 일관성을 유지한 채 다양한 장면이나 변형을 구현할 수 있다는 점에서 기존 텍스트 프롬프트 중심 생성 방식과 차별화된다. 일반적인 AI 이미지 생성 모델은 매번 새로운 이미지 출력 시 동일한 프롬프트를 사용하더라도 결과가 다소 상이하게 나타나는 경향이 있다. 이는 일관성 있는 캐릭터나 배경을 유지해야 하는 실무 작업에서는 반복적인 수정과 재시도를 유발하는 원인이 되어왔다.
+반면, OmniReference는 입력된 다중 이미지를 기반으로 모델이 특정 시각 정보를 ‘기억’하고, 그에 따라 새로운 결과물에서도 정체성의 연속성을 보장한다. 이러한 시각적 재현 능력은 브랜드 디자인, 아트워크 시리즈, 게임·애니메이션 캐릭터 설정 등 콘텐츠 IP 기반 제작 환경에서 특히 유용하며, 결과물의 질과 생산 효율성을 동시에 높일 수 있다.</li>
+</ul>
+<ol start="3">
+<li>직관적인 사용자 경험과 낮은 진입장벽</li>
+</ol>
+<ul>
+<li>기존 생성형 AI는 고도화된 텍스트 프롬프트 설계 능력이 있어야만 원하는 결과에 도달할 수 있었다. 하지만 OmniReference는 사용자가 직접 시각 예시를 입력함으로써, 의도를 보다 명확하게 AI에 전달할 수 있도록 지원한다. 이는 프롬프트 설계에 익숙하지 않은 비전문 사용자에게도 유용하며, AI 도구의 활용 범위를 전문가 중심에서 일반 사용자로 확장시키는 역할을 한다.
+예를 들어 디자이너는 클라이언트의 요청을 이미지 레퍼런스로 수합한 뒤, 해당 이미지들을 AI에 제공함으로써 빠르게 시각화된 시안 이미지를 생성할 수 있다. 이는 기획-디자인-수정의 순환 과정을 단축시키고, AI가 실제 창작 파트너로서 역할을 수행할 수 있는 기반을 마련하는 데 기여한다. 특히 Midjourney는 프롬프트 입력창과 이미지 업로드 간의 통합된 인터페이스를 제공하여, 사용자가 기술에 대한 사전 지식 없이도 손쉽게 기능을 활용할 수 있도록 설계되어 있다.</li>
+</ul>
+<h3 id="옴니레퍼런스의-요약">옴니레퍼런스의 요약</h3>
+<p><img src="/magazine/posts/3-3.jpg" alt="Omni">
+<em>미드저니 공식 홈페이지</em></p>
+<p>OmniReference는 단순한 기능의 추가라기보다는, 창작자의 시각 언어를 해석하고 재조합할 수 있는 AI로서의 진화된 형태라 할 수 있다. 다중 이미지 분석, 시각적 일관성 보존, 직관적 인터페이스라는 세 가지 핵심 요소는 이 기술이 실제 현장에 적용될 수 있는 실용성과 확장성을 동시에 보장해준다. 앞으로 이 기능은 콘텐츠 제작, 브랜드 디자인, 문화예술 분야 등 다양한 산업군에서 AI의 창의적 협력자(Creative Partner)로서 작동할 기반이 될 것으로 기대된다.</p>
+<h2 id="omnireference-관련-이슈-인사이트">OmniReference 관련 이슈 인사이트</h2>
+<p>생성형 인공지능 기술은 디지털 콘텐츠 제작 환경에서 매우 유용한 도구로 자리매김 해왔다. 그러나 실제 현장에서의 활용 과정에서는 여전히 해결되지 않은 다양한 기술적, 창작적, 산업적 과제가 존재해 왔으며, 이러한 문제의식은 OmniReference 기능의 필요성을 직접적으로 촉진하는 계기가 되었다. Midjourney의 OmniReference 기능이 등장하게 된 맥락에서 핵심적인 기술적 이슈와 사용자 경험의 병목현상 요인을 분석하고자 한다.</p>
+<h3 id="시각적-일관성-부족과-반복-작업의-한계">시각적 일관성 부족과 반복 작업의 한계</h3>
+<p>기존의 생성형 AI 모델은 텍스트 프롬프트를 중심으로 이미지를 생성해왔다. 이 방식은 간결하면서도 직관적인 접근이 가능하다는 장점이 있으나, 동일한 프롬프트를 반복적으로 사용해도 생성 이미지 간의 결과값은 일관되지 않게 나타나는 경우가 많았다. 이는 AI가 프롬프트를 해석할 때마다 확률적으로 다른 출력을 생성하기 때문이다.
+이러한 특성은 단발성 이미지 생성에는 큰 문제가 되지 않지만, 동일 인물이나 캐릭터, 브랜드 요소가 반복적으로 등장해야 하는 콘텐츠 제작 환경에서는 큰 제약 요인으로 작용한다. 예를 들어 웹툰, 애니메이션, 게임 아트워크 등에서는 정체성을 유지한 캐릭터의 다양한 시각적 표현이 필요하나, 기존 모델은 이를 만족시키지 못해 사용자는 매번 미세 조정을 거쳐야 했다. 이러한 상황들은 사용자의 창작 효율성과 심리적 피로도 모두를 높이는 요인으로 작용했다. 사용자는 AI의 결과물을 수동적으로 수정하거나, 원하는 출력을 얻기 위해 수십 번의 반복 입력을 거쳐야 하는 상황에 직면했고, 이는 생성형 AI의 실용성과 신뢰도를 저하시키는 원인이 되었다.</p>
+<p><img src="/magazine/posts/3-4.jpg" alt="Omni">
+<em>DALL-E-2의 이미지 변형 기술. &lsquo;진주 귀걸이를 한 소녀&rsquo;의 여러 변형 버전</em></p>
+<h3 id="창작자의-의도를-반영하는-방식의-한계">창작자의 의도를 반영하는 방식의 한계</h3>
+<p>텍스트 기반 프롬프트는 AI에게 작업 지시를 내리는 주요 수단이지만, 언어로 표현하기 어려운 시각적 디테일이나 감성적 요소를 충분히 설명하기에는 한계가 있었다. 실제 작업에서는 “조금 더 부드러운 조명”, “손에 잡히는 거리의 초점”, “정확한 의상 주름의 방향” 등 텍스트로 기술하기 어려운 미묘한 조정이 빈번히 요구된다.
+이러한 이유로 일부 사용자는 [image-to-image] 방식의 생성형 AI 도구나, 외부에서 준비한 참조 이미지를 함께 제공하는 방식으로 AI의 결과물 품질을 보완하려 했으나, 이 또한 제한적이었다. 특히 단일 참조 이미지만으로는 시각적 다양성과 맥락을 포괄하기 어렵고, 복수 이미지를 입력하더라도 각 이미지 간 관계를 모델이 충분히 고려하지 못하는 경우가 많았다.</p>
+<p>현재까지의 생성형 AI는 사용자의 창작 의도, 시각 언어, 맥락 정보를 충분히 이해하지 못하는 ‘단절된 도구’로 인식되었고, 이는 AI가 창작 파트너로 기능하기 위한 기술적 전환이 필요함을 시사했다.</p>
+<p><img src="/magazine/posts/3-5.jpg" alt="Omni">
+<em>[이미지 생성형 AI의 편견] 생성형 AI 도구에게 “unprofessional한 사람의 이미지”를 그려달라고 요청하면 &lsquo;고령의 흑인 남성&rsquo;과 같은 특정 인종과 성별을 반영한 이미지를 그려내는 것과 같은 문제가 발생</em></p>
+<h3 id="고도화된-협업-모델에-대한-수요-증가">고도화된 협업 모델에 대한 수요 증가</h3>
+<p>2023년 이후 생성형 AI 도구는 산업적 응용 단계로 진입하면서, 단순한 &lsquo;보조 도구&rsquo; 이상의 역할이 요구되기 시작했다. 디자이너와 마케터는 AI를 통해 창작 속도를 향상시키는 데 그치지 않고, 콘셉트 시각화, 스타일 일관성 유지, 실시간 피드백 대응 등 고차원적 협업에 AI가 기여하길 기대하고 있다. 이에 따라 기존의 단방향적 생성 모델은 쌍방향적, 맥락 기반 창작 파트너 모델로의 진화를 요구받고 있다.
+OmniReference는 바로 이러한 배경 속에서 등장하였다. 사용자는 복수의 이미지를 통해 AI에게 명확한 시각적 조건을 전달할 수 있게 되었고, AI는 그 정보를 통합적으로 해석하여 일관성 있고 창의적인 결과를 생성함으로써 협업자의 역할을 수행할 수 있게 되었다. 이는 단순한 기술 기능이 아니라, 사용자 경험(UX)의 패러다임을 전환하는 도구로서 기능한다는 점에서 중요한 의의를 갖는다.</p>
+<p><img src="/magazine/posts/3-6.jpg" alt="Omni">
+<em>미드저니 ‘옴니레퍼런스’ 기능을 상품에 일관되게 적용한 사례</em></p>
+<hr>
+<h1 id="chapter2-omnireference-관련-브리핑">Chapter.2) OmniReference 관련 브리핑</h1>
+<hr>
+<h2 id="omnireference-기술-브리프">OmniReference 기술 브리프</h2>
+<p>OmniReference는 단순한 기능의 도입이 아닌, 사회적 요구와 기술 진화가 맞물리며 등장한 자연스러운 결과로 이해할 수 있다. 2022년 이후 생성형 인공지능(Generative AI)은 일상과 산업 전반에 빠르게 확산되었고, 이미지 생성 분야에서도 다양한 플랫폼이 사용자 기반을 넓혀왔다.
+그러나 이러한 기술들은 창작 과정의 일부를 자동화하거나 보조하는 역할을 넘어, 이제는 사용자의 창작 의도를 능동적으로 이해하고 반영하는 파트너로서의 역할이 요구되는 단계에 접어들었다. 특히, 디지털 콘텐츠 시장에서는 브랜드 이미지, 캐릭터 IP, 시리즈 콘텐츠처럼 일관성과 연속성이 핵심이 되는 작업이 증가하고 있다. 기존의 텍스트 기반 생성은 이와 같은 요구에 대응하는 데 본질적인 한계를 드러냈으며, 단일 이미지 참조 방식 또한 창작자가 가진 복합적 시각 정보를 충분히 반영하지 못했다.</p>
+<p>이러한 배경에서 OmniReference는 사용자의 입력값을 단일한 언어적 지시가 아닌, 다중의 시각적 자료로 확장함으로써, AI와 인간 간의 창작 대화 방식 자체를 전환하는계기를 마련하였다. 이 기술은 &ldquo;AI는 단지 생성하는 것이 아니라, 이해하고 조율할 수 있어야 한다&quot;는 현대 인공지능 기술이 지향하는 방향성과도 일치한다. 기술적으로도 Midjourney는 v5 이후로 이미지 해상도 향상, 디테일 보존, 스타일 일관성 유지 등 핵심 과제를 해결하기 위한 모델 아키텍처의 고도화를 지속해왔다. OmniReference는 이러한 기술적 성숙 위에서 등장한 고차원 기능으로, 단순히 ‘이미지를 잘 만드는’ 기술에서 ‘창작자의 시각 언어를 해석하고 통합하는’ 기술로의 전환을 상징한다고 볼 수 있다.</p>
+<p><img src="/magazine/posts/3-7.jpg" alt="Omni">
+<em>유투브, UUcare Art Design 채널</em></p>
+<h3 id="옴니레퍼런스-기술의-핵심-구성요소-per-chatgpt-4o">옴니레퍼런스 기술의 핵심 구성요소 [per ChatGPT 4o]</h3>
+<ol>
+<li>멀티 이미지 입력 인터페이스 (Multi-Reference Input System)</li>
+</ol>
+<ul>
+<li>사용자는 최대 4장 이상의 참조 이미지를 업로드할 수 있으며, 각 이미지는 동일 인물, 유사한 스타일, 또는 특정 요소의 시각적 정보를 포함할 수 있다.
+Midjourney는 이를 단일 이미지로 간주하지 않고, 복합적 시각 조건 집합으로 처리한다. 이 과정에서 각 이미지의 시각적 특징이 개별적으로 분석되고, 공통점과 차이점을 파악하는 알고리즘이 작동한다.</li>
+</ul>
+<ol start="2">
+<li>시각 피처 추출 및 정규화 모듈(Visual Feature Extraction &amp; Normalization)</li>
+</ol>
+<ul>
+<li>입력된 이미지는 CNN 기반 또는 유사 딥러닝 모델을 통해 주요 시각 요소를 분해하고 추출한다. 이때 인물의 형태, 구도, 컬러톤, 배경구성 등이 각각의 ‘시각 피처(Feature)’로 해석된다. 이 피처들은 서로 다른 이미지 간에도 비교 가능한 형식으로 정규화되어야 하며, OmniReference는 이를 위해 자체 학습된 시각 벡터 정규화 알고리즘을 적용하고 있다.</li>
+</ul>
+<ol start="3">
+<li>시각 맥락 통합 엔진 (Contextual Coherence Module)</li>
+</ol>
+<ul>
+<li>정규화된 시각 피처들은 단순히 병렬적으로 결합되지 않는다. Midjourney는
+Transformer 기반 시각 맥락 통합 알고리즘을 활용하여, 이미지들 간의 의미적 연결성을 파악한다. 이 엔진은 각 이미지가 제공하는 시각 정보의 무게와 우선순위를 스스로 학습하여, AI가 결과물에 어떤 피처를 어느 정도 반영할지를 결정하게 된다.</li>
+</ul>
+<ol start="4">
+<li>프롬프트-이미지 결합 처리기 (Prompt-Guided Conditioning)</li>
+</ol>
+<ul>
+<li>사용자가 입력하는 텍스트 프롬프트는 이미지 기반 피처들과 결합되어 작동한다.
+OmniReference는 이를 위해 [Text-to-Image Fusion Model]을 적용하며, 프롬프트와 이미지 간의 충돌이 발생하지 않도록 의미적 중간 계층에서 상호작용을 조정한다. 결과적으로 사용자의 텍스트 지시와 이미지 예시가 하나의 창작 맥락으로 통합된다.</li>
+</ul>
+<h3 id="작동-구조-omnireference의-내부-프로세스-설명-per-chatgpt-4o">작동 구조: OmniReference의 내부 프로세스 설명 [per ChatGPT 4o]</h3>
+<p>OmniReference의 작동은 일반적인 생성형 AI의 단일 입력에서 결과 출력 방식과는 달리, 다층적 참조 분석을 통해 피처 융합하고 의미 기반 재구성을 하여 결과 생성이라는 구조적 절차를 따른다. 다음은 주요 흐름이다.</p>
+<ol>
+<li>입력 단계 (Input Layer) : 사용자는 텍스트 프롬프트와 함께 다수의 참조 이미지를 업로드한다. 이 단계에서는 이미지의 수, 해상도, 형식 등도 사전에 처리된다.</li>
+<li>시각 정보 분석 (Visual Parsing Layer) : 각 이미지에 포함된 시각 피처(예: 얼굴 구조, 의상, 색조, 배경 등)가 분해되고, 동일 범주의 피처끼리 그룹화된다. 이 분석은 Deep Feature Map 형식으로 추출된다.</li>
+<li>피처 정규화 및 병합 (Feature Normalization &amp; Merging) : 이미지 간 스타일 차이, 구도 편차를 보정하기 위해 정규화가 이루어지며, 이후 핵심 피처들을 병합하는 알고리즘이 작동한다. 이를 통해 불필요한 시각 노이즈는 제거되고, 공통된 시각 문맥만이 남는다.</li>
+<li>시각 맥 락 재구성 (Contextual Recomposition) : 병합된 피처는 프롬프트와 함께 종합적으로 해석된다. 이때 생성 AI는 ‘무엇을 표현할 것인가’(텍스트)와 ‘어떻게 표현할 것인가’(이미지)라는 이중 조건을 동시에 만족시키는 방향으로 학습된 모델 파라미터를 적용한다.</li>
+<li>결과 출력 및 반복 조정 (Generation &amp; Iteration) : 출력된 이미지는 사용자가 프롬프트를 변경하거나 참조 이미지를 교체함에 따라 즉시 반복 생성이 가능하며, 이전 생성 결과에 기반한 스타일 피드백 루프(Style Feedback Loop)도 일부 적용되어, 점진적으로 정밀한 결과 도출이 가능하다.</li>
+</ol>
+<h2 id="omnireference-국내외-동향">OmniReference 국내외 동향</h2>
+<h5 id="midjourney-v7의-공식-도입-확산">Midjourney V7의 공식 도입 확산</h5>
+<p>2025년 4월, Midjourney는 V7 버전을 통해 OmniReference를 공식 출시했다.
+이 기능을 통해 사용자는 캐릭터, 사물, 배경 등 다양한 시각 요소를 다중 이미지로 고정하여 참조할 수 있게 되었으며, 이후 전 세계 디지털 창작자 커뮤니티를 중심으로 빠르게 확산되었다.</p>
+<h5 id="해외-전문가-및-커뮤니티-사례">해외 전문가 및 커뮤니티 사례</h5>
+<p>글로벌 커뮤니티에서는 OmniReference가 특히 캐릭터 일관성 유지, 브랜드 시각 자산 재활용, 시리즈 기반 이미지 제작 등 실무적 효용성이 높다는 평가를 받고 있다. &ndash;ow 파라미터를 통해 참조 강도를 세밀하게 조절할 수 있는 기능도 작업의 유연성을 높이는 요소로 작용했다.
+Reddit과 Discord 기반 튜토리얼에서는 “동일 캐릭터의 얼굴, 의상, 소품 등을 여러 장면에 걸쳐 일관되게 유지할 수 있는 기능”으로 소개되었으며, 전문 디자이너들은 “창작 작업의 생산성이 매우 향상되었다”고 언급했다.</p>
+<h5 id="해외-기술-분석-및-블로그-동향">해외 기술 분석 및 블로그 동향</h5>
+<p>2025년 5월 기준, AI 전문 커뮤니티 ‘AIARTY’는 OmniReference를 V7의 핵심기능으로 평가하며, 참조 이미지와 텍스트 프롬프트 간의 조화로운 연결 방식, 직관적 인터페이스를 강점으로 소개했다. 디지털 일러스트, 브랜딩, 제품 디자인 등에서 시각 일관성을 자동화할 수 있다는 점에서 산업 활용도가 높다고 분석했다.</p>
+<p><img src="/magazine/posts/3-8.jpg" alt="Omni">
+<em>미드저니 옴니레퍼런스 UI</em></p>
+<p>국내에서는 Midjourney의 공식 한글화 서비스가 아직 제공되지 않고 있음에도 불구하고, 디자이너 및 영상 편집자 등을 중심으로 Discord 기반의 사용 확산이 진행되고 있다. 특히 광고 시안 작업, 제품 패키지 디자인, 웹툰 콘티 제작 등에서 OmniReference를 실험적으로 도입하는 사례가 증가하고 있다.</p>
+<p><img src="/magazine/posts/3-9.jpg" alt="Omni">
+<em>유튜브, 미드저니 옴니레퍼런스 국내 활용 학습영상</em></p>
+<p>실감 콘텐츠, 메타버스, 인터랙티브 미디어 분야에서도 OmniReference의 활용 가능성이 주목되고 있다. 아바타, 환경, 소품의 시리즈 제작 시 시각적 일관성을 유지할 수 있는 기능이 요구됨에 따라, 관련 산업에서 기술 적용에 대한 탐색이 이루어지고 있다. 일부 문화기술 기반 창작 스튜디오에서는 Midjourney를 프로토타이핑 도구로 사용하면서, OmniReference 기능을 통합적인 창작 파이프라인에 연결하고자 하는 시도를 이어가고 있다.</p>
+<h3 id="omnireference-기술-확산-양상-및-쟁점">OmniReference 기술 확산 양상 및 쟁점</h3>
+<p>Midjourney 측은 OmniReference 기능 사용시 GPU 자원 소모가 기존 대비 약 2배 증가한다고 안내했다. 이에 따라 고속 생성 모드, 페인팅/아웃페인팅 기능, 업스케일 기능과의 호환성이 제한되는 경우가 발생하며, 실무자 입장에서는 속도, 비용, 해상도 간의 균형을 고민할 필요가 있다.</p>
+<p>참조 이미지 기반의 생성 방식은 저작권 및 초상권 침해 논란과 맞닿아 있으며, 이는 향후 제도적 정비가 필요한 영역이다. Midjourney는 사용자 가이드라인을 통해 “타인의 이미지를 무단 참조하거나, 인물의 고유 정체성을 왜곡하는 방식의 생성은 허용되지 않는다”고 명시했으며, 이와 관련된 커뮤니티 규범도 함께 강화하고 있다.</p>
+<p><img src="/magazine/posts/3-10.jpg" alt="Omni">
+<em>미드저니 공식 홈페이지</em></p>
+<h3 id="omnireference의-동향에-따른-제언">OmniReference의 동향에 따른 제언</h3>
+<p>OmniReference는 현재 글로벌 콘텐츠 산업과 창작 환경에서 실질적인 도구로 확산되고 있으며, 시각적 일관성 확보와 창작 효율성 향상이라는 실무적 요구에 대응하고 있다. 국내에서는 아직 도입 초기 단계지만, 문화기술(CT), 실감형 콘텐츠, 디지털 아트 분야에서 점진적인 응용 가능성이 확인되고 있다.
+한편, 기술 고도화에 따른 자원 부담, 저작권 및 표현 윤리 문제 등은 장기적 활용을 위해 반드시 대응이 필요한 과제로 남아 있다. 향후 OmniReference 기술이 건전한 창작 생태계 내에서 자리 잡기 위해서는 기술 표준화, 법제도 정비, 이용자 교육 등이 함께 병행되어야 할 것이다.</p>
+<hr>
+<h1 id="chapter3-omnireference-관련-시사점">Chapter.3) OmniReference 관련 시사점</h1>
+<hr>
+<h2 id="정책산업-관련-시사점">정책·산업 관련 시사점</h2>
+<h3 id="생성형-ai-기술-발전과-확산으로-인한-효과">생성형 AI 기술 발전과 확산으로 인한 효과</h3>
+<p>OmniReference와 같은 다중 이미지 참조 기반 생성 기술은 기존 창작 방식의 구조를 근본적으로 변화시키고 있다. 기존에는 창작자가 아이디어를 직접 시각화하거나, 디자이너가 반복적으로 시안을 수정하면서 결과물을 도출했지만, OmniReference는 프롬프트와 이미지 참조만으로 고도화된 결과물을 빠르게 생성함으로써 제작 속도를 크게 단축시켰다. 이러한 현상은 디자인, 콘텐츠, 마케팅 등 시각 기반 산업 전반의 작업 프로세스에 변화를 야기하고 있다. 특히 브랜드 관리, 제품 광고, 캐릭터 IP 시리즈 등 시각적 일관성과 반복성이 요구되는 작업에서 AI의 역할이 도구에서 파트너로 확장되고 있다. 결과적으로 이는 산업계 전반에 걸쳐 작업 속도 향상, 인건비 절감, 크리에이티브 다양성 확대라는 긍정적 효과를 가져오는 동시에, 인력 구조 조정, 저작권 보호, 품질 관리 체계 재정립 등의 새로운 이슈도 부각시키고 있다. 산업 측면에서 OmniReference는 다음과 같은 분야에 직접적인 영향을 주고 있다.</p>
+<h4 id="표-omnireference-활용과-효과">[표] OmniReference 활용과 효과</h4>
+<div class="table-container">
+  <table>
+   <tr><th>분야</th><th>변화요인</th><th>예상 효과</th></tr>
+   <tr><td>디자인 에이전시</td><td>반복 시안 제작의 자동화</td><td>인력 구조 최적화, 제작 기간 단축</td></tr>
+   <tr><td>콘텐츠 제작사</td><td>캐릭터 및 배경의 일관성 확보</td><td>시리즈 콘텐츠 제작 효율 증대</td></tr>
+   <tr><td>광고 및 마케팅</td><td>브랜딩 이미지 정합성 강화</td><td>비주얼 메시지의 품질 향상</td</tr>
+  <tr><td>프리랜서·1인 제작자</td><td>고급 시각 생성의 진입장벽 완화</td><td>소규모 제작 역량 확장</td</tr>
+  </table>
+</div>
+<h3 id="제도적-공백과-윤리적-쟁점">제도적 공백과 윤리적 쟁점</h3>
+<p>생성형 AI 기술의 확산 속도에 비해 관련 법제 및 정책은 초기 단계에 머물러 있다. 특히 OmniReference는 다중 이미지 참조를 통해 생성 결과를 출력하는 특성상, 입력(참조) 이미지의 저작권, 개인정보, 초상권 문제에 대해 고려하는 제도가 선제적으로 필요하다.</p>
+<h5 id="저작권-및-원저작자-초상권-권리-문제">저작권 및 원저작자, 초상권 권리 문제</h5>
+<p>참조 이미지가 비상업적 예시로 수집되었더라도, 해당 이미지가 제3자의 창작물일 경우 무단 활용 소지가 존재한다. 특히 인터넷 상의 공개 이미지, SNS 프로필, 유명인의 사진 등은 자칫 무단 인용 또는 정체성 모방 문제로 이어질 수 있다. 현재로서는 플랫폼이 이용자에게 윤리적 가이드를 제공하고 있지만, 제도적 보호와 위반 방지 장치가 미비한 상태이다.</p>
 <div class="gallery-box">
   <div class="gallery">
-    <img src="https://placehold.co/1200x800" loading="lazy">
+    <img src="/magazine/posts/3-11.jpg" loading="lazy">
+    <img src="/magazine/posts/3-12.jpg" loading="lazy">
   </div>
   <em>Keep moving towards your dreams</em>
 </div>
-<p>Yellow is the color of sunshine, often associated with happiness, positivity, and energy. It is an attention-grabbing color that can evoke feelings of joy and warmth, making it a great choice for spaces where creativity and social interaction are encouraged, such as kitchens or playrooms.</p>
-<h2 id="the-hue-of-harmony-and-renewal">The hue of harmony and renewal</h2>
-<p>In branding, yellow is used to create a sense of cheerfulness and friendliness. It’s a color that can make products feel more approachable and playful. However, yellow can also be overwhelming when overused, potentially leading to anxiety or frustration. To use yellow effectively, it&rsquo;s best to balance it with cooler tones or use it sparingly as an accent to uplift the overall mood of a space or design.</p>
-<p>Green is often associated with nature, growth, and renewal, making it a symbol of balance and harmony. It has a calming effect, similar to blue, but with an added sense of freshness and vitality. This makes green an ideal choice for spaces that are meant to feel relaxing yet rejuvenating, such as living rooms, offices, or outdoor areas.</p>
+<h5 id="창작자의-생성-결과물의-책임-귀속">창작자의 생성 결과물의 책임 귀속</h5>
+<p>현재까지 OmniReference를 통해 생성된 결과물에 대해 법적 저작권을 누구에게 부여할 것인가에 대한 명확한 기준이 없다. 현재 대부분의 AI 플랫폼은 “이용자가 권리를 갖는다”는 방침을 유지하고 있지만, 추후에는 2차, 3차 콘텐츠에 관련하여 공동저작 개념, 창작자 권리보호 가이드라인, 저작물 인증제도 등의 국가적인 마련이 필요하다.</p>
+<h5 id="ai-표현-윤리-와-사회적-규범-확립">AI 표현 윤리 와 사회적 규범 확립</h5>
+<p>OmniReference는 시각적 재현 능력이 뛰어나기 때문에, 실제 인물이나 사물과 유사한 결과물을 생성할 수 있다. 이는 딥페이크, 성적 대상화, 왜곡 재현 등 표현 윤리 위반 가능성을 내포하고 있으며, 콘텐츠 유통과 검열 문제로도 이어질 수 있다. 따라서, AI 이미지 생성 과정에 대한 투명성 확보, 사용 목적 명시, 생성물 라벨링 제도 등 사전 방지 장치를 확립시키는 것이 중요하다.</p>
+<h3 id="전략적-대응-방향">전략적 대응 방향</h3>
+<p>정부 및 민간 협의체 중심으로 OmniReference와 같은 생성형 AI 기술의 이용 윤리를 정의하고, 표준화된 가이드라인을 제정할 필요가 있다. 주요 항목으로는 참조 이미지 활용 기준, 생성물 유통 시 고지의무, 사후 책임 구조 등이 포함되어야 한다.</p>
+<p>OmniReference 기능의 기술들은 중소 창작 기업이나 프리랜서에게도 고품질 작업을 가능케 하는 디지털 창작 평등화 도구로 작동할 수 있다. 이에 따라, 창작 AI 활용 교육, API 기반 개발 지원, 공공 도입 사업 확대 등을 통해 산업 전반에 기술 확산을 유도할 수 있다.</p>
+<p>문화기술(CT), 실감형 콘텐츠, 디지털 아카이빙 등 공공부문에서도 OmniReference의 활용 가능성은 높다. 정책적으로는 디지털 문화자산 복원, 공공 창작 데이터셋 구축, AI 기반 시각 자료 제작 시스템 개발 등 공공 협력형 R&amp;D 모델이 필요하다. 또한 박물관, 미술관, 교육기관과의 협업을 통해 AI 활용형 문화 콘텐츠 확산 모델도 설계하는게 가능해진다.</p>
+<h2 id="문화기술과의-협업-및-접점">문화기술과의 협업 및 접점</h2>
+<p>문화기술(CT)은 디지털 기술을 기반으로 문화예술, 유산, 공연, 체험 등의 창작·전시·유통 과정을 혁신하는 기술적 개념이다. 대한민국은 2000년대 초반부터 이를 핵심 전략 산업으로 육성해왔다. 최근에는 인공지능, 가상현실(VR), 실감형 콘텐츠 등 신기술의 발전에 따라 CT의 적용 범위가 더욱 확장되고 있으며, 생성형 AI는 새로운 CT 기반 창작 도구로서의 가능성을 보여주고 있다.
+OmniReference는 다중 이미지 참조를 통한 시각 일관성 유지, 창작자의 시각 문맥 해석, 다양한 스타일 조합 기능 등을 통해 창작자와 AI 기술 간의 공동 창작 파트너십을 실현할 수 있는 기반 기술로 주목받고 있다. 이는 단순한 자동 생성 기능을 넘어, 인간의 예술적 표현을 증폭시키고, 문화적 맥락을 시각적으로 해석해내는 방식의 창작을 가능하게 한다는 점에서 CT의 핵심 가치와 밀접한 연관성을 가진다.</p>
+<h3 id="창의산업-혁신을-위한-문화기술-연계-전략">창의산업 혁신을 위한 문화기술 연계 전략</h3>
+<ul>
+<li>디지털 문화유산의 시각 재현 및 확장</li>
+</ul>
+<p>박물관, 기록관, 문화재 연구기관에서는 고유 문화유산의 시각 정보 재현 및 보존을 위해 3D 스캔, 디지털 복원 등의 기술을 활용해왔다. 그러나 일부 유산은 시각 자료가 부족하거나 손상된 상태로 존재하며, 정밀한 시각적 상상력이 요구되는 경우가 많다. OmniReference를 통해 유사 문화유산 이미지, 문헌 기반 스케치, 관련 유물 사진 등을 조합함으로써 비정형적 유산의 시각화를 가능하게 하고, 복원 콘텐츠의 창의적 확장을 실현할 수 있다. 이는 교육적 가치, 관광 콘텐츠 개발, 가상 박물관 구축 등으로도 연결될 수 있다.</p>
+<ul>
+<li>실감형 콘텐츠 및 메타버스 아트 개발</li>
+</ul>
+<p>메타버스 환경에서의 아바타, 배경, 소품 등은 통일된 스타일을 유지하면서도 다양한 버전이 요구된다. OmniReference는 같은 캐릭터의 복수 버전, 다양한 표정과 동작의 연속 이미지, 브랜드화된 세계관 시각자료를 생성하는 데 특화되어 있어 실감형 콘텐츠 기획과 제작 단계에서 핵심 도구로 활용될 수 있다.
+특히 한국콘텐츠진흥원이나 문화재단 중심의 XR/VR 기반 아트 프로젝트, 몰입형 전시 개발 사업에서 이 기술의 도입은 콘셉트 시각화, 프로토타이핑, 관객 참여형 콘텐츠 개발에 있어 큰 시너지를 발휘할 수 있다.</p>
+<ul>
+<li>공연예술 및 교육 콘텐츠 디자인</li>
+</ul>
+<p>공연 무대 디자인, 시각효과(VFX), 의상·소품 스케치 등은 시간과 자원이 많이 소요되는 작업이다. OmniReference는 이전 무대 시안, 연출 콘티, 캐릭터 드로잉 등을 조합해 새로운 장면을 시각화할 수 있어, 교육·공연 분야의 디자인 역량을 보완하고, 작업 생산성을 높이는 데 기여할 수 있다.</p>
+<p><img src="/magazine/posts/3-13.jpg#wide" alt="Omni">
+<em>출처:홍익대학교</em></p>
+<h3 id="협업-모델-구축과-정책-제안">협업 모델 구축과 정책 제안</h3>
+<h5 id="공공민간-협력-기반의-실증-사업-추진">공공–민간 협력 기반의 실증 사업 추진</h5>
+<p>문화체육관광부, 한국콘텐츠진흥원, 한국문화정보원 등 한국의 문화기술 관련 기관들은 일관된 콘텐츠 개발의 생성형 AI OmniReference 기술을 활용한 창작 실험 프로그램, 디지털 문화유산 재해석 프로젝트, 실감 전시 공동 제작 사업 등을 추진할 수 있다. 이를 통해 민간 기술 기업과 예술기관 간의 공동 창작 실증 사업을 추진함으로써 인프라를 마련하고, 성공 우수 사례를 통해 기술의 사회적 수용성을 높일 수 있다. 특히 제한된 문화자원을 같은 형태나 수준 등으로 협력하는 점은 활용성이 높다.</p>
+<h5 id="창작-데이터셋-구축-및-공유-플랫폼-개발">창작 데이터셋 구축 및 공유 플랫폼 개발</h5>
+<p>OmniReference가 다중 이미지를 기반으로 작동하는 만큼, 고품질 참조 이미지의 공유는 기술 활용도를 높이는 핵심 요소다. 따라서 국공립 기관, 교육기관 중심의 공공 문화 시각 데이터셋 구축 사업, AI 학습용 문화콘텐츠 자료 라이선스 체계 개발과 공유 플랫폼 개발이 필요하다. 이러한 모든 협업들의 과정에서 데이터 중심 AI 창작 생태계를 조성하는 기반이 될 수 있다.</p>
+<h5 id="창작-및-시민-참여형-프로젝트-설계-교육">창작 및 시민 참여형 프로젝트 설계 교육</h5>
+<p>OmniReference 기술은 시민 작가, 청소년 교육 프로그램, 대학 창작 수업 등 다양한 대중 창작 환경에서도 활용될 수 있다. 그러므로 AI 창작 도구 활용 교육 콘텐츠 개발, 시민 참여형 공공예술 프로젝트, 지역문화 기반 AI 협업 창작 프로그램을 운영함으로써, 기술의 민주적 활용 가치와 융합적 콘텐츠 개발을 확산시킬 수 있다.</p>
+<h3 id="omnireference-기술과-한국문화기술-접목-가능성">OmniReference 기술과 한국문화기술 접목 가능성</h3>
+<p>OmniReference는 Midjourney 플랫폼이 도입한 다중 이미지 참조 기반의 생성형 인공지능 기술로, 기존 이미지 생성 방식의 한계를 넘어서는 새로운 창작 도구로 주목받고 있다. 이 기술은 단순히 이미지를 자동 생성하는 기능을 넘어서, 창작자의 시각적 의도와 문맥을 이해하고 일관성 있게 재구성할 수 있는 ‘AI 비주얼 창작 파트너’로 기능할 수 있다는 점에서 의미가 크다. 이러한 특성은 대한민국이 주도적으로 발전시켜 온 문화기술(CT) 분야와 깊이 있는 접점을 형성한다. 한국의 문화기술은 문화유산 보존, 실감형 콘텐츠, 공연 예술, 공공 문화 서비스 등 다양한 분야에서 디지털 기술을 통해 창의적 가치와 문화적 의미를 확장하는데 중점을 두고 있다. OmniReference는 바로 이 과정에서 필요한 문화유산 재생성, 콘텐츠 창작 효율화, 시각 표현 정합성, 몰입적 체험 구현을 기술적으로 지원할 수 있는 도구로 주목받는다.</p>
+<p>우선, 디지털 문화유산 콘텐츠 개발에 있어 OmniReference는 고해상도 자료가 부족하거나 형태가 불완전한 유산의 시각 복원에 활용될 수 있다. 유사한 유물, 회화, 문헌 기록 등을 참조 이미지로 입력함으로써 문화적 맥락을 유지한 채 유연한 시각화를 가능하게 하고, 교육용 또는 전시용 콘텐츠로 재구성할 수 있다. 이는 문화재 데이터 기반의 AI 복원형 콘텐츠 제작 방식으로 발전할 수 있다. 또한, 실감형 전시 및 인터랙티브 미디어 아트 분야에서도 OmniReference는 실용적인 도구로 적용 가능하다. 동일 캐릭터나 스타일을 유지한 다중 이미지 생성을 통해 몰입적 내러티브를 가진 디지털 전시 콘텐츠를 개발할 수 있으며, 창작자의 감각과 AI의 처리 능력을 결합하여 일관성 있는 협업 제작 방식이 가능해진다. 특히 메타버스(Metaverse), 가상현실(VR), 혼합현실(MR) 기반의 체험형 콘텐츠에서는 일관된 콘텐츠를 위해 AI 기반의 비주얼 통제력과 반복 가능성이 실무의 핵심 경쟁력으로 작용할 수 있다.</p>
+<p>개인적인 소견으로, 일부의 한국의 문화기술 정책은 지금까지 기술 중심의 인프라 확산에서 콘텐츠 창작자 중심의 실질적 활용으로 방향을 확장하고 있다. 이 과정에서 OmniReference는 공공 창작 플랫폼의 핵심 툴로 도입될 수 있다면 콘텐츠 품질과 프로세스의 경량화를 기대할 수 있다고 생각한다. 나아가 지역 문화자원 기반의 창작 실험, 시민 참여형 아카이빙 프로젝트, 창작교육 커리큘럼과의 결합을 통해 민주적 기술 접근성과 사회적 창의성을 동시에 확보하는 전략적 효과 또한 기대할 수 있을 것이다.</p>
+<p>그러나 이러한 생성형 AI 기술 도입이 성공적으로 정착하기 위해서는 다음과 같은 과제가 병행되어야 한다.</p>
+<p>첫째, 참조 이미지 활용과 생성물 재사용에 따른 저작권과 표현 윤리 문제에 대한 제도적 대응이 필요하다. 둘째, 생성형 AI 기술 활용만을 위한 공공 데이터셋 구축 및 공유 인프라 마련을 위한 시스템이 시급하며, 셋째, 문화예술 분야 일반인, 창작자들이 OmniReference 기술을 능동적으로 활용할 수 있도록 하는 실무 교육 및 플랫폼의 서비스디자인과 직관적인 사용자 인터페이스의 개선이 병행되어야 한다.</p>
+<p>본 리포트를 통해 살펴본 OmniReference는 한국 문화기술이 지향하는 창의성 기반의 융합적 가치 창출에 매우 적합한 기술이다. AI가 인간의 문화적 감각을 이해하고 조율하는 시대적 전환점에서, 이 생성형 AI 기술은 문화 콘텐츠의 제작과 체험, 보존과 확산의 방식을 전면적으로 재구성하는 실천적 수단이 될 수 있다. 향후, 이 기술이 한국의 CT 정책과 융합되어, 국가 문화산업의 전략 자산으로 자리매김하길 기대해본다.</p>
+<div class="callout note ">
+  <h5 id="참고자료">참고자료</h5>
+<ul>
+<li>미드저니 공식 사이트, <a href="https://www.midjourney.com/">https://www.midjourney.com/</a></li>
+<li>The Comprehensive Guide to Midjourney Omni Reference
+<a href="https://www.aiarty.com/midjourney-guide/midjourney-omni-reference.htm">https://www.aiarty.com/midjourney-guide/midjourney-omni-reference.htm</a></li>
+<li>SUPERB AI. 생성형 AI와 데이터 편향성 문제: 데이터 편향이란 무엇이며 어떻게 해결할 수 있을까?</li>
+<li>미드저니 캐릭터 레퍼런스 업데이트 버전 옴니 레퍼런스! 드디어 출시! 최적의 캐릭터 일관성 셋팅은?
+<a href="https://www.youtube.com/watch?v=A7zDr30Czrc">https://www.youtube.com/watch?v=A7zDr30Czrc</a></li>
+<li>Trendium.ai. 미드저니 옴니-레퍼런스(Omni-Reference)로 더 정교하게 일관성 개선</li>
+<li>Creative AI Show. MidJourney V7 Omni-Reference Just DESTROYED Leonardo.</li>
+<li>kickailab. 미드저니 &lsquo;옴니 레퍼런스&rsquo; 업데이트 활용 사례</li>
+<li>반디뉴스. 생성형 인공지능과 창작 저작권의 불안하고도 달콤한 동거</li>
+</ul>
+
+</div>
+
+<blockquote>
+<p>KCTI ISSUE BRIEF는 한국문화기술의 대표기관인 KCTI가 최근의 문화기술 정보 관련 현안 이슈를 발굴·분석하여 시사점 및 해결 방안, 활용 방법을 제시하고자 발간합니다.
+본 내용은 해당 호 주제에 관련하여 집필진의 견해 위주로 이루어졌으며, 동 내용을 인용 시 반드시 출처를 밝혀야 합니다.</p>
+</blockquote>
 
     </div>
   </article>
@@ -427,6 +674,103 @@ AI를 지향하며, 사용자 요구의 복잡성과 다양성에 능동적으�
 
 
 
+<section class="section related-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col col-12">
+        <div class="section__inner">
+
+          <div class="section__info">
+            <div class="section__head">
+              <h2 class="section__title">Related</h2>
+              
+                <a href="/magazine/tags/design/" class="section__link">See all<span> Design</span></a>
+              
+            </div>
+          </div>
+
+          <div class="row">
+            
+            <div class="col col-3 col-w-6 col-t-12">
+              <div class="article ">
+  <div class="article__inner">
+
+    <div class="article__head">
+      
+
+      
+      <a class="article__image" href="/magazine/posts/%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81%EC%9D%B4-%EB%90%9C-%EB%8F%84%EC%8B%9C/" aria-hidden="true" tabindex="-1">
+        <img class="lazy" data-src="http://localhost:1313/magazine/posts/7-m.jpg" alt="스케치북이 된 도시">
+      </a>
+      
+    </div>
+
+    <div class="article__content">
+
+      <div class="article__meta">
+        
+        <div class="article__tags">
+          
+            <a href="http://localhost:1313/magazine/tags/lifestyle/" class="article__tag">Lifestyle</a>
+          
+            <a href="http://localhost:1313/magazine/tags/art/" class="article__tag">Art</a>
+          
+        </div>
+        
+        <span class="article__date">•<time datetime="2025-08-28T15:01:35&#43;03:00">Aug 28, 2025</time></span>
+      </div>
+
+      <h2 class="article__title">
+        <a href="/magazine/posts/%EC%8A%A4%EC%BC%80%EC%B9%98%EB%B6%81%EC%9D%B4-%EB%90%9C-%EB%8F%84%EC%8B%9C/">스케치북이 된 도시</a>
+      </h2>
+
+      <p class="article__excerpt">문화기술의 가능성을 보여주는 Screen City Biennial</p>
+
+      <div class="article__info">
+        
+        <div class="article__info__top">
+        
+          
+            <a href="http://localhost:1313/magazine/authors/sojin/" class="article__author__image">
+              <img class="lazy" data-src="/magazine/images/sojin.jpg" alt="Kim Sojin">
+            </a>
+          
+        
+        </div>
+        
+
+        <div class="article__info__bottom">
+          <span>Written by</span>
+          
+          
+          <div class="article__info__inner">
+            
+              
+                <a class="article__author__name" href="http://localhost:1313/magazine/authors/sojin/">Kim Sojin</a>
+              
+            
+          </div>
+          
+          
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 
 
 
@@ -455,7 +799,7 @@ AI를 지향하며, 사용자 요구의 복잡성과 다양성에 능동적으�
                   </a>
                 </div>
                 
-                  <p class="widget-footer__desc">한국문화기술연구소에서는 기술이 단순한 도구를 넘어 문화로 인식되고, 사람들의 일상과 감각 속에 스며드는 순간들을 기록하고 해석하는 문화기술 이슈 매거진을 발행합니다.</p>
+                  <p class="widget-footer__desc">한국문화기술연구소에서는 사람들의 일상 속에서 미래기술이 단순한 도구를 넘어 문화로 스며드는 순간들을 기록하고 해석하는 문화기술 이슈 매거진을 발행합니다.</p>
                 
               </div>
             </div>

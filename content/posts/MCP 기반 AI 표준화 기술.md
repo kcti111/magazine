@@ -8,8 +8,9 @@ tags: [Technology]
 toc: true
 ---
 ***
-# MCP의 이해
 
+# Chapter.1) MCP의 이해
+***
 ## MCP(Model Context Protocol)란?
 
 인공지능 기술의 발전과 함께, AI 시스템이 외부 데이터와 효과적으로 연동되는 것이 점점 더 중요한 이슈가 되었다. 기존에는 AI 모델이 내부적으로 훈련된 데이터만을 기반으로 작동하는 경우가 많았지만, 실시간 정보 활용과 사용자 소통의
@@ -248,3 +249,8 @@ how LLMs access external data and tools.", Predict (Medium), Mar. 9, 2025.
 * 파이토치, MCP 개념 및 학습 자료
 * 요즘IT, “요즘 핫한 ‘MCP’ 정체가 뭘까?”
 {{< /callout >}}
+
+> "KCTI ISSUE BRIEF"는<br>
+한국문화기술의 대표기관인 KCTI가 <br>최근의 문화기술 정보 관련 현안 이슈를 발굴·분석하여 시사점 및 해결 방안, 활용 방법을 제시하고자 발간합니다.<br>
+본 내용은 해당 호 주제에 관련하여 <br> 집필진의 견해 위주로 이루어졌으며,<br>
+동 내용을 인용 시 반드시 출처를 밝혀야 합니다.
